@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MC3 Cloud — Blog</title>
+    <link>https://www.mc3.cloud/fr/blog/</link>
+    <description>Actualités, conseils et analyses MC3 Cloud pour les revendeurs et MSP : Microsoft, sécurité, sauvegarde, migration.</description>
+    <language>fr-FR</language>
+    <atom:link href="https://www.mc3.cloud/fr/blog/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Microsoft Work IQ : comprendre son fonctionnement, ses accès et sa tarification</title>
+      <link>https://www.mc3.cloud/fr/blog/microsoft-work-iq-acces-tarification-agents.html</link>
+      <guid>https://www.mc3.cloud/fr/blog/microsoft-work-iq-acces-tarification-agents.html</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Work IQ est la couche d’intelligence qui alimente Microsoft 365 Copilot. Découvrez ses composants, les différentes façons dont les agents peuvent y accéder et les cas dans lesquels des Credits peuvent être consommés.</description>
+    </item>
+    <item>
+      <title>Un nouveau site pour nos partenaires</title>
+      <link>https://www.mc3.cloud/fr/blog/un-nouveau-site-pour-nos-partenaires.html</link>
+      <guid>https://www.mc3.cloud/fr/blog/un-nouveau-site-pour-nos-partenaires.html</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Produits par workload, services, support et candidature en ligne : tour d’horizon du nouveau site MC3 Cloud.</description>
+    </item>
+    <item>
+      <title>Microsoft 365 : qui sauvegarde vos données ?</title>
+      <link>https://www.mc3.cloud/fr/blog/microsoft-365-qui-sauvegarde-vos-donnees.html</link>
+      <guid>https://www.mc3.cloud/fr/blog/microsoft-365-qui-sauvegarde-vos-donnees.html</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Les éditeurs SaaS garantissent la disponibilité du service, pas la sauvegarde des données. Comment en faire un levier de vente.</description>
+    </item>
+    <item>
+      <title>Business Basic, Standard ou Premium : comment guider vos clients</title>
+      <link>https://www.mc3.cloud/fr/blog/business-basic-standard-premium-guider-vos-clients.html</link>
+      <guid>https://www.mc3.cloud/fr/blog/business-basic-standard-premium-guider-vos-clients.html</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Trois plans Microsoft 365 pour les PME, une logique d’escalier : ce qui change de l’un à l’autre et comment en parler.</description>
+    </item>
+  </channel>
+</rss>

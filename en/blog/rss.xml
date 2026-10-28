@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MC3 Cloud — Blog</title>
+    <link>https://www.mc3.cloud/en/blog/</link>
+    <description>MC3 Cloud news, tips and analysis for resellers and MSPs: Microsoft, security, backup, migration.</description>
+    <language>en-GB</language>
+    <atom:link href="https://www.mc3.cloud/en/blog/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>A new website for our partners</title>
+      <link>https://www.mc3.cloud/en/blog/a-new-website-for-our-partners.html</link>
+      <guid>https://www.mc3.cloud/en/blog/a-new-website-for-our-partners.html</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Products by workload, services, support and online application: a tour of the new MC3 Cloud website.</description>
+    </item>
+    <item>
+      <title>Microsoft Work IQ: what it is, how agents access it, and what you pay</title>
+      <link>https://www.mc3.cloud/en/blog/microsoft-work-iq-access-pricing-agents.html</link>
+      <guid>https://www.mc3.cloud/en/blog/microsoft-work-iq-access-pricing-agents.html</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Work IQ is the intelligence layer behind Microsoft 365 Copilot. Understand its eight building blocks, the different ways agents can access it, and where Copilot Credits may apply.</description>
+    </item>
+    <item>
+      <title>Microsoft 365: who backs up your data?</title>
+      <link>https://www.mc3.cloud/en/blog/microsoft-365-who-backs-up-your-data.html</link>
+      <guid>https://www.mc3.cloud/en/blog/microsoft-365-who-backs-up-your-data.html</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <description>SaaS vendors guarantee service availability, not data backup. How to turn that into a sales lever.</description>
+    </item>
+    <item>
+      <title>Business Basic, Standard or Premium: how to guide your customers</title>
+      <link>https://www.mc3.cloud/en/blog/business-basic-standard-premium-guiding-your-customers.html</link>
+      <guid>https://www.mc3.cloud/en/blog/business-basic-standard-premium-guiding-your-customers.html</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Three Microsoft 365 plans for SMBs, built like a staircase: what changes from one to the next and how to talk about it.</description>
+    </item>
+  </channel>
+</rss>
