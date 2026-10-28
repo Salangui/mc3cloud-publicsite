@@ -550,6 +550,30 @@ main:focus {
   font-size: 0.9375rem;
   color: var(--color-on-dark-muted);
 }
+.hero__finder {
+  margin-top: 1.75rem;
+  padding: 1.25rem 1.4rem;
+  background: rgb(255 255 255 / 6%);
+  border: 1px solid rgb(255 255 255 / 18%);
+  border-left: 4px solid var(--color-accent);
+  border-radius: var(--radius-md);
+}
+.hero__finder-title {
+  font-size: 1.125rem;
+  color: #fff;
+}
+.hero__finder-text {
+  margin: 0.5rem 0 1rem;
+  font-size: 0.9375rem;
+  color: var(--color-on-dark);
+}
+.btn--light {
+  background: #fff;
+  color: var(--color-primary-dark);
+}
+.btn--light:hover {
+  background: var(--color-surface-strong);
+}
 .hero__stats {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

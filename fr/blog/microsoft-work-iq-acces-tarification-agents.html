@@ -19,8 +19,8 @@
 <meta property="og:image:alt" content="Schéma comparant les différentes façons dont les agents Microsoft 365 accèdent à Work IQ">
 <meta property="og:locale" content="fr_FR">
 <meta property="og:locale:alternate" content="en_GB">
-<meta property="article:published_time" content="2026-10-27T00:00:00.000Z">
-<meta property="article:modified_time" content="2026-10-27T00:00:00.000Z">
+<meta property="article:published_time" content="2026-10-28T00:00:00.000Z">
+<meta property="article:modified_time" content="2026-10-28T00:00:00.000Z">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Microsoft Work IQ : accès, agents et tarification | MC3 Cloud">
 <meta name="twitter:description" content="Guide pratique de Microsoft Work IQ : ses principaux composants, les modes d’accès des agents aux connaissances de l’entreprise.">
@@ -29,7 +29,7 @@
 <meta name="theme-color" content="#071630">
 <link rel="stylesheet" href="../../assets/css/styles.css">
 <script>document.documentElement.classList.add('js');</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Microsoft Work IQ : comprendre son fonctionnement, ses accès et sa tarification","description":"Work IQ est la couche d’intelligence qui alimente Microsoft 365 Copilot. Découvrez ses composants, les différentes façons dont les agents peuvent y accéder et les cas dans lesquels des Credits peuvent être consommés.","image":"https://www.mc3.cloud/assets/images/blog/work-iq-agents.webp","datePublished":"2026-10-27T00:00:00.000Z","dateModified":"2026-10-27T00:00:00.000Z","inLanguage":"fr","mainEntityOfPage":"https://www.mc3.cloud/fr/blog/microsoft-work-iq-acces-tarification-agents.html","author":{"@type":"Organization","name":"Équipe MC3 Cloud"},"publisher":{"@type":"Organization","name":"MC3 Cloud"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Microsoft Work IQ : comprendre son fonctionnement, ses accès et sa tarification","description":"Work IQ est la couche d’intelligence qui alimente Microsoft 365 Copilot. Découvrez ses composants, les différentes façons dont les agents peuvent y accéder et les cas dans lesquels des Credits peuvent être consommés.","image":"https://www.mc3.cloud/assets/images/blog/work-iq-agents.webp","datePublished":"2026-10-28T00:00:00.000Z","dateModified":"2026-10-28T00:00:00.000Z","inLanguage":"fr","mainEntityOfPage":"https://www.mc3.cloud/fr/blog/microsoft-work-iq-acces-tarification-agents.html","author":{"@type":"Organization","name":"Équipe MC3 Cloud"},"publisher":{"@type":"Organization","name":"MC3 Cloud"}}</script>
 <script src="../../assets/js/main.js" defer></script>
 </head>
 <body>
@@ -56,7 +56,7 @@
     <div class="page-hero__body">
       <h1 class="page-hero__title">Microsoft Work IQ : comprendre son fonctionnement, ses accès et sa tarification</h1>
       <p class="page-hero__intro">Work IQ est la couche d’intelligence qui alimente Microsoft 365 Copilot. Découvrez ses composants, les différentes façons dont les agents peuvent y accéder et les cas dans lesquels des Credits peuvent être consommés.</p>
-      <p class="post-meta"><span class="chip chip--on-dark">Microsoft 365</span><span>Par Équipe MC3 Cloud</span><time datetime="2026-10-27">27 octobre 2026</time></p>
+      <p class="post-meta"><span class="chip chip--on-dark">Microsoft 365</span><span>Par Équipe MC3 Cloud</span><time datetime="2026-10-28">28 octobre 2026</time></p>
     </div>
   </div>
 </section>
@@ -64,54 +64,34 @@
     <div class="container post">
       <figure class="post__cover"><img src="../../assets/images/blog/work-iq-agents.webp" alt="Schéma comparant les différentes façons dont les agents Microsoft 365 accèdent à Work IQ" width="1600" height="900"></figure>
       <article class="prose prose--post">
-<p>Microsoft présente Work IQ comme la couche d’intelligence qui permet à Copilot et aux agents de comprendre les contenus, les autorisations et le contexte de travail d’une organisation. Work IQ n’est pas un produit unique ni une simple base de données. Il combine la recherche de connaissances, l’ancrage tenant compte des autorisations, le contrôle des accès des agents et la mesure de la consommation.</p>
-<p>Pour les clients et les partenaires, la question n’est donc pas seulement de savoir <em>ce que Work IQ peut faire</em>, mais aussi <em>comment un agent y accède</em>. Ce choix d’architecture influence les fonctionnalités, la gouvernance et les coûts.</p>
-<h3>Work IQ expliqué simplement</h3>
-<p>Work IQ peut être présenté sous la forme de huit composants complémentaires.</p>
-<ol><li><strong>Index sémantique :</strong> organise les contenus Microsoft 365 afin de retrouver une information par son sens, et pas uniquement à partir de mots-clés exacts.</li><li><strong>Ancrage tenant compte des autorisations :</strong> restitue uniquement les informations auxquelles l’utilisateur qui effectue la demande est déjà autorisé à accéder.</li><li><strong>Contexte :</strong> recherche, évalue et assemble les informations nécessaires pour construire une réponse fondée sur les données de l’organisation.</li><li><strong>API Work IQ :</strong> fournit un point d’entrée direct aux applications et aux agents situés en dehors de l’expérience Copilot native.</li><li><strong>Moteur de stratégies :</strong> contrôle chaque requête en fonction de l’identité, des autorisations et des règles administratives. Les opérations d’écriture sont désactivées par défaut.</li><li><strong>Outils :</strong> exposent des actions courantes, comme récupérer, créer ou mettre à jour des informations, à travers un vocabulaire cohérent.</li><li><strong>Espaces de travail :</strong> donnent aux agents exécutant des tâches longues un emplacement dans le tenant du client pour conserver leur travail entre plusieurs étapes.</li><li><strong>Facturation à l’usage :</strong> mesure les appels et les activités de recherche lorsque Work IQ est consommé dans un scénario d’agent facturable.</li></ol>
-<p>Les trois premiers composants constituent la capacité de recherche déjà utilisée par Copilot. Les cinq autres rendent cette capacité accessible à davantage d’agents et d’applications, tout en ajoutant des mécanismes de contrôle et de facturation.</p>
-<h3>Le mode d’accès détermine l’expérience</h3>
-<p>Les mêmes connaissances organisationnelles peuvent être exploitées depuis plusieurs environnements de création d’agents. Ces environnements ne doivent pas être considérés comme équivalents.</p>
-<h4>Agent Builder</h4>
-<p>Agent Builder fonctionne directement dans Microsoft 365 Copilot. Il convient aux assistants de questions-réponses simples destinés à une personne ou à une petite équipe.</p>
-<p>L’agent accède nativement à Work IQ. Cette expérience est incluse dans la licence Microsoft 365 Copilot, mais Agent Builder n’expose pas les capacités étendues d’action et d’orchestration disponibles dans Copilot Studio.</p>
-<h4>Agents dans Copilot Chat</h4>
-<p>Des agents peuvent enrichir Microsoft 365 Copilot Chat avec les connaissances de l’entreprise. Microsoft prend en charge l’interaction et la planification reste proche de l’expérience Copilot Chat.</p>
-<p>Pour les utilisateurs disposant d’une licence et utilisant les canaux Microsoft, la consommation peut relever du modèle d’usage raisonnable applicable. L’utilisation par des utilisateurs non licenciés peut consommer des Copilot Credits.</p>
-<h4>Agents Copilot Studio standards</h4>
-<p>Un agent Copilot Studio standard suit un processus défini à l’avance. L’accès aux services Microsoft 365 repose sur des capacités distinctes, comme les connecteurs et les serveurs MCP pour la messagerie, le calendrier, Teams, SharePoint, OneDrive ou d’autres services.</p>
-<p>Dans ce modèle, Work IQ n’est pas automatiquement le chemin utilisé pour atteindre les données de l’organisation. Le concepteur de l’agent contrôle la séquence des actions et les sources appelées à chaque étape.</p>
-<h4>Agents autonomes dans un environnement GitHub Copilot</h4>
-<p>Dans l’environnement GitHub Copilot présenté dans les éléments transmis, l’agent détermine lui-même les étapes à exécuter au moment de la requête. Work IQ peut être ajouté comme outil facultatif afin de proposer un point d’entrée unique vers les connaissances de l’organisation.</p>
-<p>Cette approche offre davantage de flexibilité, mais l’environnement consomme des crédits et l’utilisation de Work IQ est facturée séparément lorsque l’outil est appelé.</p>
-<h4>Accès direct par API</h4>
-<p>Les développeurs peuvent également appeler directement l’API Work IQ depuis leurs propres applications ou frameworks d’agents. Dans ce scénario, la consommation est mesurée indépendamment des licences Microsoft 365 Copilot déjà attribuées dans le tenant.</p>
-<h3>Qu’est-ce qui déclenche réellement une facturation Work IQ ?</h3>
-<p>La distinction principale se situe entre <em>l’utilisation de Copilot</em> et <em>l’appel de l’API Work IQ</em>.</p>
-<p>D’après les éléments transmis, la création d’un agent Copilot Studio standard ne déclenche pas, à elle seule, le compteur Work IQ. L’ajout de capacités comme la messagerie, le calendrier ou Teams à travers leurs outils dédiés ne le déclenche pas automatiquement non plus.</p>
-<p>La facturation Work IQ commence lorsque l’agent appelle l’API Work IQ, directement ou depuis un environnement dans lequel l’outil Work IQ a été activé.</p>
-<p>Les informations tarifaires transmises distinguent deux composantes :</p>
-<ul><li><strong>Outils :</strong> 0,1 Copilot Credit par appel, à tarif fixe.</li><li><strong>Chat et contexte :</strong> consommation variable, sans tarif unitaire publié dans les éléments transmis.</li></ul>
-<p>Cette seconde composante constitue la principale difficulté de prévision. Sans tarif publié pour l’activité de recherche, une organisation ne peut pas estimer précisément le coût total d’un agent autonome à fort volume en se basant uniquement sur le prix des appels d’outils.</p>
-<h3>Deux compteurs nécessitent deux mécanismes de contrôle</h3>
-<p>La consommation de Copilot Studio et celle de Work IQ doivent être traitées comme deux postes distincts.</p>
-<p>Les Copilot Credits de Copilot Studio sont administrés depuis l’environnement Power Platform. Work IQ nécessite sa propre politique de dépenses dans l’environnement d’administration Microsoft 365. Limiter un compteur ne limite pas automatiquement l’autre.</p>
-<p>Avant un déploiement en production, le partenaire doit donc vérifier les deux contrôles suivants :</p>
-<ul><li>le budget de crédits attribué à l’agent ou à l’environnement ;</li><li>la politique de dépenses appliquée à la consommation de l’API Work IQ.</li></ul>
-<p>Ce point est particulièrement important pour les agents autonomes. Un utilisateur pose un nombre limité de questions pendant sa journée de travail. Un processus sans surveillance peut, lui, générer des requêtes en continu, ce qui change complètement l’économie de la solution.</p>
-<h3>Les points de gouvernance à expliquer avant le déploiement</h3>
-<p>Work IQ peut rechercher des informations en fonction de l’identité utilisée et des autorisations déjà présentes dans Microsoft 365. Cela ne supprime pas le besoin de gouvernance.</p>
-<p>Trois contrôles méritent une attention particulière :</p>
-<ul><li><strong>Accès en écriture :</strong> la création, la modification et la suppression sont désactivées par défaut et doivent être activées par un administrateur.</li><li><strong>Limites du tenant :</strong> les appels sont associés à un tenant et à une identité authentifiée. Ils ne s’exécutent pas de manière anonyme.</li><li><strong>Qualité des autorisations :</strong> la recherche tenant compte des permissions reflète le modèle d’accès déjà configuré. Des droits trop larges dans SharePoint, Teams ou les fichiers resteront des droits trop larges.</li></ul>
-<p>Work IQ doit donc être introduit avec une revue des identités, des accès aux données et des politiques de dépenses des agents, et non comme une simple fonctionnalité d’intelligence artificielle isolée.</p>
-<h3>Comment orienter un client</h3>
-<p>Le choix doit partir du modèle d’usage plutôt que du nom de la technologie.</p>
-<ul><li>Choisissez <strong>Agent Builder</strong> pour créer un assistant de connaissance simple dans Microsoft 365 Copilot.</li><li>Choisissez <strong>Copilot Chat</strong> pour enrichir l’expérience conversationnelle Microsoft avec les connaissances de l’entreprise.</li><li>Choisissez un <strong>agent Copilot Studio standard</strong> lorsque le processus peut être défini précisément et que chaque action doit être contrôlée à l’avance.</li><li>Choisissez un <strong>environnement autonome associé à Work IQ</strong> lorsque l’agent doit décider dynamiquement des recherches et des étapes à exécuter.</li><li>Choisissez <strong>l’accès direct par API</strong> lorsque Work IQ doit être intégré à une application personnalisée ou à un framework d’agents externe.</li></ul>
-<p>Plus le client demande d’autonomie et de flexibilité, plus le contrôle des coûts, des autorisations et de l’audit devient important.</p>
-<h3>Le point essentiel à retenir</h3>
-<p>Work IQ est une même capacité d’intelligence accessible par plusieurs portes. Le modèle de connaissances et d’autorisations peut être commun, mais le modèle commercial ne l’est pas.</p>
-<p>Avant de positionner un agent, il faut confirmer trois éléments : l’environnement dans lequel il sera construit, la manière dont il accédera aux données Microsoft 365 et le compteur de consommation qui s’appliquera. C’est ce qui distingue une preuve de concept utile d’un service de production avec une gouvernance et des coûts maîtrisés.</p>
-<p><em>Cet article a été préparé à partir des schémas Work IQ transmis. Les informations devront être comparées à la documentation Microsoft la plus récente sur les licences et les Copilot Credits avant publication.</em></p>
+<p>Vous créez deux agents capables de chercher dans les données de votre entreprise. Ils utilisent la même intelligence, mais pas forcément le même mode de facturation.</p>
+<p>C’est tout l’enjeu de Work IQ : <strong>ce n’est pas seulement ce que fait l’agent qui compte, mais aussi l’endroit où vous le construisez et la façon dont il accède aux données.</strong></p>
+<h3>Work IQ, c’est quoi ?</h3>
+<p>Work IQ est la couche qui permet à Copilot et aux agents de comprendre les informations de l’entreprise dans Microsoft 365.</p>
+<p>Concrètement, Work IQ peut :</p>
+<ul><li>retrouver une information par son sens, même sans utiliser les mots exacts ;</li><li>respecter les droits d’accès de chaque utilisateur ;</li><li>rassembler plusieurs éléments pour construire une réponse utile ;</li><li>donner à un agent un accès encadré aux données de l’organisation.</li></ul>
+<p>Work IQ ne donne donc pas accès à tout. L’agent ne voit que ce que l’utilisateur qui l’exécute est autorisé à consulter.</p>
+<h3>La différence se joue au moment de créer l’agent</h3>
+<p>Prenons un exemple simple : vous voulez créer un agent capable de retrouver des informations dans Microsoft 365.</p>
+<p>Avec <strong>Agent Builder</strong>, l’agent fonctionne directement dans Microsoft 365 Copilot. L’accès à Work IQ est natif et couvert par la licence Microsoft 365 Copilot.</p>
+<p>Avec un <strong>agent Copilot Studio standard</strong>, vous choisissez à l’avance son fonctionnement. L’agent accède à Outlook, Teams, SharePoint ou OneDrive à travers les connecteurs et outils prévus pour chaque service. Il n’appelle pas automatiquement Work IQ.</p>
+<p>Avec un <strong>agent autonome</strong> ou une application développée sur mesure, Work IQ peut devenir un outil que l’agent appelle lorsqu’il en a besoin. C’est plus souple, mais cette consommation peut être facturée séparément en Copilot Credits.</p>
+<h3>Quand est-ce que vous payez ?</h3>
+<p>Créer un agent ne déclenche pas automatiquement une facturation Work IQ.</p>
+<p>Le compteur Work IQ entre en jeu lorsque l’agent utilise directement l’API Work IQ, ou lorsqu’un outil Work IQ a été ajouté à son environnement.</p>
+<p>Le coût devient donc plus difficile à prévoir pour un agent autonome capable de lancer de nombreuses recherches sans intervention humaine.</p>
+<h3>Le piège à éviter</h3>
+<p>Copilot Studio et Work IQ utilisent des compteurs différents.</p>
+<p>Vous pouvez limiter les crédits de l’agent dans Power Platform sans avoir limité sa consommation Work IQ. Les deux budgets doivent donc être suivis séparément.</p>
+<p>Avant la mise en production, vérifiez :</p>
+<ul><li>comment l’agent accède aux données Microsoft 365 ;</li><li>si l’API Work IQ est réellement nécessaire ;</li><li>où sont définies les limites de dépenses ;</li><li>si les droits SharePoint, Teams et OneDrive sont correctement maîtrisés.</li></ul>
+<h3>Quel choix faire ?</h3>
+<p>Le bon choix dépend surtout du besoin :</p>
+<ul><li><strong>Agent Builder</strong> pour un assistant simple intégré à Microsoft 365 Copilot ;</li><li><strong>Copilot Studio standard</strong> pour un processus défini et contrôlé étape par étape ;</li><li><strong>Work IQ via API</strong> pour un agent plus autonome, capable de décider lui-même de ses recherches.</li></ul>
+<p>Plus l’agent gagne en autonomie, plus le suivi des coûts et des accès devient important.</p>
+<h3>À retenir</h3>
+<p>Work IQ apporte la même intelligence à plusieurs types d’agents. Mais le chemin utilisé pour y accéder change les capacités, les contrôles et la facture.</p>
+<p>Avant de choisir une architecture, posez trois questions simples : <strong>où l’agent sera-t-il construit, comment accédera-t-il aux données et quel compteur sera utilisé ?</strong></p>
       </article>
       <div class="post__tags"><h2 class="sr-only">Mots-clés</h2><ul class="chip-row"><li class="chip">Microsoft 365</li><li class="chip">Work IQ</li><li class="chip">Copilot Studio</li><li class="chip">Copilot Credits</li><li class="chip">Agents IA</li></ul></div>
     </div>
@@ -187,7 +167,7 @@
   </div>
   <div class="container site-footer__legal">
     <p>© 2026 MC3 Cloud Ltd. Tous droits réservés.</p>
-    
+    <ul><li><a href="https://aka.mc3.fr/termsmc3cloud/">Conditions de vente</a></li></ul>
   </div>
 </footer>
 </body>
