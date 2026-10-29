@@ -106,14 +106,14 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/cloud-consulting-advisory.html"/>
   </url>
   <url>
-    <loc>https://www.mc3.cloud/fr/services/cloud-security.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/cloud-security.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/cloud-security.html"/>
-  </url>
-  <url>
     <loc>https://www.mc3.cloud/fr/services/copilot-ai-readiness-adoption.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/copilot-ai-readiness-adoption.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/copilot-ai-readiness-adoption.html"/>
+  </url>
+  <url>
+    <loc>https://www.mc3.cloud/fr/services/identity-endpoint-management.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/identity-endpoint-management.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/identity-endpoint-management.html"/>
   </url>
   <url>
     <loc>https://www.mc3.cloud/fr/services/managed-services.html</loc>
@@ -121,14 +121,14 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/managed-services.html"/>
   </url>
   <url>
-    <loc>https://www.mc3.cloud/fr/services/microsoft-cloud-expertise.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/microsoft-cloud-expertise.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/microsoft-cloud-expertise.html"/>
+    <loc>https://www.mc3.cloud/fr/services/microsoft-365-security-assessment.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/microsoft-365-security-assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/microsoft-365-security-assessment.html"/>
   </url>
   <url>
-    <loc>https://www.mc3.cloud/fr/services/microsoft-csp-licensing.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/microsoft-csp-licensing.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/microsoft-csp-licensing.html"/>
+    <loc>https://www.mc3.cloud/fr/services/microsoft-cost-license-optimization.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/microsoft-cost-license-optimization.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/microsoft-cost-license-optimization.html"/>
   </url>
   <url>
     <loc>https://www.mc3.cloud/fr/services/migration-services.html</loc>
@@ -136,14 +136,19 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/migration-services.html"/>
   </url>
   <url>
-    <loc>https://www.mc3.cloud/fr/services/partner-enablement.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/partner-enablement.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/partner-enablement.html"/>
+    <loc>https://www.mc3.cloud/fr/services/power-bi-business-reporting.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/power-bi-business-reporting.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/power-bi-business-reporting.html"/>
   </url>
   <url>
-    <loc>https://www.mc3.cloud/fr/services/pre-sales-technical-support.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/pre-sales-technical-support.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/pre-sales-technical-support.html"/>
+    <loc>https://www.mc3.cloud/fr/services/power-platform-automation.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/power-platform-automation.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/power-platform-automation.html"/>
+  </url>
+  <url>
+    <loc>https://www.mc3.cloud/fr/services/purview-data-protection-compliance.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/purview-data-protection-compliance.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/purview-data-protection-compliance.html"/>
   </url>
   <url>
     <loc>https://www.mc3.cloud/fr/services/training-workshops.html</loc>
@@ -271,14 +276,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/cloud-consulting-advisory.html"/>
   </url>
   <url>
-    <loc>https://www.mc3.cloud/en/services/cloud-security.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/cloud-security.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/cloud-security.html"/>
-  </url>
-  <url>
     <loc>https://www.mc3.cloud/en/services/copilot-ai-readiness-adoption.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/copilot-ai-readiness-adoption.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/copilot-ai-readiness-adoption.html"/>
+  </url>
+  <url>
+    <loc>https://www.mc3.cloud/en/services/identity-endpoint-management.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/identity-endpoint-management.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/identity-endpoint-management.html"/>
   </url>
   <url>
     <loc>https://www.mc3.cloud/en/services/managed-services.html</loc>
@@ -286,14 +291,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/managed-services.html"/>
   </url>
   <url>
-    <loc>https://www.mc3.cloud/en/services/microsoft-cloud-expertise.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/microsoft-cloud-expertise.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/microsoft-cloud-expertise.html"/>
+    <loc>https://www.mc3.cloud/en/services/microsoft-365-security-assessment.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/microsoft-365-security-assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/microsoft-365-security-assessment.html"/>
   </url>
   <url>
-    <loc>https://www.mc3.cloud/en/services/microsoft-csp-licensing.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/microsoft-csp-licensing.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/microsoft-csp-licensing.html"/>
+    <loc>https://www.mc3.cloud/en/services/microsoft-cost-license-optimization.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/microsoft-cost-license-optimization.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/microsoft-cost-license-optimization.html"/>
   </url>
   <url>
     <loc>https://www.mc3.cloud/en/services/migration-services.html</loc>
@@ -301,14 +306,19 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/migration-services.html"/>
   </url>
   <url>
-    <loc>https://www.mc3.cloud/en/services/partner-enablement.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/partner-enablement.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/partner-enablement.html"/>
+    <loc>https://www.mc3.cloud/en/services/power-bi-business-reporting.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/power-bi-business-reporting.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/power-bi-business-reporting.html"/>
   </url>
   <url>
-    <loc>https://www.mc3.cloud/en/services/pre-sales-technical-support.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/pre-sales-technical-support.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/pre-sales-technical-support.html"/>
+    <loc>https://www.mc3.cloud/en/services/power-platform-automation.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/power-platform-automation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/power-platform-automation.html"/>
+  </url>
+  <url>
+    <loc>https://www.mc3.cloud/en/services/purview-data-protection-compliance.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/purview-data-protection-compliance.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/purview-data-protection-compliance.html"/>
   </url>
   <url>
     <loc>https://www.mc3.cloud/en/services/training-workshops.html</loc>
