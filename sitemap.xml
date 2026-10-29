@@ -111,6 +111,16 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/copilot-ai-readiness-adoption.html"/>
   </url>
   <url>
+    <loc>https://www.mc3.cloud/fr/services/copilot-studio-agents.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/copilot-studio-agents.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/copilot-studio-agents.html"/>
+  </url>
+  <url>
+    <loc>https://www.mc3.cloud/fr/services/defender-sentinel-deployment.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/defender-sentinel-deployment.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/defender-sentinel-deployment.html"/>
+  </url>
+  <url>
     <loc>https://www.mc3.cloud/fr/services/identity-endpoint-management.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/identity-endpoint-management.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/identity-endpoint-management.html"/>
@@ -149,11 +159,6 @@
     <loc>https://www.mc3.cloud/fr/services/purview-data-protection-compliance.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/purview-data-protection-compliance.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/purview-data-protection-compliance.html"/>
-  </url>
-  <url>
-    <loc>https://www.mc3.cloud/fr/services/training-workshops.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/training-workshops.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/training-workshops.html"/>
   </url>
   <url>
     <loc>https://www.mc3.cloud/fr/blog/business-basic-standard-premium-guider-vos-clients.html</loc>
@@ -281,6 +286,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/copilot-ai-readiness-adoption.html"/>
   </url>
   <url>
+    <loc>https://www.mc3.cloud/en/services/copilot-studio-agents.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/copilot-studio-agents.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/copilot-studio-agents.html"/>
+  </url>
+  <url>
+    <loc>https://www.mc3.cloud/en/services/defender-sentinel-deployment.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/defender-sentinel-deployment.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/defender-sentinel-deployment.html"/>
+  </url>
+  <url>
     <loc>https://www.mc3.cloud/en/services/identity-endpoint-management.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/identity-endpoint-management.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/identity-endpoint-management.html"/>
@@ -319,11 +334,6 @@
     <loc>https://www.mc3.cloud/en/services/purview-data-protection-compliance.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/purview-data-protection-compliance.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/purview-data-protection-compliance.html"/>
-  </url>
-  <url>
-    <loc>https://www.mc3.cloud/en/services/training-workshops.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/training-workshops.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/training-workshops.html"/>
   </url>
   <url>
     <loc>https://www.mc3.cloud/en/blog/a-new-website-for-our-partners.html</loc>
