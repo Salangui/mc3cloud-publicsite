@@ -96,6 +96,11 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/produits/microsoft-spla.html"/>
   </url>
   <url>
+    <loc>https://www.mc3.cloud/fr/produits/microsoft-volume-licensing.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/products/microsoft-volume-licensing.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/produits/microsoft-volume-licensing.html"/>
+  </url>
+  <url>
     <loc>https://www.mc3.cloud/fr/produits/power-platform.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/products/power-platform.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/produits/power-platform.html"/>
@@ -279,6 +284,11 @@
     <loc>https://www.mc3.cloud/en/products/microsoft-spla.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/produits/microsoft-spla.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/products/microsoft-spla.html"/>
+  </url>
+  <url>
+    <loc>https://www.mc3.cloud/en/products/microsoft-volume-licensing.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/produits/microsoft-volume-licensing.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/products/microsoft-volume-licensing.html"/>
   </url>
   <url>
     <loc>https://www.mc3.cloud/en/products/power-platform.html</loc>
