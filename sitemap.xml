@@ -56,6 +56,11 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/produits/crossware.html"/>
   </url>
   <url>
+    <loc>https://www.mc3.cloud/fr/produits/dropsuite.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/products/dropsuite.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/produits/dropsuite.html"/>
+  </url>
+  <url>
     <loc>https://www.mc3.cloud/fr/produits/dynamics-365.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/products/dynamics-365.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/produits/dynamics-365.html"/>
@@ -84,6 +89,11 @@
     <loc>https://www.mc3.cloud/fr/produits/microsoft-security.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/products/microsoft-security.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/produits/microsoft-security.html"/>
+  </url>
+  <url>
+    <loc>https://www.mc3.cloud/fr/produits/microsoft-spla.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/products/microsoft-spla.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/produits/microsoft-spla.html"/>
   </url>
   <url>
     <loc>https://www.mc3.cloud/fr/produits/power-platform.html</loc>
@@ -231,6 +241,11 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/products/crossware.html"/>
   </url>
   <url>
+    <loc>https://www.mc3.cloud/en/products/dropsuite.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/produits/dropsuite.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/products/dropsuite.html"/>
+  </url>
+  <url>
     <loc>https://www.mc3.cloud/en/products/dynamics-365.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/produits/dynamics-365.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/products/dynamics-365.html"/>
@@ -259,6 +274,11 @@
     <loc>https://www.mc3.cloud/en/products/microsoft-security.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/produits/microsoft-security.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/products/microsoft-security.html"/>
+  </url>
+  <url>
+    <loc>https://www.mc3.cloud/en/products/microsoft-spla.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/produits/microsoft-spla.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/products/microsoft-spla.html"/>
   </url>
   <url>
     <loc>https://www.mc3.cloud/en/products/power-platform.html</loc>
