@@ -186,9 +186,9 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/microsoft-365-qui-sauvegarde-vos-donnees.html"/>
   </url>
   <url>
-    <loc>https://www.mc3.cloud/fr/blog/microsoft-work-iq-acces-tarification-agents.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/microsoft-work-iq-access-pricing-agents.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/microsoft-work-iq-acces-tarification-agents.html"/>
+    <loc>https://www.mc3.cloud/fr/blog/microsoft-work-iq-agents-copilot-credits.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/microsoft-work-iq-agents-copilot-credits.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/microsoft-work-iq-agents-copilot-credits.html"/>
   </url>
   <url>
     <loc>https://www.mc3.cloud/fr/blog/un-nouveau-site-pour-nos-partenaires.html</loc>
@@ -381,8 +381,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/microsoft-365-who-backs-up-your-data.html"/>
   </url>
   <url>
-    <loc>https://www.mc3.cloud/en/blog/microsoft-work-iq-access-pricing-agents.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/microsoft-work-iq-acces-tarification-agents.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/microsoft-work-iq-access-pricing-agents.html"/>
+    <loc>https://www.mc3.cloud/en/blog/microsoft-work-iq-agents-copilot-credits.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/microsoft-work-iq-agents-copilot-credits.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/microsoft-work-iq-agents-copilot-credits.html"/>
   </url>
 </urlset>

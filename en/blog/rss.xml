@@ -7,11 +7,11 @@
     <language>en-GB</language>
     <atom:link href="https://www.mc3.cloud/en/blog/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Microsoft Work IQ: what it is, how agents access it, and what you pay</title>
-      <link>https://www.mc3.cloud/en/blog/microsoft-work-iq-access-pricing-agents.html</link>
-      <guid>https://www.mc3.cloud/en/blog/microsoft-work-iq-access-pricing-agents.html</guid>
+      <title>Microsoft Work IQ: Understanding Agents, Microsoft 365 Data and Copilot Credits</title>
+      <link>https://www.mc3.cloud/en/blog/microsoft-work-iq-agents-copilot-credits.html</link>
+      <guid>https://www.mc3.cloud/en/blog/microsoft-work-iq-agents-copilot-credits.html</guid>
       <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Work IQ is the intelligence layer behind Microsoft 365 Copilot. Understand its eight building blocks, the different ways agents can access it, and where Copilot Credits may apply.</description>
+      <description>Understand how Microsoft Work IQ supports Copilot and agents, how different agents access Microsoft 365 data, and when Copilot Credits may be consumed.</description>
     </item>
     <item>
       <title>A new website for our partners</title>
