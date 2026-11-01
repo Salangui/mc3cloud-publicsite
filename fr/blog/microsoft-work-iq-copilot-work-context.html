@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Microsoft Work IQ et Copilot | MC3 Cloud</title>
+<meta name="description" content="Découvrez comment Work IQ aide Copilot à exploiter le contexte Microsoft 365 tout en respectant les autorisations et la gouvernance.">
+<link rel="canonical" href="https://www.mc3.cloud/fr/blog/microsoft-work-iq-copilot-work-context.html">
+<link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/microsoft-work-iq-copilot-work-context.html">
+<link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/microsoft-work-iq-copilot-work-context.html">
+<link rel="alternate" hreflang="x-default" href="https://www.mc3.cloud/en/blog/microsoft-work-iq-copilot-work-context.html">
+<link rel="alternate" type="application/rss+xml" title="Flux RSS — MC3 Cloud" href="https://www.mc3.cloud/fr/blog/rss.xml">
+<meta property="og:site_name" content="MC3 Cloud">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Microsoft Work IQ et Copilot | MC3 Cloud">
+<meta property="og:description" content="Découvrez comment Work IQ aide Copilot à exploiter le contexte Microsoft 365 tout en respectant les autorisations et la gouvernance.">
+<meta property="og:url" content="https://www.mc3.cloud/fr/blog/microsoft-work-iq-copilot-work-context.html">
+<meta property="og:image" content="https://www.mc3.cloud/assets/images/blog/microsoft-work-iq-copilot-work-context.jpg">
+<meta property="og:image:alt" content="Work IQ reliant Microsoft Copilot aux données et outils de Microsoft 365">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:locale:alternate" content="en_GB">
+<meta property="article:published_time" content="2026-10-27T00:00:00.000Z">
+<meta property="article:modified_time" content="2026-10-27T00:00:00.000Z">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Microsoft Work IQ et Copilot | MC3 Cloud">
+<meta name="twitter:description" content="Découvrez comment Work IQ aide Copilot à exploiter le contexte Microsoft 365 tout en respectant les autorisations et la gouvernance.">
+<meta name="twitter:image" content="https://www.mc3.cloud/assets/images/blog/microsoft-work-iq-copilot-work-context.jpg">
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#071630">
+<link rel="stylesheet" href="../../assets/css/styles.css">
+<script>document.documentElement.classList.add('js');</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Microsoft Work IQ : comment Copilot comprend votre environnement de travail","description":"Comprenez comment Work IQ aide Copilot à exploiter le contexte Microsoft 365, ses différences avec un connecteur, ses limites et son modèle de consommation.","image":"https://www.mc3.cloud/assets/images/blog/microsoft-work-iq-copilot-work-context.jpg","datePublished":"2026-10-27T00:00:00.000Z","dateModified":"2026-10-27T00:00:00.000Z","inLanguage":"fr","mainEntityOfPage":"https://www.mc3.cloud/fr/blog/microsoft-work-iq-copilot-work-context.html","author":{"@type":"Person","name":"Aslam Gangat"},"publisher":{"@type":"Organization","name":"MC3 Cloud"}}</script>
+<script src="../../assets/js/main.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu principal</a>
+<header class="site-header" data-header>
+  <div class="container site-header__bar">
+    <a class="site-header__logo" href="../index.html" aria-label="MC3 Cloud — retour à l’accueil"><span class="logo-slot logo-slot--brand" data-name="MC3 Cloud"><img src="../../assets/logos/mc3-cloud.svg" alt="" height="40" decoding="async"></span></a>
+    <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+      <ul class="site-nav__list"><li><a class="site-nav__link" href="../index.html">Accueil</a></li><li><a class="site-nav__link" href="../produits/index.html">Produits</a></li><li><a class="site-nav__link" href="../services/index.html">Services</a></li><li><a class="site-nav__link is-active" href="index.html" aria-current="page">Blog</a></li><li><a class="site-nav__link" href="../support-contact/index.html">Support &amp; contact</a></li></ul>
+      <nav class="lang-switch lang-switch--panel" aria-label="Langue du site"><ul><li><a href="microsoft-work-iq-copilot-work-context.html" hreflang="fr" lang="fr" aria-current="true" aria-label="Français" class="lang-switch__link is-active">FR</a></li><li><a href="../../en/blog/microsoft-work-iq-copilot-work-context.html" hreflang="en" lang="en" aria-label="English" class="lang-switch__link">EN</a></li></ul></nav>
+    </nav>
+    <div class="site-header__actions">
+      <nav class="lang-switch lang-switch--bar" aria-label="Langue du site"><ul><li><a href="microsoft-work-iq-copilot-work-context.html" hreflang="fr" lang="fr" aria-current="true" aria-label="Français" class="lang-switch__link is-active">FR</a></li><li><a href="../../en/blog/microsoft-work-iq-copilot-work-context.html" hreflang="en" lang="en" aria-label="English" class="lang-switch__link">EN</a></li></ul></nav>
+      <a href="https://forms.office.com/r/JT7vhNrgDb" class="btn btn--primary btn--sm site-header__cta" target="_blank" rel="noopener noreferrer"><span class="label-long">Devenir partenaire</span><span class="label-short">Partenaire</span><svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17L17 7M8 7h9v9"></path></svg><span class="sr-only">(s’ouvre dans un nouvel onglet)</span></a>
+      <button type="button" class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Menu</span><svg class="icon menu-toggle__open" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"></path></svg><svg class="icon menu-toggle__close" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+    </div>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+
+  <section class="page-hero">
+  <div class="container page-hero__inner">
+    <nav class="breadcrumb" aria-label="Fil d’Ariane"><ol><li><a href="../index.html">Accueil</a></li><li><a href="index.html">Blog</a></li><li><span aria-current="page">Microsoft Work IQ : comment Copilot comprend votre environnement de travail</span></li></ol><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://www.mc3.cloud/fr/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.mc3.cloud/fr/blog/"},{"@type":"ListItem","position":3,"name":"Microsoft Work IQ : comment Copilot comprend votre environnement de travail"}]}</script></nav>
+    <div class="page-hero__body">
+      <h1 class="page-hero__title">Microsoft Work IQ : comment Copilot comprend votre environnement de travail</h1>
+      <p class="page-hero__intro">Comprenez comment Work IQ aide Copilot à exploiter le contexte Microsoft 365, ses différences avec un connecteur, ses limites et son modèle de consommation.</p>
+      <p class="post-meta"><span class="chip chip--on-dark">Microsoft 365</span><span>Par Aslam Gangat</span><time datetime="2026-10-27">27 octobre 2026</time></p>
+    </div>
+  </div>
+</section>
+  <section class="section">
+    <div class="container post">
+      <figure class="post__cover"><img src="../../assets/images/blog/microsoft-work-iq-copilot-work-context.jpg" alt="Work IQ reliant Microsoft Copilot aux données et outils de Microsoft 365" width="1600" height="900"></figure>
+      <article class="prose prose--post">
+<p>Deux assistants d’intelligence artificielle peuvent accéder à un document SharePoint sans disposer de la même compréhension de votre environnement de travail.</p>
+<p>L’un peut être connecté à une ou plusieurs sources précises. L’autre peut s’appuyer sur une couche capable de mobiliser les données, les relations et les outils présents dans Microsoft 365. C’est le rôle de Work IQ.</p>
+<p>Dans cet article, nous allons expliquer ce qu’est Work IQ, ce qui le distingue de Microsoft Graph et d’un simple connecteur, et pourquoi son intégration à Microsoft 365 Copilot peut être pertinente. Nous aborderons également ses limites, la sécurité des données et la possibilité d’utiliser Work IQ en dehors de Copilot avec une facturation à la consommation.</p>
+<p>À la fin de votre lecture, vous saurez distinguer trois éléments souvent confondus : <strong>le modèle d’intelligence artificielle, l’accès aux données et la construction du contexte professionnel</strong>. Vous pourrez ainsi comparer plus justement les différentes façons de connecter une intelligence artificielle à Microsoft 365.</p>
+<h2>Qu’est-ce que Work IQ ?</h2>
+<p>Work IQ est la couche d’intelligence du travail utilisée par Microsoft pour aider Copilot et certains agents à exploiter le contexte professionnel d’un utilisateur.</p>
+<p>Son rôle ne consiste pas seulement à rechercher un mot dans un fichier. Work IQ aide l’agent à mobiliser les informations et les relations pertinentes parmi les messages, documents, réunions, personnes, projets et outils auxquels l’utilisateur est autorisé à accéder.</p>
+<p>Microsoft présente Work IQ autour de quatre composantes :</p>
+<ul><li><strong>la conversation</strong>, pour interagir avec l’utilisateur ou entre agents ;</li><li><strong>le contexte</strong>, pour préparer les informations utiles à la demande ;</li><li><strong>les outils</strong>, pour rechercher des informations ou effectuer des actions ;</li><li><strong>les espaces de travail</strong>, pour conserver le contexte de tâches plus longues.</li></ul>
+<p>Work IQ n’est donc ni un modèle d’intelligence artificielle ni une nouvelle base de données. Le modèle analyse la demande et produit la réponse. Work IQ lui apporte le contexte professionnel et les outils nécessaires.</p>
+<p><a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/work-iq/" target="_blank" rel="noopener noreferrer">Consulter la présentation officielle de Work IQ<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a></p>
+<h2>Work IQ n’est pas Microsoft Graph</h2>
+<p>Microsoft Graph fournit aux applications des interfaces leur permettant d’accéder aux données et aux services Microsoft 365, selon les autorisations accordées.</p>
+<p>Une application peut, par exemple, utiliser Microsoft Graph pour rechercher un message, consulter un calendrier ou ouvrir un document. Elle doit ensuite déterminer comment exploiter et rapprocher les informations obtenues.</p>
+<p>Work IQ intervient à un autre niveau. Il prépare un contexte adapté à Copilot ou à un agent et l’aide à mobiliser les données et les outils utiles pour accomplir une tâche.</p>
+<p>La différence peut se résumer ainsi :</p>
+<blockquote><p><strong>Microsoft Graph donne accès aux ressources. Work IQ aide un agent à mobiliser les ressources pertinentes dans le contexte du travail de l’utilisateur.</strong></p></blockquote>
+<p>Les deux ne s’opposent pas. Work IQ s’inscrit dans l’écosystème Microsoft 365 et s’appuie sur ses données, ses services, ses identités et ses autorisations.</p>
+<h2>Un connecteur Microsoft 365 ne donne pas automatiquement accès à Work IQ</h2>
+<p>D’autres solutions d’intelligence artificielle peuvent accéder à certaines données Microsoft 365 au moyen de connexions autorisées.</p>
+<p>Il serait donc incorrect d’affirmer que seul Microsoft 365 Copilot peut consulter un fichier SharePoint, rechercher un message Outlook ou exploiter une information stockée dans OneDrive.</p>
+<p>La différence se trouve dans la manière dont l’assistant construit son contexte.</p>
+<p>Un connecteur donne accès à une source déterminée. Work IQ vise à créer une compréhension plus large du travail en rapprochant les données, les personnes, les relations et les outils disponibles dans l’environnement Microsoft 365.</p>
+<p>Pour comparer plusieurs solutions, il ne suffit donc pas de vérifier si elles peuvent se connecter à SharePoint ou Outlook. Il faut également examiner :</p>
+<ul><li>les sources réellement accessibles ;</li><li>les autorisations demandées ;</li><li>la manière dont les informations provenant de plusieurs services sont rapprochées ;</li><li>les actions que l’assistant peut effectuer ;</li><li>les contrôles administratifs disponibles ;</li><li>l’environnement dans lequel les données sont traitées.</li></ul>
+<h2>Un exemple : préparer un rendez-vous client</h2>
+<p>Imaginons cette demande :</p>
+<blockquote><p>« Prépare-moi pour ma réunion avec ce client. Résume les échanges récents, retrouve la proposition commerciale et identifie les actions encore ouvertes. »</p></blockquote>
+<p>Les informations nécessaires peuvent être réparties entre Outlook, le calendrier, Teams, SharePoint et OneDrive.</p>
+<h3>Avec une connexion limitée à SharePoint</h3>
+<p>L’assistant peut retrouver la proposition commerciale et les documents accessibles à l’utilisateur.</p>
+<p>Il ne dispose cependant pas nécessairement des messages Outlook, de la prochaine réunion ou des conversations Teams si ces sources ne sont pas également connectées et autorisées.</p>
+<p>Cette limite ne vient pas forcément du modèle d’intelligence artificielle. Elle vient du périmètre des données auquel il peut accéder.</p>
+<h3>Avec plusieurs connecteurs</h3>
+<p>Une autre intelligence artificielle peut disposer de connexions distinctes à SharePoint, Outlook, OneDrive et Teams.</p>
+<p>Son périmètre est alors plus large. Il reste toutefois nécessaire de comprendre comment elle rapproche les résultats, quelles informations sont transmises à sa plateforme et quelles règles de sécurité, de conservation et de traitement s’appliquent.</p>
+<h3>Avec Microsoft 365 Copilot et Work IQ</h3>
+<p>Work IQ vise à construire un contexte couvrant les données, les personnes, les relations et les outils disponibles dans Microsoft 365.</p>
+<p>L’objectif n’est donc pas seulement de retrouver davantage de documents. Il s’agit de fournir à Copilot un contexte professionnel cohérent pour répondre à une demande qui couvre plusieurs dimensions du travail.</p>
+<p>Cela ne garantit pas que chaque réponse sera complète ou exacte. Le résultat dépend toujours de la disponibilité des informations, de leur qualité, de leur emplacement et des autorisations de l’utilisateur.</p>
+<h2>Des données traitées dans le prolongement de Microsoft 365</h2>
+<p>Microsoft 365 Copilot n’a pas besoin de créer un référentiel séparé contenant les données de l’entreprise. Avec Work IQ, il exploite les informations déjà présentes dans Exchange Online, SharePoint, OneDrive ou Teams, en respectant les droits de l’utilisateur et les politiques de l’organisation.</p>
+<p>Les données restent ainsi placées sous le cadre de protection de Microsoft 365 : identité Microsoft Entra, autorisations, étiquettes de confidentialité, politiques de conservation et audit.</p>
+<p>Microsoft indique également que les requêtes, les réponses et les données accessibles par Microsoft Graph ne sont pas utilisées pour entraîner les modèles de fondation.</p>
+<p><a href="https://learn.microsoft.com/fr-fr/microsoft-365/copilot/microsoft-365-copilot-privacy" target="_blank" rel="noopener noreferrer">Consulter la politique Microsoft relative aux données, à la confidentialité et à la sécurité de Copilot<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a></p>
+<p>Lorsqu’une intelligence artificielle externe se connecte à Microsoft 365, elle doit recevoir les données ou les extraits nécessaires dans son propre environnement pour pouvoir les analyser. Les documents d’origine peuvent rester dans Microsoft 365, mais les informations utilisées pour produire la réponse sont alors traitées par une plateforme supplémentaire.</p>
+<p>Cette plateforme peut disposer de ses propres garanties de sécurité et de résidence. Elle introduit néanmoins une nouvelle chaîne de traitement qu’il faut évaluer :</p>
+<ul><li>les permissions accordées au connecteur ;</li><li>les données transmises ;</li><li>la région de traitement ;</li><li>la durée de conservation ;</li><li>les sous-traitants impliqués ;</li><li>les garanties contractuelles applicables.</li></ul>
+<p><strong>Avec Copilot et Work IQ, l’intelligence artificielle exploite le contexte dans le prolongement de l’environnement Microsoft 365. Avec une intelligence artificielle tierce, les données utiles doivent être transmises à un autre environnement de traitement. Cette différence réduit le nombre de frontières techniques, contractuelles et organisationnelles que l’entreprise doit gouverner.</strong></p>
+<h2>Peut-on utiliser Work IQ en dehors de Copilot ?</h2>
+<p>Oui. Microsoft fournit des API et des protocoles permettant à une application ou à un agent d’utiliser les capacités de Work IQ en dehors de l’interface standard de Microsoft 365 Copilot.</p>
+<p>Cette approche peut être pertinente pour créer :</p>
+<ul><li>un agent spécialisé ;</li><li>une interface métier personnalisée ;</li><li>une application combinant Work IQ avec d’autres services ;</li><li>un processus nécessitant des actions dans Microsoft 365.</li></ul>
+<p>Microsoft propose notamment des interfaces Agent-to-Agent, Model Context Protocol et REST. Elles permettent à différents agents et environnements applicatifs d’utiliser Work IQ tout en conservant les autorisations et les contrôles de gouvernance associés à Microsoft 365.</p>
+<p><a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/work-iq/api-overview" target="_blank" rel="noopener noreferrer">Consulter la documentation des API Work IQ<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a></p>
+<p>Cet accès externe n’est toutefois pas automatiquement couvert par une licence Microsoft 365 Copilot.</p>
+<p>L’utilisation des API Work IQ est indépendante de la licence Microsoft 365 Copilot et repose sur une facturation liée à l’usage. Selon l’expérience concernée et le modèle commercial applicable, cette consommation peut être suivie au moyen de Copilot Credits.</p>
+<p>Il faut donc distinguer :</p>
+<ul><li><strong>Work IQ intégré à Microsoft 365 Copilot</strong>, dans le cadre de la licence et de l’expérience concernées ;</li><li><strong>Work IQ utilisé comme service par une application ou un agent</strong>, avec une consommation et des coûts à surveiller.</li></ul>
+<p>Avant un déploiement, l’entreprise doit vérifier l’expérience utilisée, les outils appelés, les licences nécessaires et le modèle de consommation applicable.</p>
+<h2>Work IQ ne corrige pas les problèmes de gouvernance</h2>
+<p>Work IQ ne contourne pas les autorisations Microsoft 365.</p>
+<p>Deux utilisateurs peuvent recevoir des réponses différentes parce qu’ils n’ont pas accès aux mêmes messages, fichiers, sites ou réunions.</p>
+<p>Cette protection ne résout cependant pas les partages excessifs. Si un document SharePoint est accessible à un public trop large, Copilot peut le rendre plus facile à découvrir pour les utilisateurs qui disposent déjà de cet accès.</p>
+<p>Avant un déploiement étendu, il convient donc de revoir :</p>
+<ul><li>les autorisations SharePoint et OneDrive ;</li><li>les liens de partage et les accès externes ;</li><li>les groupes ou droits devenus obsolètes ;</li><li>les applications autorisées dans Microsoft Entra ;</li><li>les données sensibles accessibles trop largement ;</li><li>les actions confiées aux agents ;</li><li>le suivi des consommations facturées à l’usage.</li></ul>
+<p>La qualité des données compte également. Work IQ ne peut pas corriger automatiquement des documents obsolètes, des procédures contradictoires ou une information absente de Microsoft 365.</p>
+<h2>Préparer Microsoft 365 avant de déployer Copilot</h2>
+<p>Activer des licences ne suffit pas pour réussir un projet Copilot.</p>
+<p>Il faut d’abord comprendre quelles informations seront accessibles, vérifier les pratiques de partage, sélectionner des cas d’usage adaptés et préparer les utilisateurs à exploiter et vérifier les réponses produites par l’intelligence artificielle.</p>
+<p>Le service managé <a href="../services/copilot-ai-readiness-adoption.html">Préparation et adoption de Microsoft 365 Copilot</a> de MC3 Cloud accompagne cette démarche. Il aide l’organisation à aborder la préparation de son environnement Microsoft 365 et l’adoption de Copilot de manière structurée.</p>
+<p>Cette approche permet de traiter deux dimensions souvent séparées : la préparation technique de Microsoft 365 et l’intégration de Copilot dans le travail quotidien.</p>
+<h2>Les questions à poser avant de choisir</h2>
+<p>Avant de connecter une intelligence artificielle à Microsoft 365, posez-vous les questions suivantes :</p>
+<ol><li>Quelles données l’intelligence artificielle doit-elle utiliser ?</li><li>Ces données se trouvent-elles dans une seule application ou sont-elles réparties dans Microsoft 365 ?</li><li>L’assistant doit-il seulement retrouver des documents ou reconstruire un contexte entre plusieurs services ?</li><li>Quelles autorisations seront accordées au connecteur ou à l’agent ?</li><li>Dans quel environnement les données seront-elles traitées ?</li><li>L’assistant doit-il uniquement répondre ou également effectuer des actions ?</li><li>Work IQ sera-t-il utilisé dans Copilot ou consommé par une application externe ?</li><li>Quelle licence ou quel modèle de consommation s’applique ?</li><li>Comment les accès, les usages et les coûts seront-ils contrôlés ?</li><li>L’environnement Microsoft 365 est-il suffisamment préparé et sécurisé ?</li></ol>
+<h2>Ce qu’il faut retenir</h2>
+<p>Work IQ n’est ni un modèle d’intelligence artificielle, ni une base de données, ni un nouveau nom donné à Microsoft Graph.</p>
+<p>C’est la couche d’intelligence du travail qui aide Copilot et certains agents à mobiliser les données, les relations et les outils professionnels auxquels un utilisateur est autorisé à accéder.</p>
+<p>D’autres assistants peuvent également se connecter à Microsoft 365. La comparaison doit donc porter sur la profondeur de l’intégration, la construction du contexte, les autorisations, la gouvernance et l’environnement de traitement, et non uniquement sur le modèle utilisé.</p>
+<p>Work IQ peut aussi être utilisé en dehors de Microsoft 365 Copilot par une application ou un agent. Cet accès repose alors sur une facturation à la consommation et doit être suivi comme tel.</p>
+<p>La question finale est simple :</p>
+<blockquote><p><strong>Votre assistant doit-il seulement consulter quelques sources Microsoft 365, ou doit-il comprendre et mobiliser un contexte de travail réparti dans l’ensemble de votre environnement ?</strong></p></blockquote>
+<p>C’est cette distinction qui permet d’évaluer la forme d’intégration la plus adaptée aux données, aux usages et aux exigences de gouvernance de votre organisation.</p>
+      </article>
+      <div class="post__tags"><h2 class="sr-only">Mots-clés</h2><ul class="chip-row"><li class="chip">Microsoft 365</li><li class="chip">Work IQ</li><li class="chip">Copilot</li><li class="chip">Intelligence artificielle</li><li class="chip">Sécurité</li></ul></div>
+    </div>
+  </section>
+  <section class="section section--tint" aria-labelledby="related-title">
+    <div class="container">
+      <h2 id="related-title" class="section-header__title" style="margin-bottom:2rem">À lire aussi</h2>
+      <ul class="grid-cards"><li><article class="card blog-card" data-reveal>
+  <div class="blog-card__media"><img src="../../assets/images/blog/microsoft-365-business-plans.jpg" alt="Une entreprise organise ses licences Microsoft 365 selon les usages, les appareils et les risques" width="1600" height="900" loading="lazy" decoding="async"></div>
+  <div class="blog-card__body">
+    <p class="blog-card__meta"><span class="chip chip--accent">Microsoft 365</span><time datetime="2026-10-28">28 octobre 2026</time></p>
+    <h3 class="blog-card__title"><a class="stretched-link" href="microsoft-365-business-plans.html">Présentation de la gamme Microsoft 365 Business</a></h3>
+    <p class="blog-card__text">Comparez Microsoft 365 Business Basic, Standard et Premium, puis découvrez comment Defender, Purview et la gouvernance préparent l’adoption de Copilot.</p>
+  </div>
+</article></li>
+<li><article class="card blog-card" data-reveal>
+  <div class="blog-card__media"><img src="../../assets/images/blog/microsoftbi.jpg" alt="Un espace de travail illustrant le passage du reporting Excel à Power BI et Microsoft Fabric" width="1600" height="900" loading="lazy" decoding="async"></div>
+  <div class="blog-card__body">
+    <p class="blog-card__meta"><span class="chip chip--accent">Microsoft Azure</span><span class="chip chip--solid">À la une</span><time datetime="2026-11-02">2 novembre 2026</time></p>
+    <h3 class="blog-card__title"><a class="stretched-link" href="power-bi-excel-fabric-journey.html">Power BI : quel parcours choisir, d’Excel à Microsoft Fabric ?</a></h3>
+    <p class="blog-card__text">Comprendre comment passer d’Excel à Power BI, choisir la bonne licence et utiliser Microsoft Fabric et l’IA pour mieux exploiter ses données.</p>
+  </div>
+</article></li>
+<li><article class="card blog-card" data-reveal>
+  <div class="blog-card__media"><img src="../../assets/images/blog/backup-m365.jpg" alt="Données Microsoft 365 transférées vers un coffre de sauvegarde sécurisé" width="1600" height="900" loading="lazy" decoding="async"></div>
+  <div class="blog-card__body">
+    <p class="blog-card__meta"><span class="chip chip--accent">Sauvegarde</span><span class="chip chip--solid">À la une</span><time datetime="2026-10-29">29 octobre 2026</time></p>
+    <h3 class="blog-card__title"><a class="stretched-link" href="backup-microsoft-365.html">Microsoft 365 : qui sauvegarde réellement vos données ?</a></h3>
+    <p class="blog-card__text">Microsoft assure la disponibilité de Microsoft 365. Découvrez comment choisir entre Keepit, Acronis et Dropsuite pour protéger vos données.</p>
+  </div>
+</article></li></ul>
+    </div>
+  </section>
+  <section class="cta-band" aria-labelledby="cta-title">
+  <div class="container cta-band__inner">
+    <div class="cta-band__copy" data-reveal>
+      <h2 id="cta-title" class="cta-band__title">Rejoignez le réseau de partenaires MC3 Cloud</h2>
+      <p class="cta-band__text">Revendeur, MSP, intégrateur ou société IT ? Déposez votre candidature en ligne. Notre équipe revient vers vous après examen de votre dossier.</p>
+      <div class="cta-band__actions">
+        <a href="https://forms.office.com/r/JT7vhNrgDb" class="btn btn--primary btn--lg" target="_blank" rel="noopener noreferrer"><span>Devenir partenaire</span><svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17L17 7M8 7h9v9"></path></svg><span class="sr-only">(s’ouvre dans un nouvel onglet)</span></a>
+        <a class="btn btn--ghost-light btn--lg" href="../devenir-partenaire/index.html">Comment ça marche</a>
+      </div>
+    </div>
+    
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container site-footer__grid">
+    <div class="site-footer__brand">
+      <a href="../index.html" class="site-footer__logo" aria-label="MC3 Cloud — retour à l’accueil"><span class="logo-slot logo-slot--brand" data-name="MC3 Cloud"><img src="../../assets/logos/mc3-cloud.svg" alt="" height="40" decoding="async"></span></a>
+      <p>Distributeur cloud à valeur ajoutée pour les revendeurs et MSP d’Afrique, de l’océan Indien et du Pacifique.</p>
+      <a href="https://forms.office.com/r/JT7vhNrgDb" class="btn btn--primary btn--md" target="_blank" rel="noopener noreferrer"><span>Devenir partenaire</span><svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17L17 7M8 7h9v9"></path></svg><span class="sr-only">(s’ouvre dans un nouvel onglet)</span></a>
+    </div>
+    <nav aria-label="Navigation du pied de page" class="site-footer__col">
+      <h2 class="site-footer__title">Explorer</h2>
+      <ul><li><a href="../index.html">Accueil</a></li><li><a href="../produits/index.html">Produits</a></li><li><a href="../services/index.html">Services</a></li><li><a href="index.html">Blog</a></li><li><a href="../support-contact/index.html">Support &amp; contact</a></li><li><a href="../devenir-partenaire/index.html">Devenir partenaire</a></li><li><a href="rss.xml"><svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 5a14 14 0 0 1 14 14M5 11a8 8 0 0 1 8 8M6 19h.01"></path></svg> Flux RSS</a></li></ul>
+    </nav>
+    <div class="site-footer__col">
+      <h2 class="site-footer__title">Contact</h2>
+      <ul>
+        <li><a href="mailto:support_csp@mc3.cloud">support_csp@mc3.cloud</a></li>
+        <li><a href="mailto:sales@mc3.cloud">sales@mc3.cloud</a></li>
+        <li><a href="https://wecacsp.mc3.cloud/" target="_blank" rel="noopener noreferrer">Ouvrir la marketplace<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a></li>
+      </ul>
+      <address class="site-footer__address">MC3 Cloud<br>Office Lot 01, Level 2, Centre Commercial Emerald Park<br>Trianon, Mauritius</address>
+    </div>
+    <div class="site-footer__col">
+      <h2 class="site-footer__title">Langue</h2>
+      <nav class="lang-switch lang-switch--on-dark" aria-label="Langue du site"><ul><li><a href="microsoft-work-iq-copilot-work-context.html" hreflang="fr" lang="fr" aria-current="true" aria-label="Français" class="lang-switch__link is-active">FR</a></li><li><a href="../../en/blog/microsoft-work-iq-copilot-work-context.html" hreflang="en" lang="en" aria-label="English" class="lang-switch__link">EN</a></li></ul></nav>
+      <h2 class="site-footer__title site-footer__title--spaced">Suivez-nous</h2><ul><li><a href="https://www.linkedin.com/showcase/mc3cloud/" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a></li><li><a href="https://www.facebook.com/OfficialMC3Cloud" target="_blank" rel="noopener noreferrer">Facebook<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a></li></ul>
+    </div>
+  </div>
+  <div class="container site-footer__legal">
+    <p>© 2026 MC3 Cloud Ltd. Tous droits réservés.</p>
+    <ul><li><a href="https://aka.mc3.fr/termsmc3cloud/">Conditions de vente</a></li></ul>
+  </div>
+</footer>
+</body>
+</html>

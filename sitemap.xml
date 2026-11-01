@@ -186,9 +186,9 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/microsoft-365-business-plans.html"/>
   </url>
   <url>
-    <loc>https://www.mc3.cloud/fr/blog/microsoft-work-iq-agents-copilot-credits.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/microsoft-work-iq-agents-copilot-credits.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/microsoft-work-iq-agents-copilot-credits.html"/>
+    <loc>https://www.mc3.cloud/fr/blog/microsoft-work-iq-copilot-work-context.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/microsoft-work-iq-copilot-work-context.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/microsoft-work-iq-copilot-work-context.html"/>
   </url>
   <url>
     <loc>https://www.mc3.cloud/fr/blog/power-bi-excel-fabric-journey.html</loc>
@@ -381,9 +381,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/microsoft-365-business-plans.html"/>
   </url>
   <url>
-    <loc>https://www.mc3.cloud/en/blog/microsoft-work-iq-agents-copilot-credits.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/microsoft-work-iq-agents-copilot-credits.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/microsoft-work-iq-agents-copilot-credits.html"/>
+    <loc>https://www.mc3.cloud/en/blog/microsoft-work-iq-copilot-work-context.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/microsoft-work-iq-copilot-work-context.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/microsoft-work-iq-copilot-work-context.html"/>
   </url>
   <url>
     <loc>https://www.mc3.cloud/en/blog/power-bi-excel-fabric-journey.html</loc>
