@@ -176,14 +176,14 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/services/purview-data-protection-compliance.html"/>
   </url>
   <url>
-    <loc>https://www.mc3.cloud/fr/blog/business-basic-standard-premium-guider-vos-clients.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/business-basic-standard-premium-guiding-your-customers.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/business-basic-standard-premium-guider-vos-clients.html"/>
+    <loc>https://www.mc3.cloud/fr/blog/backup-microsoft-365.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/backup-microsoft-365.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/backup-microsoft-365.html"/>
   </url>
   <url>
-    <loc>https://www.mc3.cloud/fr/blog/microsoft-365-qui-sauvegarde-vos-donnees.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/microsoft-365-who-backs-up-your-data.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/microsoft-365-qui-sauvegarde-vos-donnees.html"/>
+    <loc>https://www.mc3.cloud/fr/blog/microsoft-365-business-plans.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/microsoft-365-business-plans.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/microsoft-365-business-plans.html"/>
   </url>
   <url>
     <loc>https://www.mc3.cloud/fr/blog/microsoft-work-iq-agents-copilot-credits.html</loc>
@@ -191,9 +191,14 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/microsoft-work-iq-agents-copilot-credits.html"/>
   </url>
   <url>
-    <loc>https://www.mc3.cloud/fr/blog/un-nouveau-site-pour-nos-partenaires.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/a-new-website-for-our-partners.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/un-nouveau-site-pour-nos-partenaires.html"/>
+    <loc>https://www.mc3.cloud/fr/blog/power-bi-excel-fabric-journey.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/power-bi-excel-fabric-journey.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/power-bi-excel-fabric-journey.html"/>
+  </url>
+  <url>
+    <loc>https://www.mc3.cloud/fr/blog/welcome-new-site.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/welcome-new-site.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/welcome-new-site.html"/>
   </url>
   <url>
     <loc>https://www.mc3.cloud/en/</loc>
@@ -366,23 +371,28 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/services/purview-data-protection-compliance.html"/>
   </url>
   <url>
-    <loc>https://www.mc3.cloud/en/blog/a-new-website-for-our-partners.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/un-nouveau-site-pour-nos-partenaires.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/a-new-website-for-our-partners.html"/>
+    <loc>https://www.mc3.cloud/en/blog/backup-microsoft-365.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/backup-microsoft-365.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/backup-microsoft-365.html"/>
   </url>
   <url>
-    <loc>https://www.mc3.cloud/en/blog/business-basic-standard-premium-guiding-your-customers.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/business-basic-standard-premium-guider-vos-clients.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/business-basic-standard-premium-guiding-your-customers.html"/>
-  </url>
-  <url>
-    <loc>https://www.mc3.cloud/en/blog/microsoft-365-who-backs-up-your-data.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/microsoft-365-qui-sauvegarde-vos-donnees.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/microsoft-365-who-backs-up-your-data.html"/>
+    <loc>https://www.mc3.cloud/en/blog/microsoft-365-business-plans.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/microsoft-365-business-plans.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/microsoft-365-business-plans.html"/>
   </url>
   <url>
     <loc>https://www.mc3.cloud/en/blog/microsoft-work-iq-agents-copilot-credits.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/microsoft-work-iq-agents-copilot-credits.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/microsoft-work-iq-agents-copilot-credits.html"/>
+  </url>
+  <url>
+    <loc>https://www.mc3.cloud/en/blog/power-bi-excel-fabric-journey.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/power-bi-excel-fabric-journey.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/power-bi-excel-fabric-journey.html"/>
+  </url>
+  <url>
+    <loc>https://www.mc3.cloud/en/blog/welcome-new-site.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/welcome-new-site.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/welcome-new-site.html"/>
   </url>
 </urlset>

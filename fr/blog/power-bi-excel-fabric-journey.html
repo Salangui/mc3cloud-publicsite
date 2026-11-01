@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>D’Excel à Power BI et Microsoft Fabric | MC3 Cloud</title>
+<meta name="description" content="Découvrez Power BI Desktop, Pro, PPU, Microsoft Fabric et Copilot pour choisir une solution de BI adaptée à vos besoins.">
+<link rel="canonical" href="https://www.mc3.cloud/fr/blog/power-bi-excel-fabric-journey.html">
+<link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/power-bi-excel-fabric-journey.html">
+<link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/power-bi-excel-fabric-journey.html">
+<link rel="alternate" hreflang="x-default" href="https://www.mc3.cloud/en/blog/power-bi-excel-fabric-journey.html">
+<link rel="alternate" type="application/rss+xml" title="Flux RSS — MC3 Cloud" href="https://www.mc3.cloud/fr/blog/rss.xml">
+<meta property="og:site_name" content="MC3 Cloud">
+<meta property="og:type" content="article">
+<meta property="og:title" content="D’Excel à Power BI et Microsoft Fabric | MC3 Cloud">
+<meta property="og:description" content="Découvrez Power BI Desktop, Pro, PPU, Microsoft Fabric et Copilot pour choisir une solution de BI adaptée à vos besoins.">
+<meta property="og:url" content="https://www.mc3.cloud/fr/blog/power-bi-excel-fabric-journey.html">
+<meta property="og:image" content="https://www.mc3.cloud/assets/images/blog/microsoftbi.jpg">
+<meta property="og:image:alt" content="Un espace de travail illustrant le passage du reporting Excel à Power BI et Microsoft Fabric">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:locale:alternate" content="en_GB">
+<meta property="article:published_time" content="2026-11-02T00:00:00.000Z">
+<meta property="article:modified_time" content="2026-11-02T00:00:00.000Z">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="D’Excel à Power BI et Microsoft Fabric | MC3 Cloud">
+<meta name="twitter:description" content="Découvrez Power BI Desktop, Pro, PPU, Microsoft Fabric et Copilot pour choisir une solution de BI adaptée à vos besoins.">
+<meta name="twitter:image" content="https://www.mc3.cloud/assets/images/blog/microsoftbi.jpg">
+<link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#071630">
+<link rel="stylesheet" href="../../assets/css/styles.css">
+<script>document.documentElement.classList.add('js');</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Power BI : quel parcours choisir, d’Excel à Microsoft Fabric ?","description":"Comprendre comment passer d’Excel à Power BI, choisir la bonne licence et utiliser Microsoft Fabric et l’IA pour mieux exploiter ses données.","image":"https://www.mc3.cloud/assets/images/blog/microsoftbi.jpg","datePublished":"2026-11-02T00:00:00.000Z","dateModified":"2026-11-02T00:00:00.000Z","inLanguage":"fr","mainEntityOfPage":"https://www.mc3.cloud/fr/blog/power-bi-excel-fabric-journey.html","author":{"@type":"Person","name":"Aslam Gangat"},"publisher":{"@type":"Organization","name":"MC3 Cloud"}}</script>
+<script src="../../assets/js/main.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu principal</a>
+<header class="site-header" data-header>
+  <div class="container site-header__bar">
+    <a class="site-header__logo" href="../index.html" aria-label="MC3 Cloud — retour à l’accueil"><span class="logo-slot logo-slot--brand" data-name="MC3 Cloud"><img src="../../assets/logos/mc3-cloud.svg" alt="" height="40" decoding="async"></span></a>
+    <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+      <ul class="site-nav__list"><li><a class="site-nav__link" href="../index.html">Accueil</a></li><li><a class="site-nav__link" href="../produits/index.html">Produits</a></li><li><a class="site-nav__link" href="../services/index.html">Services</a></li><li><a class="site-nav__link is-active" href="index.html" aria-current="page">Blog</a></li><li><a class="site-nav__link" href="../support-contact/index.html">Support &amp; contact</a></li></ul>
+      <nav class="lang-switch lang-switch--panel" aria-label="Langue du site"><ul><li><a href="power-bi-excel-fabric-journey.html" hreflang="fr" lang="fr" aria-current="true" aria-label="Français" class="lang-switch__link is-active">FR</a></li><li><a href="../../en/blog/power-bi-excel-fabric-journey.html" hreflang="en" lang="en" aria-label="English" class="lang-switch__link">EN</a></li></ul></nav>
+    </nav>
+    <div class="site-header__actions">
+      <nav class="lang-switch lang-switch--bar" aria-label="Langue du site"><ul><li><a href="power-bi-excel-fabric-journey.html" hreflang="fr" lang="fr" aria-current="true" aria-label="Français" class="lang-switch__link is-active">FR</a></li><li><a href="../../en/blog/power-bi-excel-fabric-journey.html" hreflang="en" lang="en" aria-label="English" class="lang-switch__link">EN</a></li></ul></nav>
+      <a href="https://forms.office.com/r/JT7vhNrgDb" class="btn btn--primary btn--sm site-header__cta" target="_blank" rel="noopener noreferrer"><span class="label-long">Devenir partenaire</span><span class="label-short">Partenaire</span><svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17L17 7M8 7h9v9"></path></svg><span class="sr-only">(s’ouvre dans un nouvel onglet)</span></a>
+      <button type="button" class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Menu</span><svg class="icon menu-toggle__open" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"></path></svg><svg class="icon menu-toggle__close" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+    </div>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+
+  <section class="page-hero">
+  <div class="container page-hero__inner">
+    <nav class="breadcrumb" aria-label="Fil d’Ariane"><ol><li><a href="../index.html">Accueil</a></li><li><a href="index.html">Blog</a></li><li><span aria-current="page">Power BI : quel parcours choisir, d’Excel à Microsoft Fabric ?</span></li></ol><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://www.mc3.cloud/fr/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.mc3.cloud/fr/blog/"},{"@type":"ListItem","position":3,"name":"Power BI : quel parcours choisir, d’Excel à Microsoft Fabric ?"}]}</script></nav>
+    <div class="page-hero__body">
+      <h1 class="page-hero__title">Power BI : quel parcours choisir, d’Excel à Microsoft Fabric ?</h1>
+      <p class="page-hero__intro">Comprendre comment passer d’Excel à Power BI, choisir la bonne licence et utiliser Microsoft Fabric et l’IA pour mieux exploiter ses données.</p>
+      <p class="post-meta"><span class="chip chip--on-dark">Microsoft Azure</span><span>Par Aslam Gangat</span><time datetime="2026-11-02">2 novembre 2026</time></p>
+    </div>
+  </div>
+</section>
+  <section class="section">
+    <div class="container post">
+      <figure class="post__cover"><img src="../../assets/images/blog/microsoftbi.jpg" alt="Un espace de travail illustrant le passage du reporting Excel à Power BI et Microsoft Fabric" width="1600" height="900"></figure>
+      <article class="prose prose--post">
+<p>De nombreux projets décisionnels commencent avec des fichiers Excel, plusieurs applications métier et des rapports préparés manuellement. Chaque mois, les équipes extraient les mêmes données, les copient dans différents fichiers et reconstruisent leurs indicateurs.</p>
+<p>Cette méthode peut fonctionner au début. Mais lorsque les sources et les utilisateurs se multiplient, ses limites apparaissent : plusieurs versions d’un même chiffre, des formules difficiles à maintenir et beaucoup de temps consacré à la préparation plutôt qu’à l’analyse.</p>
+<p>La Business Intelligence, ou BI, permet de connecter les sources, préparer les données selon des règles communes et présenter des indicateurs fiables dans des rapports interactifs.</p>
+<h2>À quoi sert la Business Intelligence ?</h2>
+<p>Prenons une direction commerciale dont les données sont réparties entre un CRM, un logiciel de gestion et plusieurs fichiers Excel.</p>
+<p>Sans outil de BI, une personne doit rapprocher manuellement les ventes, les objectifs et les marges. Avec Power BI, l’entreprise peut connecter ces sources, appliquer les mêmes règles de transformation et construire un modèle partagé.</p>
+<p>Les utilisateurs peuvent alors analyser les résultats par période, agence, produit ou territoire. Excel reste utile pour la saisie et les analyses ponctuelles. Power BI devient pertinent lorsque l’entreprise souhaite fiabiliser, réutiliser et diffuser ses indicateurs.</p>
+<h2>Étape 1 : Power BI Desktop pour créer ses rapports</h2>
+<p>Power BI Desktop est une application gratuite permettant de connecter des sources, préparer les données avec Power Query, construire un modèle sémantique, créer des mesures DAX et concevoir des rapports interactifs.</p>
+<p>Cette étape convient à une personne qui travaille seule ou souhaite tester un cas d’usage. Le fichier peut être transmis manuellement, mais cette méthode n’apporte ni diffusion centralisée, ni collaboration en ligne, ni gestion structurée des accès.</p>
+<p>Microsoft présente l’outil dans sa documentation <a href="https://learn.microsoft.com/fr-fr/power-bi/fundamentals/desktop-what-is-desktop" target="_blank" rel="noopener noreferrer">Power BI Desktop<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a>.</p>
+<h2>Étape 2 : Power BI Pro pour publier et collaborer</h2>
+<p>Power BI Pro est la licence standard pour la BI collaborative. Elle permet de publier des rapports dans des espaces de travail, de partager du contenu et de collaborer.</p>
+<p>Dans un environnement Power BI Pro standard, les auteurs et les lecteurs du contenu partagé doivent disposer d’une licence Power BI Pro ou d’une licence compatible.</p>
+<p>Cette formule peut suffire durablement lorsque les données sont déjà organisées et que le besoin concerne principalement le reporting. Microsoft détaille les droits associés aux licences dans la documentation sur les <a href="https://learn.microsoft.com/fr-fr/power-bi/fundamentals/service-features-license-type" target="_blank" rel="noopener noreferrer">fonctionnalités Power BI par type de licence<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a>.</p>
+<h2>Étape 3 : Premium Per User pour des usages avancés</h2>
+<p>Power BI Premium Per User, ou PPU, reprend les fonctionnalités de Pro et ajoute la plupart des fonctionnalités Power BI Premium sur une base individuelle.</p>
+<p>PPU peut convenir à une population ciblée travaillant sur des modèles plus exigeants. Sa principale contrainte concerne la diffusion : les utilisateurs qui consultent le contenu d’un espace de travail PPU doivent normalement disposer d’une licence PPU appropriée.</p>
+<p>PPU reste une licence Power BI individuelle. Elle ne provisionne pas une capacité Microsoft Fabric permettant, à elle seule, d’exécuter des Lakehouses, des Warehouses ou des notebooks. Cette distinction est expliquée dans la documentation sur les <a href="https://learn.microsoft.com/fr-fr/fabric/enterprise/licenses" target="_blank" rel="noopener noreferrer">licences et capacités Fabric<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a>.</p>
+<h3>L’analyse intelligente dans Power BI</h3>
+<p>Power BI peut repérer des valeurs inhabituelles, des variations significatives, des tendances ou des corrélations. Ces fonctions aident l’utilisateur à orienter son analyse, mais ne remplacent pas la connaissance métier.</p>
+<p>Microsoft décrit ces possibilités dans la documentation sur les <a href="https://learn.microsoft.com/en-us/power-bi/explore-reports/end-user-insight-types" target="_blank" rel="noopener noreferrer">insights Power BI<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a>.</p>
+<h3>Copilot dans Power BI</h3>
+<p>Copilot permet de formuler certaines demandes en langage naturel. Selon l’expérience disponible, il peut aider à explorer ou résumer un rapport, expliquer des résultats et générer ou expliquer des expressions DAX.</p>
+<p>La qualité des réponses dépend de la préparation du modèle sémantique. Les mesures, relations et définitions métier doivent être explicites.</p>
+<p>Une licence PPU ne suffit pas, à elle seule, pour activer Copilot. Microsoft demande notamment une capacité payante éligible, une région prise en charge et l’activation des paramètres administratifs correspondants. Ces conditions sont détaillées dans la <a href="https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction" target="_blank" rel="noopener noreferrer">présentation de Copilot pour Power BI<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a>.</p>
+<h2>Étape 4 : Microsoft Fabric pour industrialiser les données</h2>
+<p>Lorsque les sources, les volumes et les usages se multiplient, le besoin ne se limite plus à créer des rapports. L’entreprise doit aussi organiser la manière dont les données sont collectées, préparées, stockées et mises à la disposition des équipes.</p>
+<p>Microsoft Fabric réunit ces différentes étapes dans une même plateforme. L’objectif est de construire une chaîne de données cohérente : les informations sont récupérées depuis les applications de l’entreprise, contrôlées et transformées, puis organisées pour alimenter les analyses et les rapports Power BI.</p>
+<p>Fabric peut notamment prendre en charge :</p>
+<ul><li>des <strong>pipelines d’ingestion et de transformation</strong>, qui automatisent la récupération des données depuis des fichiers, des applications ou des bases de données, puis leur préparation pour les usages analytiques ;</li><li>des <strong>Lakehouses</strong>, qui réunissent des fichiers et des tables dans un même environnement afin de conserver différents types de données et de les exploiter avec plusieurs outils d’analyse ;</li><li>des <strong>Warehouses</strong>, qui organisent les données structurées dans un entrepôt adapté aux requêtes SQL, au reporting et au suivi des indicateurs ;</li><li>des <strong>notebooks</strong>, qui permettent aux équipes data d’écrire, de documenter et d’exécuter du code, ainsi que des <strong>traitements Apache Spark</strong> conçus pour transformer des volumes importants de données ;</li><li>l’<strong>analyse de données et d’événements en temps réel</strong>, utile lorsqu’une information doit être exploitée dès son arrivée, par exemple pour suivre une activité opérationnelle, des événements applicatifs ou des données provenant de systèmes connectés ;</li><li>des <strong>modèles sémantiques</strong>, qui traduisent les données techniques en notions compréhensibles par les métiers, avec des relations, des indicateurs et des règles de calcul partagés ;</li><li>des <strong>rapports Power BI</strong>, qui présentent les résultats sous forme de visualisations interactives accessibles aux utilisateurs autorisés.</li></ul>
+<p>Ces composants ne sont pas des outils isolés. Ils correspondent aux différentes étapes d’un même parcours : collecter les données, les transformer, les organiser, définir des indicateurs communs, puis les restituer aux utilisateurs.</p>
+<p>Ces expériences s’appuient sur <strong>OneLake</strong>, la fondation de stockage unifiée de Microsoft Fabric. OneLake fournit un emplacement logique commun aux différents composants de la plateforme, afin que plusieurs usages analytiques puissent travailler sur les mêmes données sans multiplier inutilement les copies.</p>
+<p>Microsoft distingue notamment le <strong>Warehouse</strong>, principalement orienté vers les données structurées, les requêtes SQL et le reporting, et le <strong>Lakehouse</strong>, qui associe le stockage de fichiers, les tables Delta et les traitements avec Spark ou SQL.</p>
+<p>Pour une entreprise habituée à Excel, l’intérêt est concret. Les données du CRM, de l’ERP, des fichiers et des autres applications peuvent être collectées et préparées selon des règles communes, puis réutilisées dans plusieurs modèles sémantiques, rapports Power BI et projets analytiques.</p>
+<p>L’entreprise ne remplace donc pas simplement un fichier Excel par un nouvel outil. Elle met progressivement en place une chaîne de données partagée, plus facile à maintenir, à sécuriser et à faire évoluer.</p>
+<p>Microsoft présente les principaux composants de la plateforme dans les documentations <a href="https://learn.microsoft.com/fr-fr/fabric/fundamentals/microsoft-fabric-overview" target="_blank" rel="noopener noreferrer">Qu’est-ce que Microsoft Fabric ?<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a> et <a href="https://learn.microsoft.com/fr-fr/fabric/onelake/onelake-overview" target="_blank" rel="noopener noreferrer">Qu’est-ce que OneLake ?<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a>.</p>
+<h3>Exemple concret : le parcours des données commerciales dans Fabric</h3>
+<p>Prenons l’exemple d’une entreprise qui suit ses ventes à partir de trois sources : son CRM, son ERP et des fichiers Excel transmis par les équipes régionales.</p>
+<p>Un <strong>pipeline d’ingestion et de transformation</strong> récupère régulièrement les données de ces différentes sources. Il automatise des opérations auparavant réalisées manuellement, comme l’importation des fichiers, l’harmonisation des formats et la préparation des informations nécessaires à l’analyse.</p>
+<p>Les données peuvent d’abord être déposées dans un <strong>Lakehouse</strong>. Celui-ci permet de conserver les informations provenant des différents systèmes, y compris les fichiers d’origine et les tables préparées.</p>
+<p>Des <strong>notebooks</strong> et des traitements <strong>Apache Spark</strong> peuvent ensuite appliquer des transformations plus avancées. L’entreprise peut, par exemple, harmoniser les références produits, corriger certains formats ou rapprocher les clients présents dans plusieurs applications.</p>
+<p>Une fois nettoyées et organisées, les données utiles au reporting peuvent alimenter un <strong>Warehouse</strong>. L’entreprise y structure les ventes, les produits, les clients, les territoires et les objectifs sous une forme adaptée aux analyses SQL.</p>
+<p>Un <strong>modèle sémantique Power BI</strong> est ensuite construit sur ces données. Il définit les relations entre les informations et les indicateurs métier partagés, comme le chiffre d’affaires, la marge, le taux de réalisation des objectifs ou l’évolution des ventes.</p>
+<p>Les utilisateurs consultent enfin ces indicateurs dans des <strong>rapports Power BI</strong> interactifs. Les responsables peuvent filtrer les résultats par période, produit, agence ou territoire sans recréer un fichier différent pour chaque analyse.</p>
+<p>Si l’entreprise reçoit également des données qui doivent être suivies dès leur arrivée, Fabric peut compléter ce parcours avec l’<strong>analyse en temps réel</strong>. Il devient alors possible de rapprocher les indicateurs historiques des événements opérationnels récents.</p>
+<p>Tout au long de ce parcours, <strong>OneLake</strong> fournit la fondation de stockage commune. Les composants de Fabric interviennent à des étapes différentes, mais travaillent dans un environnement partagé : le pipeline collecte les données, le Lakehouse les conserve et facilite leur transformation, le Warehouse les organise, le modèle sémantique leur donne un sens métier et Power BI les restitue aux utilisateurs.</p>
+<p>L’entreprise passe ainsi d’un reporting reconstruit manuellement dans plusieurs fichiers Excel à une chaîne de données partagée, reproductible et plus simple à faire évoluer.</p>
+<h3>Ce que l’IA ajoute à Microsoft Fabric</h3>
+<p>L’intelligence artificielle dans Fabric ne se limite pas à l’interrogation d’un rapport. Elle peut intervenir à plusieurs étapes du parcours des données.</p>
+<p>Copilot peut assister certaines tâches de préparation, de développement et d’analyse. Il peut notamment aider les équipes à travailler sur des transformations, des requêtes, des pipelines ou du code. Les résultats proposés doivent néanmoins être vérifiés avant leur utilisation dans un environnement de productionpeut, par exemple, produire une prévision de la demande ou un score de renouvellement, puis restituer le résultat dans Power BI.</p>
+<p>Une prédiction n’est jamais une certitude. Sa qualité dépend des données utilisées, de la méthode retenue, de sa validation et de son suivi dans le temps.</p>
+<p>Les prérequis d’utilisation sont présentés dans la documentation Microsoft sur <a href="https://learn.microsoft.com/fr-fr/fabric/fundamentals/copilot-enable-fabric" target="_blank" rel="noopener noreferrer">l’activation et la configuration de Copilot dans Microsoft Fabric<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a>.</p>
+<h2>Quel parcours choisir ?</h2>
+<ul><li><strong>Power BI Desktop</strong> pour créer ses premiers rapports ;</li><li><strong>Power BI Pro</strong> pour publier, partager et collaborer ;</li><li><strong>Power BI Premium Per User</strong> pour des fonctionnalités avancées ;</li><li><strong>Microsoft Fabric</strong> pour construire une plateforme de données et développer des usages d’IA.</li></ul>
+<p>Une organisation peut rester sur Power BI Pro si cette solution couvre ses besoins. Elle peut aussi passer directement à Fabric si son projet nécessite un entrepôt de données, des pipelines ou une plateforme analytique commune.</p>
+<p>MC3 Cloud propose un service de service:power-bi-business-reporting couvrant la définition des indicateurs, la préparation des données, la création de rapports, l’actualisation, le partage sécurisé, la formation et la maintenance.</p>
+      </article>
+      <div class="post__tags"><h2 class="sr-only">Mots-clés</h2><ul class="chip-row"><li class="chip">Power BI</li><li class="chip">Microsoft Fabric</li><li class="chip">Business Intelligence</li><li class="chip">Copilot</li><li class="chip">IA</li></ul></div>
+    </div>
+  </section>
+  <section class="section section--tint" aria-labelledby="related-title">
+    <div class="container">
+      <h2 id="related-title" class="section-header__title" style="margin-bottom:2rem">À lire aussi</h2>
+      <ul class="grid-cards"><li><article class="card blog-card" data-reveal>
+  <div class="blog-card__media"><img src="../../assets/images/blog/backup-m365.jpg" alt="Données Microsoft 365 transférées vers un coffre de sauvegarde sécurisé" width="1600" height="900" loading="lazy" decoding="async"></div>
+  <div class="blog-card__body">
+    <p class="blog-card__meta"><span class="chip chip--accent">Sauvegarde</span><span class="chip chip--solid">À la une</span><time datetime="2026-10-29">29 octobre 2026</time></p>
+    <h3 class="blog-card__title"><a class="stretched-link" href="backup-microsoft-365.html">Microsoft 365 : qui sauvegarde réellement vos données ?</a></h3>
+    <p class="blog-card__text">Microsoft assure la disponibilité de Microsoft 365. Découvrez comment choisir entre Keepit, Acronis et Dropsuite pour protéger vos données.</p>
+  </div>
+</article></li>
+<li><article class="card blog-card" data-reveal>
+  <div class="blog-card__media"><img src="../../assets/images/blog/microsoft-365-business-plans.jpg" alt="Une entreprise organise ses licences Microsoft 365 selon les usages, les appareils et les risques" width="1600" height="900" loading="lazy" decoding="async"></div>
+  <div class="blog-card__body">
+    <p class="blog-card__meta"><span class="chip chip--accent">Microsoft 365</span><time datetime="2026-10-28">28 octobre 2026</time></p>
+    <h3 class="blog-card__title"><a class="stretched-link" href="microsoft-365-business-plans.html">Présentation de la gamme Microsoft 365 Business</a></h3>
+    <p class="blog-card__text">Comparez Microsoft 365 Business Basic, Standard et Premium, puis découvrez comment Defender, Purview et la gouvernance préparent l’adoption de Copilot.</p>
+  </div>
+</article></li>
+<li><article class="card blog-card" data-reveal>
+  <div class="blog-card__media"><img src="../../assets/images/blog/work-iq-agents.webp" alt="Schéma comparant les différentes façons dont les agents Microsoft 365 exploitent Work IQ et les données Microsoft 365" width="1600" height="900" loading="lazy" decoding="async"></div>
+  <div class="blog-card__body">
+    <p class="blog-card__meta"><span class="chip chip--accent">Microsoft 365</span><time datetime="2026-10-27">27 octobre 2026</time></p>
+    <h3 class="blog-card__title"><a class="stretched-link" href="microsoft-work-iq-agents-copilot-credits.html">Microsoft Work IQ : comprendre les agents, les accès aux données et les Copilot Credits</a></h3>
+    <p class="blog-card__text">Work IQ aide Microsoft 365 Copilot et les agents à comprendre le contexte de travail. Découvrez comment les agents exploitent les données Microsoft 365 et dans quels cas des Copilot Credits peuvent être consommés.</p>
+  </div>
+</article></li></ul>
+    </div>
+  </section>
+  <section class="cta-band" aria-labelledby="cta-title">
+  <div class="container cta-band__inner">
+    <div class="cta-band__copy" data-reveal>
+      <h2 id="cta-title" class="cta-band__title">Rejoignez le réseau de partenaires MC3 Cloud</h2>
+      <p class="cta-band__text">Revendeur, MSP, intégrateur ou société IT ? Déposez votre candidature en ligne. Notre équipe revient vers vous après examen de votre dossier.</p>
+      <div class="cta-band__actions">
+        <a href="https://forms.office.com/r/JT7vhNrgDb" class="btn btn--primary btn--lg" target="_blank" rel="noopener noreferrer"><span>Devenir partenaire</span><svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17L17 7M8 7h9v9"></path></svg><span class="sr-only">(s’ouvre dans un nouvel onglet)</span></a>
+        <a class="btn btn--ghost-light btn--lg" href="../devenir-partenaire/index.html">Comment ça marche</a>
+      </div>
+    </div>
+    
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container site-footer__grid">
+    <div class="site-footer__brand">
+      <a href="../index.html" class="site-footer__logo" aria-label="MC3 Cloud — retour à l’accueil"><span class="logo-slot logo-slot--brand" data-name="MC3 Cloud"><img src="../../assets/logos/mc3-cloud.svg" alt="" height="40" decoding="async"></span></a>
+      <p>Distributeur cloud à valeur ajoutée pour les revendeurs et MSP d’Afrique, de l’océan Indien et du Pacifique.</p>
+      <a href="https://forms.office.com/r/JT7vhNrgDb" class="btn btn--primary btn--md" target="_blank" rel="noopener noreferrer"><span>Devenir partenaire</span><svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17L17 7M8 7h9v9"></path></svg><span class="sr-only">(s’ouvre dans un nouvel onglet)</span></a>
+    </div>
+    <nav aria-label="Navigation du pied de page" class="site-footer__col">
+      <h2 class="site-footer__title">Explorer</h2>
+      <ul><li><a href="../index.html">Accueil</a></li><li><a href="../produits/index.html">Produits</a></li><li><a href="../services/index.html">Services</a></li><li><a href="index.html">Blog</a></li><li><a href="../support-contact/index.html">Support &amp; contact</a></li><li><a href="../devenir-partenaire/index.html">Devenir partenaire</a></li><li><a href="rss.xml"><svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 5a14 14 0 0 1 14 14M5 11a8 8 0 0 1 8 8M6 19h.01"></path></svg> Flux RSS</a></li></ul>
+    </nav>
+    <div class="site-footer__col">
+      <h2 class="site-footer__title">Contact</h2>
+      <ul>
+        <li><a href="mailto:support_csp@mc3.cloud">support_csp@mc3.cloud</a></li>
+        <li><a href="mailto:sales@mc3.cloud">sales@mc3.cloud</a></li>
+        <li><a href="https://wecacsp.mc3.cloud/" target="_blank" rel="noopener noreferrer">Ouvrir la marketplace<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a></li>
+      </ul>
+      <address class="site-footer__address">MC3 Cloud<br>Office Lot 01, Level 2, Centre Commercial Emerald Park<br>Trianon, Mauritius</address>
+    </div>
+    <div class="site-footer__col">
+      <h2 class="site-footer__title">Langue</h2>
+      <nav class="lang-switch lang-switch--on-dark" aria-label="Langue du site"><ul><li><a href="power-bi-excel-fabric-journey.html" hreflang="fr" lang="fr" aria-current="true" aria-label="Français" class="lang-switch__link is-active">FR</a></li><li><a href="../../en/blog/power-bi-excel-fabric-journey.html" hreflang="en" lang="en" aria-label="English" class="lang-switch__link">EN</a></li></ul></nav>
+      <h2 class="site-footer__title site-footer__title--spaced">Suivez-nous</h2><ul><li><a href="https://www.linkedin.com/showcase/mc3cloud/" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a></li><li><a href="https://www.facebook.com/OfficialMC3Cloud" target="_blank" rel="noopener noreferrer">Facebook<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a></li></ul>
+    </div>
+  </div>
+  <div class="container site-footer__legal">
+    <p>© 2026 MC3 Cloud Ltd. Tous droits réservés.</p>
+    <ul><li><a href="https://aka.mc3.fr/termsmc3cloud/">Conditions de vente</a></li></ul>
+  </div>
+</footer>
+</body>
+</html>

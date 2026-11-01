@@ -7,32 +7,39 @@
     <language>en-GB</language>
     <atom:link href="https://www.mc3.cloud/en/blog/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Power BI: choosing a path from Excel to Microsoft Fabric</title>
+      <link>https://www.mc3.cloud/en/blog/power-bi-excel-fabric-journey.html</link>
+      <guid>https://www.mc3.cloud/en/blog/power-bi-excel-fabric-journey.html</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Understand how to move from Excel to Power BI, choose the right licence, and use Microsoft Fabric and AI to make better use of data.</description>
+    </item>
+    <item>
+      <title>Microsoft 365: Who Really Backs Up Your Data?</title>
+      <link>https://www.mc3.cloud/en/blog/backup-microsoft-365.html</link>
+      <guid>https://www.mc3.cloud/en/blog/backup-microsoft-365.html</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Microsoft keeps Microsoft 365 available. Learn how to choose between Keepit, Acronis and Dropsuite to protect your customers’ data.</description>
+    </item>
+    <item>
+      <title>Understanding the Microsoft 365 Business range</title>
+      <link>https://www.mc3.cloud/en/blog/microsoft-365-business-plans.html</link>
+      <guid>https://www.mc3.cloud/en/blog/microsoft-365-business-plans.html</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Compare Microsoft 365 Business Basic, Standard and Premium, then see how Defender, Purview and data governance can prepare your organisation for Copilot.</description>
+    </item>
+    <item>
       <title>Microsoft Work IQ: Understanding Agents, Microsoft 365 Data and Copilot Credits</title>
       <link>https://www.mc3.cloud/en/blog/microsoft-work-iq-agents-copilot-credits.html</link>
       <guid>https://www.mc3.cloud/en/blog/microsoft-work-iq-agents-copilot-credits.html</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
       <description>Understand how Microsoft Work IQ supports Copilot and agents, how different agents access Microsoft 365 data, and when Copilot Credits may be consumed.</description>
     </item>
     <item>
       <title>A new website for our partners</title>
-      <link>https://www.mc3.cloud/en/blog/a-new-website-for-our-partners.html</link>
-      <guid>https://www.mc3.cloud/en/blog/a-new-website-for-our-partners.html</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <link>https://www.mc3.cloud/en/blog/welcome-new-site.html</link>
+      <guid>https://www.mc3.cloud/en/blog/welcome-new-site.html</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
       <description>Products by workload, services, support and online application: a tour of the new MC3 Cloud website.</description>
-    </item>
-    <item>
-      <title>Microsoft 365: Who Really Backs Up Your Data?</title>
-      <link>https://www.mc3.cloud/en/blog/microsoft-365-who-backs-up-your-data.html</link>
-      <guid>https://www.mc3.cloud/en/blog/microsoft-365-who-backs-up-your-data.html</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Microsoft keeps Microsoft 365 available. Learn how to choose between Keepit, Acronis and Dropsuite to protect your customers’ data.</description>
-    </item>
-    <item>
-      <title>Business Basic, Standard or Premium: how to guide your customers</title>
-      <link>https://www.mc3.cloud/en/blog/business-basic-standard-premium-guiding-your-customers.html</link>
-      <guid>https://www.mc3.cloud/en/blog/business-basic-standard-premium-guiding-your-customers.html</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Three Microsoft 365 plans for SMBs, built like a staircase: what changes from one to the next and how to talk about it.</description>
     </item>
   </channel>
 </rss>
