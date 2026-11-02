@@ -201,6 +201,21 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/welcome-new-site.html"/>
   </url>
   <url>
+    <loc>https://www.mc3.cloud/fr/mentions-legales/conditions-utilisation.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/legal/terms-of-use.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/mentions-legales/conditions-utilisation.html"/>
+  </url>
+  <url>
+    <loc>https://www.mc3.cloud/fr/mentions-legales/confidentialite.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/legal/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/mentions-legales/confidentialite.html"/>
+  </url>
+  <url>
+    <loc>https://www.mc3.cloud/fr/mentions-legales/cookies.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/legal/cookies.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/mentions-legales/cookies.html"/>
+  </url>
+  <url>
     <loc>https://www.mc3.cloud/en/</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/"/>
@@ -394,5 +409,20 @@
     <loc>https://www.mc3.cloud/en/blog/welcome-new-site.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/welcome-new-site.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/welcome-new-site.html"/>
+  </url>
+  <url>
+    <loc>https://www.mc3.cloud/en/legal/cookies.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/mentions-legales/cookies.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/legal/cookies.html"/>
+  </url>
+  <url>
+    <loc>https://www.mc3.cloud/en/legal/privacy-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/mentions-legales/confidentialite.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/legal/privacy-policy.html"/>
+  </url>
+  <url>
+    <loc>https://www.mc3.cloud/en/legal/terms-of-use.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/mentions-legales/conditions-utilisation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/legal/terms-of-use.html"/>
   </url>
 </urlset>
