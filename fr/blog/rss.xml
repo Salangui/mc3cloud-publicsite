@@ -7,6 +7,13 @@
     <language>fr-FR</language>
     <atom:link href="https://www.mc3.cloud/fr/blog/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Qu’est-ce que le Zero Trust, et pourquoi devient-il indispensable avec l’IA ?</title>
+      <link>https://www.mc3.cloud/fr/blog/zero-trust-ai-foundations.html</link>
+      <guid>https://www.mc3.cloud/fr/blog/zero-trust-ai-foundations.html</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Comprendre le Zero Trust, ses trois principes et les premières vérifications à mener avant de développer les usages de Copilot et des agents IA.</description>
+    </item>
+    <item>
       <title>Power BI : quel parcours choisir, d’Excel à Microsoft Fabric ?</title>
       <link>https://www.mc3.cloud/fr/blog/power-bi-excel-fabric-journey.html</link>
       <guid>https://www.mc3.cloud/fr/blog/power-bi-excel-fabric-journey.html</guid>
