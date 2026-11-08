@@ -1,0 +1,83 @@
+# MC3 Cloud
+
+> MC3 Cloud supports resellers, MSPs and integrators across Africa, the Indian Ocean and the Pacific with Microsoft CSP licensing, complementary cloud solutions, services and local support.
+
+## Products (FR)
+- https://www.mc3.cloud/fr/produits/microsoft-365.html: Proposez à vos clients les offres Microsoft 365 adaptées à leurs usages : applications, messagerie, collaboration et sécurité, avec l’appui de MC3 Cloud.
+- https://www.mc3.cloud/fr/produits/microsoft-azure.html: Proposez à vos clients une infrastructure cloud adaptée à leurs projets : serveurs, applications, sauvegarde et données, avec Microsoft Azure et l’accompagnement de MC3 Cloud.
+- https://www.mc3.cloud/fr/produits/dynamics-365.html: Proposez les applications CRM et ERP de Microsoft pour connecter les ventes, le service client, la finance et les opérations, avec des abonnements CSP via MC3 Cloud.
+- https://www.mc3.cloud/fr/produits/power-platform.html: Proposez des applications métiers, des automatisations et des tableaux de bord avec Microsoft Power Platform, en vous appuyant sur les services MC3 Cloud.
+- https://www.mc3.cloud/fr/produits/microsoft-security.html: Valorisez Microsoft 365 Business Premium avec Defender Suite et Purview Suite, puis étendez la protection avec Microsoft Defender XDR, Sentinel et Security Copilot.
+- https://www.mc3.cloud/fr/produits/microsoft-copilot.html: Microsoft 365 Copilot, agents IA, sécurité et développement : identifiez les solutions Microsoft adaptées aux usages de vos clients.
+- https://www.mc3.cloud/fr/produits/acronis.html: Développez vos services de sauvegarde, de cybersécurité et de gestion IT avec Acronis : protection des postes, serveurs et données SaaS depuis une plateforme multitenant.
+- https://www.mc3.cloud/fr/produits/keepit.html: Proposez une sauvegarde SaaS indépendante et immuable pour Microsoft 365 et les applications métiers de vos clients, avec restauration granulaire et sans infrastructure à gérer.
+- https://www.mc3.cloud/fr/produits/bittitan.html: Migrez les messageries, fichiers, données Teams et identités de vos clients avec BitTitan MigrationWiz, pour leurs projets Microsoft 365, Google Workspace et de consolidation de tenants.
+- https://www.mc3.cloud/fr/produits/wondershare.html: Proposez PDFelement, EdrawMax, EdrawMind et Filmora pour travailler les PDF, visualiser les processus, organiser les idées et créer des vidéos avec des fonctions IA.
+- https://www.mc3.cloud/fr/produits/crossware.html: Centralisez les signatures, mentions légales et campagnes e-mail de vos clients sur Microsoft 365, Google Workspace, Exchange et HCL Domino, avec une option de déploiement dans leur propre Azure.
+- https://www.mc3.cloud/fr/produits/bullwall.html: Ajoutez une couche de confinement automatisé contre les rançongiciels pour protéger les données de vos clients, compléter leur sécurité existante et préparer la reprise après incident.
+- https://www.mc3.cloud/fr/produits/dropsuite.html: Protégez les données Microsoft 365 et Google Workspace de vos clients et complétez la sauvegarde par un archivage des e-mails adapté aux besoins de conservation et de recherche.
+- https://www.mc3.cloud/fr/produits/microsoft-spla.html: Intégrez les logiciels Microsoft éligibles à vos services hébergés avec SPLA, le programme de licences mensuelles destiné aux hébergeurs, MSP et ISV.
+- https://www.mc3.cloud/fr/produits/microsoft-volume-licensing.html: Privilégiez CSP pour vos clients et réservez Open Value ou OVS aux besoins spécifiques : prévisibilité tarifaire sur 3 ans, Software Assurance ou Azure prépayé.
+
+## Services (FR)
+- https://www.mc3.cloud/fr/services/cloud-consulting-advisory.html: Du choix de l’architecture à la mise en service, nos équipes vous accompagnent pour déployer ou migrer les environnements de vos clients sur Microsoft Azure.
+- https://www.mc3.cloud/fr/services/power-bi-business-reporting.html: Étendez votre offre avec des tableaux de bord Power BI : consolidation des données, suivi des indicateurs métiers et automatisation du reporting, de la conception à la maintenance.
+- https://www.mc3.cloud/fr/services/identity-endpoint-management.html: Renforcez vos capacités de déploiement avec Microsoft Entra ID et Intune : sécurisation des accès, gestion des postes et mobiles, préparation des appareils et transfert de compétences.
+- https://www.mc3.cloud/fr/services/migration-services.html: Confiez à nos équipes les migrations vers Microsoft 365 et Azure, ou entre tenants Microsoft 365, selon le périmètre que vous définissez pour votre client.
+- https://www.mc3.cloud/fr/services/managed-services.html: Renforcez vos capacités d’exploitation : surveillance, sécurité, configuration et résolution de problèmes sur les environnements cloud de vos clients.
+- https://www.mc3.cloud/fr/services/microsoft-365-security-assessment.html: Identifiez les faiblesses de sécurité Microsoft 365 et disposez d’un plan d’action priorisé, à mettre en œuvre par votre équipe ou avec MC3 Cloud.
+- https://www.mc3.cloud/fr/services/backup-disaster-recovery.html: Sauvegarde des données SaaS, des serveurs et des postes, préparation de la reprise d’activité et assistance en cas d’incident avec votre équipe.
+- https://www.mc3.cloud/fr/services/power-platform-automation.html: Demandes de congés, validations, suivi des demandes, relances : automatisez les processus de vos clients avec Power Automate, Power Apps et SharePoint.
+- https://www.mc3.cloud/fr/services/defender-sentinel-deployment.html: Déployez les solutions de détection et de réponse Microsoft avec l’appui de nos équipes : configuration, intégration des sources de sécurité, tests et transfert à votre équipe.
+- https://www.mc3.cloud/fr/services/copilot-studio-agents.html: Concevez et déployez des agents IA connectés aux données et aux outils de vos clients, du cadrage au transfert à votre équipe.
+- https://www.mc3.cloud/fr/services/purview-data-protection-compliance.html: Accompagnez vos clients dans la protection de leurs données Microsoft 365 : classification, labels de sensibilité, prévention des fuites et règles de conservation, du cadrage au transfert de compétences.
+- https://www.mc3.cloud/fr/services/microsoft-cost-license-optimization.html: Aidez vos clients à mieux maîtriser leurs dépenses Microsoft 365 et Azure, du choix des licences à la mise en œuvre des optimisations.
+- https://www.mc3.cloud/fr/services/copilot-ai-readiness-adoption.html: Préparez l’environnement Microsoft 365 de vos clients et accompagnez leurs équipes dans l’usage de Copilot : audit, sécurisation et suivi de l’adoption pendant 30 jours ou plus.
+
+## Blog (FR)
+- https://www.mc3.cloud/fr/blog/zero-trust-ai-foundations.html: Comprendre le Zero Trust, ses trois principes et les premières vérifications à mener avant de développer les usages de Copilot et des agents IA.
+- https://www.mc3.cloud/fr/blog/power-bi-excel-fabric-journey.html: Comprendre comment passer d’Excel à Power BI, choisir la bonne licence et utiliser Microsoft Fabric et l’IA pour mieux exploiter ses données.
+- https://www.mc3.cloud/fr/blog/backup-microsoft-365.html: Microsoft assure la disponibilité de Microsoft 365. Découvrez comment choisir entre Keepit, Acronis et Dropsuite pour protéger vos données.
+- https://www.mc3.cloud/fr/blog/microsoft-365-business-plans.html: Comparez Microsoft 365 Business Basic, Standard et Premium, puis découvrez comment Defender, Purview et la gouvernance préparent l’adoption de Copilot.
+- https://www.mc3.cloud/fr/blog/microsoft-work-iq-copilot-work-context.html: Comprenez comment Work IQ aide Copilot à exploiter le contexte Microsoft 365, ses différences avec un connecteur, ses limites et son modèle de consommation.
+- https://www.mc3.cloud/fr/blog/welcome-new-site.html: Produits par workload, services, support et candidature en ligne : tour d’horizon du nouveau site MC3 Cloud.
+
+## Products (EN)
+- https://www.mc3.cloud/en/products/microsoft-365.html: Offer your customers Microsoft 365 plans that match their needs: apps, email, collaboration and security, with support from MC3 Cloud.
+- https://www.mc3.cloud/en/products/microsoft-azure.html: Offer your customers cloud infrastructure tailored to their projects: servers, applications, backup and data, with Microsoft Azure and support from MC3 Cloud.
+- https://www.mc3.cloud/en/products/dynamics-365.html: Offer Microsoft CRM and ERP applications to connect sales, customer service, finance and operations, with CSP subscriptions through MC3 Cloud.
+- https://www.mc3.cloud/en/products/power-platform.html: Offer business apps, process automation and dashboards with Microsoft Power Platform, supported by MC3 Cloud services.
+- https://www.mc3.cloud/en/products/microsoft-security.html: Extend Microsoft 365 Business Premium with Defender Suite and Purview Suite, then expand protection with Microsoft Defender XDR, Sentinel and Security Copilot.
+- https://www.mc3.cloud/en/products/microsoft-copilot.html: Microsoft 365 Copilot, AI agents, security and development: identify the Microsoft solutions that match your customers’ needs.
+- https://www.mc3.cloud/en/products/acronis.html: Build your backup, cybersecurity and IT management services with Acronis: protect workstations, servers and SaaS data through a multitenant platform.
+- https://www.mc3.cloud/en/products/keepit.html: Offer independent, immutable SaaS backup for your customers’ Microsoft 365 and business applications, with granular recovery and no backup infrastructure to manage.
+- https://www.mc3.cloud/en/products/bittitan.html: Migrate your customers’ email, files, Teams data and identities with BitTitan MigrationWiz for Microsoft 365, Google Workspace and tenant consolidation projects.
+- https://www.mc3.cloud/en/products/wondershare.html: Offer PDFelement, EdrawMax, EdrawMind and Filmora to help customers work with PDFs, visualise processes, organise ideas and create videos with AI-powered tools.
+- https://www.mc3.cloud/en/products/crossware.html: Centralise your customers’ email signatures, legal disclaimers and campaigns across Microsoft 365, Google Workspace, Exchange and HCL Domino, with an option to deploy in their own Azure environment.
+- https://www.mc3.cloud/en/products/bullwall.html: Add automated ransomware containment to protect your customers’ data, complement their existing security and prepare for recovery after an incident.
+- https://www.mc3.cloud/en/products/dropsuite.html: Protect your customers’ Microsoft 365 and Google Workspace data and complement backup with email archiving to address retention and discovery needs.
+- https://www.mc3.cloud/en/products/microsoft-spla.html: Build eligible Microsoft software into your hosted services with SPLA, the monthly licensing programme for hosting providers, MSPs and ISVs.
+- https://www.mc3.cloud/en/products/microsoft-volume-licensing.html: Prioritise CSP for your customers and consider Open Value or OVS for specific needs: three-year price predictability, Software Assurance or prepaid Azure.
+
+## Services (EN)
+- https://www.mc3.cloud/en/services/cloud-consulting-advisory.html: From architecture decisions to go-live, our teams help you deploy or migrate your customers’ environments on Microsoft Azure.
+- https://www.mc3.cloud/en/services/power-bi-business-reporting.html: Expand your offering with Power BI dashboards: bring data together, track business metrics and automate reporting, from initial design to ongoing maintenance.
+- https://www.mc3.cloud/en/services/identity-endpoint-management.html: Expand your deployment capabilities with Microsoft Entra ID and Intune: secure access, PC and mobile device management, device provisioning and knowledge transfer.
+- https://www.mc3.cloud/en/services/migration-services.html: Rely on our teams for migrations to Microsoft 365 and Azure, or between Microsoft 365 tenants, within the scope you define for your customer.
+- https://www.mc3.cloud/en/services/managed-services.html: Extend your operational capabilities with monitoring, security oversight, configuration management and troubleshooting across your customers’ cloud environments.
+- https://www.mc3.cloud/en/services/microsoft-365-security-assessment.html: Identify Microsoft 365 security gaps and get a prioritised action plan your team can implement, with optional delivery support from MC3 Cloud.
+- https://www.mc3.cloud/en/services/backup-disaster-recovery.html: Backup for SaaS data, servers and workstations, disaster recovery planning and implementation, and assistance alongside your team when incidents occur.
+- https://www.mc3.cloud/en/services/power-platform-automation.html: Leave requests, approvals, request tracking and reminders: automate your customers’ processes with Power Automate, Power Apps and SharePoint.
+- https://www.mc3.cloud/en/services/defender-sentinel-deployment.html: Deploy Microsoft threat detection and response solutions with our support, from configuration and security data integration to testing and handover to your team.
+- https://www.mc3.cloud/en/services/copilot-studio-agents.html: Build and deploy AI agents connected to your customers’ data and business applications, from scoping through to handover.
+- https://www.mc3.cloud/en/services/purview-data-protection-compliance.html: Help your customers protect their Microsoft 365 data through classification, sensitivity labels, data loss prevention and retention policies, from initial scoping to knowledge transfer.
+- https://www.mc3.cloud/en/services/microsoft-cost-license-optimization.html: Help your customers control Microsoft 365 and Azure spending, from selecting the right licenses to implementing cost-saving changes.
+- https://www.mc3.cloud/en/services/copilot-ai-readiness-adoption.html: Prepare your customers’ Microsoft 365 environments and help their teams adopt Copilot, with a tenant assessment, security improvements and adoption support for 30 days or more.
+
+## Blog (EN)
+- https://www.mc3.cloud/en/blog/zero-trust-ai-foundations.html: Understand the three principles of Zero Trust and the first checks to carry out before expanding the use of Copilot and AI agents.
+- https://www.mc3.cloud/en/blog/power-bi-excel-fabric-journey.html: Understand how to move from Excel to Power BI, choose the right licence, and use Microsoft Fabric and AI to make better use of data.
+- https://www.mc3.cloud/en/blog/backup-microsoft-365.html: Microsoft keeps Microsoft 365 available. Learn how to choose between Keepit, Acronis and Dropsuite to protect your customers’ data.
+- https://www.mc3.cloud/en/blog/microsoft-365-business-plans.html: Compare Microsoft 365 Business Basic, Standard and Premium, then see how Defender, Purview and data governance can prepare your organisation for Copilot.
+- https://www.mc3.cloud/en/blog/microsoft-work-iq-copilot-work-context.html: Understand how Work IQ helps Copilot use Microsoft 365 context, how it differs from a connector, its limitations and its consumption model.
+- https://www.mc3.cloud/en/blog/welcome-new-site.html: Products by workload, services, support and online application: a tour of the new MC3 Cloud website.
