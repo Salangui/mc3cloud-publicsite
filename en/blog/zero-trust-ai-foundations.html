@@ -122,21 +122,24 @@
 <p>The risk does not necessarily come from a sophisticated attack. Confidential information may simply be stored in a location accessible to too many people.</p>
 <p>Microsoft’s guidance on applying Zero Trust to Copilot describes several complementary layers: data protection, identities and access, applications, devices, threat protection, secure collaboration and least-privilege access to data.</p>
 <p>This highlights an important rule: <strong>the security of an environment never depends on a single control</strong>.</p>
-<h2>Why does AI make this more urgent?</h2>
-<p>Artificial intelligence does not necessarily create the permissions it uses. It relies on the identities, applications, data and access rights already present in the environment.</p>
-<p>However, AI can make information much easier to search, combine and summarise. A permission that was previously too broad but rarely noticed can become far more significant when AI makes the related content easier to discover.</p>
-<p>In his publications on generative AI, Seyfallah Tagrerout highlights several important areas, including oversharing in Microsoft 365 Copilot, agent identities and the knowledge sources used by AI systems.</p>
-<p><a href="https://fr.linkedin.com/posts/seyfallahtagrerout_zerotrust-microsoftsecurity-genai-activity-7464662995047141377-gKLm" target="_blank" rel="noopener noreferrer">Read Seyfallah Tagrerout’s publication on Zero Trust and generative AI<span class="sr-only"> (opens in a new tab)</span></a>.</p>
-<p>Existing security measures do not become obsolete with AI. They must, however, cover a broader scope:</p>
-<ul><li>the data an assistant can access;</li><li>the sources it can use;</li><li>the external content it processes;</li><li>the tools available to an agent;</li><li>the actions the agent can perform;</li><li>the decisions that must remain subject to human approval.</li></ul>
-<p>An assistant that can only prepare a summary does not create the same level of risk as an agent that can send a message, share a document or modify information.</p>
-<p>The question should not only be:</p>
-<blockquote><p><strong>Can the AI system perform this action?</strong></p></blockquote>
-<p>It should also be:</p>
-<blockquote><p><strong>Does it genuinely need this permission, and what level of control do we want to retain?</strong></p></blockquote>
-<p>Microsoft recommends building a strong security foundation before introducing Copilot. This includes protecting data, reviewing identity and access policies, securing applications and devices, managing threats and controlling data permissions.</p>
-<p>For further guidance, read the <a href="https://learn.microsoft.com/fr-fr/security/zero-trust/copilots/zero-trust-microsoft-365-copilot" target="_blank" rel="noopener noreferrer">Microsoft documentation on applying Zero Trust principles to Microsoft Copilot<span class="sr-only"> (opens in a new tab)</span></a>.</p>
-<p>This does not mean that a company must achieve perfect security before it can start experimenting. It does need to understand its existing access rights, identify its most significant gaps and adapt its controls to the intended use cases.</p>
+<h2>Why does AI make this approach more urgent?</h2>
+<p>Artificial intelligence does not necessarily create the permissions it uses. It relies on the identities, applications, data and access rights already present in the organisation’s environment.</p>
+<p>It can, however, make information much easier to find, combine and use. An overly broad permission that previously received little attention may become more significant when an assistant can quickly retrieve and summarise the corresponding content.</p>
+<p>Another risk is developing at the same time: <strong>shadow AI</strong>, meaning the use of artificial intelligence tools by employees without sufficient approval, visibility or control from the organisation.</p>
+<p>In an <a href="https://youtu.be/GZO4MKqDwW8" target="_blank" rel="noopener noreferrer">interview about Zero Trust and securing artificial intelligence<span class="sr-only"> (opens in a new tab)</span></a>, <a href="https://www.linkedin.com/in/seyfallahtagrerout/" target="_blank" rel="noopener noreferrer">Seyfallah Tagrerout<span class="sr-only"> (opens in a new tab)</span></a> explains that <strong>shadow AI</strong> cannot be brought under control through a simple ban or addressed within a few days. In his view, organisations need a progressive approach combining governance, identity protection, data classification, controlled usage and employee support.</p>
+<p>The objective is therefore not to prevent every use of AI. A general ban may instead encourage employees to use undeclared tools. The organisation should provide a framework that enables people to use AI without exposing sensitive information or bypassing corporate security rules.</p>
+<p>Before expanding Copilot or creating AI agents, the organisation should review:</p>
+<ul><li>the AI tools already being used by employees;</li><li>the data those tools can access;</li><li>how information is classified and protected;</li><li>the identities and permissions involved;</li><li>the knowledge sources available to assistants;</li><li>the tools and connectors available to agents;</li><li>the actions an agent is permitted to perform;</li><li>the decisions that should still require human approval.</li></ul>
+<p>Data classification is a critical foundation. An organisation cannot properly protect information if it cannot identify it, locate it or distinguish between different levels of sensitivity.</p>
+<p>An assistant that is only allowed to prepare a summary does not present the same level of risk as an agent that can send a message, share a document or modify information.</p>
+<p>The question should therefore not only be:</p>
+<blockquote><p><strong>Can the AI perform this action?</strong></p></blockquote>
+<p>It should also become:</p>
+<blockquote><p><strong>Which data can it use, is this permission necessary, and what level of control do we want to retain?</strong></p></blockquote>
+<p>Agents introduce an additional dimension. Each agent should be associated with an identifiable identity, an accountable owner, limited permissions and a controlled lifecycle, from creation through to the removal of its access when it is no longer needed.</p>
+<p>Microsoft recommends establishing a strong security foundation before introducing Copilot. This preparation includes data protection, identity and access policies, application and device security, threat protection and control over permissions to organisational data.</p>
+<p>For more details, see <a href="https://learn.microsoft.com/en-us/security/zero-trust/copilots/zero-trust-microsoft-365-copilot" target="_blank" rel="noopener noreferrer">Microsoft’s guidance on applying Zero Trust principles to Microsoft Copilot<span class="sr-only"> (opens in a new tab)</span></a>.</p>
+<p>This does not mean that an organisation must achieve perfect security before experimenting with AI. It should, however, begin by understanding current usage, identifying sensitive data, addressing its most significant gaps and defining rules that match the intended use cases.</p>
 <h2>Where should you start?</h2>
 <p>Zero Trust covers identities, devices, applications, data, cloud environments and security operations. Companies do not need to transform everything at once.</p>
 <p>A practical starting point is to focus on four areas.</p>
@@ -165,7 +168,7 @@
 <h2>ZeroTrust Days Copilot 2026 in the Indian Ocean</h2>
 <p>To explore these issues in more detail, MC3 Cloud is organising the <strong>ZeroTrust Days Copilot 2026</strong> across two locations:</p>
 <ul><li><strong>Wednesday, 9 December 2026</strong>, from <strong>1:30 p.m. to 5:00 p.m.</strong>, at the SFR Amphitheatre in Le Port, Réunion Island;</li><li><strong>Thursday, 10 December 2026</strong>, from <strong>2:30 p.m. to 6:00 p.m.</strong>, at the Hennessy Park Hotel in Cybercity, Trianon, Mauritius.</li></ul>
-<p>Seyfallah Tagrerout, Microsoft MVP Security and Microsoft Regional Director, will cover topics including:</p>
+<p><a href="https://www.linkedin.com/in/seyfallahtagrerout/" target="_blank" rel="noopener noreferrer"><strong>Seyfallah Tagrerout</strong><span class="sr-only"> (opens in a new tab)</span></a>, Microsoft MVP Security and Microsoft Regional Director, will cover topics including:</p>
 <ul><li>how Zero Trust is evolving in response to artificial intelligence;</li><li>the risks associated with generative AI;</li><li>the protection of sensitive data;</li><li>agent identities and permissions;</li><li>the role of Microsoft Entra ID;</li><li>practical approaches for moving from principles to implementation.</li></ul>
 <p>Attendance is free, subject to registration and availability.</p>
 <ul><li><a href="https://www.eventbrite.fr/e/ztdays-2026-tickets-2004211310983?aff=oddtdtcreator" target="_blank" rel="noopener noreferrer">Register for ZeroTrust Days Copilot 2026 in Réunion Island<span class="sr-only"> (opens in a new tab)</span></a></li><li><a href="https://forms.cloud.microsoft/r/BTzhFL1JiR" target="_blank" rel="noopener noreferrer">Register for ZeroTrust Days Copilot 2026 in Mauritius<span class="sr-only"> (opens in a new tab)</span></a></li></ul>
