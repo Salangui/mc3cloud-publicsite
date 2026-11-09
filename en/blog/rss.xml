@@ -7,6 +7,13 @@
     <language>en-GB</language>
     <atom:link href="https://www.mc3.cloud/en/blog/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot and AI agents: applying Zero Trust when AI can act</title>
+      <link>https://www.mc3.cloud/en/blog/zero-trust-ai-agents.html</link>
+      <guid>https://www.mc3.cloud/en/blog/zero-trust-ai-agents.html</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Learn how to control the identities, data, connectors and actions used by AI agents with Microsoft security solutions.</description>
+    </item>
+    <item>
       <title>What is Zero Trust, and why is it becoming essential in the age of AI?</title>
       <link>https://www.mc3.cloud/en/blog/zero-trust-ai-foundations.html</link>
       <guid>https://www.mc3.cloud/en/blog/zero-trust-ai-foundations.html</guid>

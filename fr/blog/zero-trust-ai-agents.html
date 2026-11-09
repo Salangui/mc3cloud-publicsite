@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sécuriser Copilot et les agents IA | MC3 Cloud</title>
+<meta name="description" content="Appliquez le Zero Trust aux agents IA avec Microsoft Entra, Purview, Defender, Copilot Studio et Agent 365.">
+<meta name="google-site-verification" content="ONvLJxoN8wDKcY-Kx3-ZeAl-Ab2Uuoh2uIHQGgIDhPI">
+<meta name="msvalidate.01" content="3F755853144D5C676190AF0E8E7B19F2">
+<link rel="canonical" href="https://www.mc3.cloud/fr/blog/zero-trust-ai-agents.html">
+<link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/zero-trust-ai-agents.html">
+<link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/zero-trust-ai-agents.html">
+<link rel="alternate" hreflang="x-default" href="https://www.mc3.cloud/en/blog/zero-trust-ai-agents.html">
+<link rel="alternate" type="application/rss+xml" title="Flux RSS — MC3 Cloud" href="https://www.mc3.cloud/fr/blog/rss.xml">
+<meta property="og:site_name" content="MC3 Cloud">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Sécuriser Copilot et les agents IA | MC3 Cloud">
+<meta property="og:description" content="Appliquez le Zero Trust aux agents IA avec Microsoft Entra, Purview, Defender, Copilot Studio et Agent 365.">
+<meta property="og:url" content="https://www.mc3.cloud/fr/blog/zero-trust-ai-agents.html">
+<meta property="og:image" content="https://www.mc3.cloud/assets/images/blog/zero-trust-ai-agents.webp">
+<meta property="og:image:alt" content="Équipe contrôlant les accès aux données et les actions réalisées par un agent IA">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:locale:alternate" content="en_GB">
+<meta property="article:published_time" content="2026-11-09T00:00:00.000Z">
+<meta property="article:modified_time" content="2026-11-09T00:00:00.000Z">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sécuriser Copilot et les agents IA | MC3 Cloud">
+<meta name="twitter:description" content="Appliquez le Zero Trust aux agents IA avec Microsoft Entra, Purview, Defender, Copilot Studio et Agent 365.">
+<meta name="twitter:image" content="https://www.mc3.cloud/assets/images/blog/zero-trust-ai-agents.webp">
+<link rel="icon" href="../../assets/icons/favicon.png" type="image/png">
+<meta name="theme-color" content="#071630">
+<link rel="stylesheet" href="../../assets/css/styles.css">
+<script>document.documentElement.classList.add('js');</script>
+<script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","zab9i3ui60");</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Copilot et agents IA : appliquer le Zero Trust quand l’IA agit","description":"Découvrez comment encadrer l’identité, les données, les connecteurs et les actions des agents IA avec les solutions de sécurité Microsoft.","image":"https://www.mc3.cloud/assets/images/blog/zero-trust-ai-agents.webp","datePublished":"2026-11-09T00:00:00.000Z","dateModified":"2026-11-09T00:00:00.000Z","inLanguage":"fr","mainEntityOfPage":"https://www.mc3.cloud/fr/blog/zero-trust-ai-agents.html","author":{"@type":"Person","name":"Aslam Gangat"},"publisher":{"@type":"Organization","name":"MC3 Cloud"}}</script>
+<script src="../../assets/js/main.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu principal</a>
+<header class="site-header" data-header>
+  <div class="container site-header__bar">
+    <a class="site-header__logo" href="../" aria-label="MC3 Cloud — retour à l’accueil"><span class="logo-slot logo-slot--brand" data-name="MC3 Cloud"><img src="../../assets/logos/mc3-cloud.webp" alt="Logo MC3 Cloud" height="40" decoding="async"></span></a>
+    <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+      <ul class="site-nav__list"><li><a class="site-nav__link" href="../">Accueil</a></li><li><a class="site-nav__link" href="../produits/">Produits</a></li><li><a class="site-nav__link" href="../services/">Services</a></li><li><a class="site-nav__link is-active" href="./" aria-current="page">Blog</a></li><li><a class="site-nav__link" href="../support-contact/">Support &amp; contact</a></li></ul>
+      <nav class="lang-switch lang-switch--panel" aria-label="Langue du site"><ul><li><a href="zero-trust-ai-agents.html" hreflang="fr" lang="fr" aria-current="true" aria-label="Français" class="lang-switch__link is-active">FR</a></li><li><a href="../../en/blog/zero-trust-ai-agents.html" hreflang="en" lang="en" aria-label="English" class="lang-switch__link">EN</a></li></ul></nav>
+    </nav>
+    <div class="site-header__actions">
+      <nav class="lang-switch lang-switch--bar" aria-label="Langue du site"><ul><li><a href="zero-trust-ai-agents.html" hreflang="fr" lang="fr" aria-current="true" aria-label="Français" class="lang-switch__link is-active">FR</a></li><li><a href="../../en/blog/zero-trust-ai-agents.html" hreflang="en" lang="en" aria-label="English" class="lang-switch__link">EN</a></li></ul></nav>
+      <a href="https://forms.office.com/r/JT7vhNrgDb" class="btn btn--primary btn--sm site-header__cta" target="_blank" rel="noopener noreferrer"><span class="label-long">Devenir partenaire</span><span class="label-short">Partenaire</span><svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17L17 7M8 7h9v9"></path></svg><span class="sr-only">(s’ouvre dans un nouvel onglet)</span></a>
+      <button type="button" class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Menu</span><svg class="icon menu-toggle__open" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"></path></svg><svg class="icon menu-toggle__close" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+    </div>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+
+  <section class="page-hero">
+  <div class="container page-hero__inner">
+    <nav class="breadcrumb" aria-label="Fil d’Ariane"><ol><li><a href="../">Accueil</a></li><li><a href="./">Blog</a></li><li><span aria-current="page">Copilot et agents IA : appliquer le Zero Trust quand l’IA agit</span></li></ol><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://www.mc3.cloud/fr/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.mc3.cloud/fr/blog/"},{"@type":"ListItem","position":3,"name":"Copilot et agents IA : appliquer le Zero Trust quand l’IA agit"}]}</script></nav>
+    <div class="page-hero__body">
+      <h1 class="page-hero__title">Copilot et agents IA : appliquer le Zero Trust quand l’IA agit</h1>
+      <p class="page-hero__intro">Découvrez comment encadrer l’identité, les données, les connecteurs et les actions des agents IA avec les solutions de sécurité Microsoft.</p>
+      <p class="post-meta"><span class="chip chip--on-dark">Cybersécurité</span><span>Par Aslam Gangat</span><time datetime="2026-11-09">9 novembre 2026</time></p>
+    </div>
+  </div>
+</section>
+  <section class="section">
+    <div class="container post">
+      <figure class="post__cover"><img src="../../assets/images/blog/zero-trust-ai-agents.webp" alt="Équipe contrôlant les accès aux données et les actions réalisées par un agent IA" width="1600" height="900"></figure>
+      <article class="prose prose--post">
+<p>Dans notre article consacré aux post:zero-trust-ai-foundations, nous avons présenté trois principes essentiels : vérifier explicitement, limiter les autorisations et réduire les conséquences d’un incident.</p>
+<p>Ces principes prennent une dimension supplémentaire lorsqu’une intelligence artificielle ne se contente plus de rechercher ou de résumer des informations. Un agent peut accéder à des ressources, utiliser des connecteurs et exécuter des actions dans l’environnement de l’entreprise.</p>
+<p>La question n’est donc plus seulement de savoir ce que l’intelligence artificielle peut consulter.</p>
+<blockquote><p><strong>Avec quelle identité l’agent agit-il, quelles données peut-il utiliser et jusqu’où peut-il aller sans intervention humaine ?</strong></p></blockquote>
+<h2>De l’assistant qui répond à l’agent qui agit</h2>
+<p>Microsoft 365 Copilot travaille principalement aux côtés de l’utilisateur. Il peut retrouver une information, résumer une réunion, analyser un document ou préparer un message.</p>
+<p>La personne conserve généralement la maîtrise de l’étape suivante. Copilot propose un résultat, mais l’utilisateur décide de le modifier, de l’envoyer ou de l’écarter.</p>
+<p>Un agent peut aller plus loin. Selon sa conception et les autorisations qui lui sont accordées, il peut :</p>
+<ul><li>recevoir un objectif ;</li><li>rechercher des informations dans plusieurs sources ;</li><li>utiliser un connecteur ou une API ;</li><li>créer ou modifier une information ;</li><li>déclencher un processus ;</li><li>envoyer une réponse ;</li><li>mettre à jour une application métier.</li></ul>
+<p>Microsoft décrit un agent comme une application capable de comprendre son environnement, de prendre des décisions et d’agir à l’aide des outils qui lui sont accessibles. Certains agents sont directement sollicités par un utilisateur. D’autres peuvent exécuter une partie de leur mission de manière autonome.</p>
+<p>La <a href="https://learn.microsoft.com/en-us/entra/agent-id/what-are-agent-identities" target="_blank" rel="noopener noreferrer">documentation Microsoft sur les identités des agents<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a> détaille cette évolution et les nouveaux besoins d’identification, d’autorisation et de gouvernance qui en découlent.</p>
+<p>Plus l’agent peut agir, plus les conséquences d’une permission excessive, d’une erreur ou d’un contenu malveillant peuvent être importantes.</p>
+<h2>Un cas concret : automatiser des demandes clients</h2>
+<p>Imaginons une entreprise qui souhaite créer un agent pour assister son service client.</p>
+<p>L’agent doit :</p>
+<ol><li>consulter une boîte aux lettres partagée ;</li><li>comprendre la demande reçue ;</li><li>rechercher une réponse dans SharePoint ;</li><li>préparer un message ;</li><li>proposer le document approprié ;</li><li>envoyer la réponse ;</li><li>mettre à jour le dossier client dans une application métier.</li></ol>
+<p>Ce processus semble simple. Pourtant, chacune de ses étapes soulève une question de sécurité.</p>
+<p>La boîte aux lettres peut contenir des informations confidentielles. Le document trouvé dans SharePoint peut ne pas être destiné au client. Un message entrant peut contenir une instruction cherchant à influencer l’agent. La mise à jour de l’application métier peut également modifier une information importante.</p>
+<p>Appliquer le Zero Trust consiste ici à contrôler quatre éléments :</p>
+<ul><li><strong>l’identité</strong> utilisée par l’agent ;</li><li><strong>les données</strong> auxquelles il peut accéder ;</li><li><strong>les outils et connecteurs</strong> qu’il peut appeler ;</li><li><strong>les actions</strong> qu’il peut exécuter.</li></ul>
+<h2>Donner une identité propre à chaque agent</h2>
+<p>Un agent ne devrait pas rester un composant technique anonyme. Il ne devrait pas non plus partager un compte avec un collaborateur, un administrateur ou plusieurs autres automatisations.</p>
+<p>Microsoft Entra Agent ID permet de représenter les agents dans Microsoft Entra ID avec des identités spécialisées. Chaque agent peut ainsi être distingué des utilisateurs humains et des applications traditionnelles.</p>
+<p>Une identité d’agent possède un identifiant unique. Elle peut être associée à un modèle réutilisable, appelé <em>agent identity blueprint</em>, qui définit un type d’agent et permet d’appliquer des politiques cohérentes à plusieurs instances.</p>
+<p>Elle peut également être associée à un sponsor humain chargé de rendre compte de la finalité de l’agent.</p>
+<p>La <a href="https://learn.microsoft.com/en-us/entra/agent-id/agent-identities" target="_blank" rel="noopener noreferrer">documentation Microsoft Entra Agent ID<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a> présente les composants de ces identités et leur fonctionnement.</p>
+<p>Cette identification permet de répondre à des questions essentielles :</p>
+<ul><li>Quel agent a accédé à cette ressource ?</li><li>Quelles permissions lui ont été attribuées ?</li><li>Qui est responsable de son utilisation ?</li><li>Quel utilisateur ou processus a déclenché l’action ?</li><li>Comment suspendre cet agent sans affecter les autres ?</li><li>Ses accès correspondent-ils toujours à un besoin réel ?</li></ul>
+<p>Dans notre exemple, l’agent du service client doit disposer de sa propre identité. Il ne doit pas réutiliser le compte d’un collaborateur.</p>
+<p>Deux responsabilités doivent être distinguées :</p>
+<ul><li>le <strong>sponsor métier</strong>, responsable du besoin auquel répond l’agent ;</li><li>le <strong>propriétaire technique</strong>, responsable de sa configuration, de sa sécurité et de son exploitation.</li></ul>
+<p>Si le sponsor quitte l’entreprise ou si le processus disparaît, l’organisation doit pouvoir réattribuer la responsabilité ou désactiver l’agent.</p>
+<p>Une identité distincte ne supprime pas tous les risques. Elle constitue néanmoins le point de départ nécessaire pour appliquer le moindre privilège, conserver une trace des activités et retirer proprement les accès.</p>
+<h2>Limiter les données accessibles</h2>
+<p>Un agent ne doit pas accéder à toutes les informations disponibles simplement parce qu’un accès large facilite son développement.</p>
+<p>L’agent de notre exemple a besoin :</p>
+<ul><li>de la boîte aux lettres du service client ;</li><li>d’un ensemble précis de documents approuvés ;</li><li>de certains champs dans l’application métier.</li></ul>
+<p>Il n’a probablement pas besoin de consulter les dossiers des ressources humaines, les contrats fournisseurs ou l’ensemble des sites SharePoint de l’entreprise.</p>
+<p>Cette limitation suppose que l’organisation sache où se trouvent ses informations sensibles, comment elles sont classifiées et qui peut actuellement y accéder.</p>
+<h3>Classifier les informations avec Microsoft Purview</h3>
+<p>Microsoft Purview Information Protection permet d’utiliser des étiquettes de confidentialité pour distinguer différents niveaux d’information, par exemple :</p>
+<ul><li>public ;</li><li>interne ;</li><li>confidentiel ;</li><li>strictement confidentiel.</li></ul>
+<p>Une étiquette peut être accompagnée de mesures de protection comme le chiffrement ou des restrictions d’utilisation.</p>
+<p>L’entreprise peut ainsi définir qu’un document classé « strictement confidentiel » ne doit jamais être joint automatiquement à une réponse externe.</p>
+<p>Microsoft 365 Copilot respecte les permissions existantes. Lorsque les informations sont protégées par des étiquettes de confidentialité et du chiffrement, des droits supplémentaires peuvent être nécessaires pour que le contenu soit utilisé dans une réponse.</p>
+<p>La <a href="https://learn.microsoft.com/fr-fr/purview/ai-microsoft-purview" target="_blank" rel="noopener noreferrer">documentation Microsoft Purview sur la protection des applications d’IA générative<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a> présente ces mécanismes ainsi que les prérequis à examiner.</p>
+<h3>Prévenir les pertes de données</h3>
+<p>Les stratégies Microsoft Purview Data Loss Prevention, ou DLP, permettent d’identifier certaines informations sensibles et de contrôler les actions correspondantes.</p>
+<p>Selon les licences et les emplacements concernés, une stratégie DLP peut :</p>
+<ul><li>détecter une donnée sensible ;</li><li>avertir l’utilisateur ;</li><li>demander une justification ;</li><li>bloquer une opération ;</li><li>enregistrer l’événement pour investigation.</li></ul>
+<p>Dans notre scénario, le contrôle ne doit pas porter uniquement sur le document trouvé dans SharePoint. Il doit aussi examiner le message préparé, la pièce jointe, le destinataire et le canal utilisé.</p>
+<h3>Identifier le partage excessif et les usages à risque</h3>
+<p>Microsoft Purview Data Security Posture Management offre une visibilité sur les risques liés aux données et aux usages de l’IA.</p>
+<p>Il peut notamment aider à identifier :</p>
+<ul><li>des données sensibles trop largement accessibles ;</li><li>des interactions avec des applications d’IA ;</li><li>des contenus sensibles utilisés dans des requêtes ou des réponses ;</li><li>des recommandations permettant de réduire l’exposition.</li></ul>
+<p>Microsoft Purview peut également fournir des événements d’audit sur les interactions avec Copilot et les applications d’IA prises en charge. Les invites, les réponses et les références aux fichiers consultés peuvent alimenter des activités d’audit et, selon les licences disponibles, des processus d’investigation ou de conformité.</p>
+<p>Aucun outil ne peut cependant remplacer une gouvernance inexistante. Si les permissions sont trop larges et si personne ne connaît la sensibilité des documents, l’organisation doit commencer par reprendre le contrôle de ses données.</p>
+<h2>Encadrer les connecteurs et les actions</h2>
+<p>Les agents créés dans Microsoft Copilot Studio peuvent utiliser des sources de connaissances, des connecteurs, des requêtes HTTP, des déclencheurs et différents outils.</p>
+<p>Toutes ces capacités ne doivent pas être accessibles de la même manière.</p>
+<p>Les stratégies de données du Centre d’administration Power Platform permettent notamment de contrôler :</p>
+<ul><li>l’authentification des créateurs et des utilisateurs ;</li><li>les sources de connaissances ;</li><li>les actions et connecteurs ;</li><li>les requêtes HTTP ;</li><li>les canaux de publication ;</li><li>les déclencheurs ;</li><li>certaines capacités autonomes.</li></ul>
+<p>La <a href="https://learn.microsoft.com/fr-fr/microsoft-copilot-studio/security-and-governance" target="_blank" rel="noopener noreferrer">documentation Microsoft sur la sécurité et la gouvernance de Copilot Studio<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a> présente également des fonctions comme l’analyse de sécurité avant publication, la visibilité sur les dépendances des connecteurs, les journaux d’audit et le routage des créateurs vers des environnements contrôlés.</p>
+<p>Une approche pratique consiste à séparer trois environnements :</p>
+<ol><li>un environnement d’expérimentation avec des données non sensibles ;</li><li>un environnement de validation avec des contrôles renforcés ;</li><li>un environnement de production limité aux sources et connecteurs approuvés.</li></ol>
+<p>Cette séparation réduit le risque qu’un prototype créé rapidement devienne un processus de production sans véritable revue de sécurité.</p>
+<h2>Décider ce que l’agent peut faire seul</h2>
+<p>Toutes les actions ne présentent pas le même niveau de risque.</p>
+<h3>Actions pouvant être automatisées</h3>
+<p>L’agent peut, par exemple :</p>
+<ul><li>classer une demande ;</li><li>identifier son sujet ;</li><li>rechercher une documentation approuvée ;</li><li>préparer un brouillon ;</li><li>proposer le document à joindre.</li></ul>
+<p>Ces actions génèrent un résultat intermédiaire, sans produire immédiatement un effet externe.</p>
+<h3>Actions nécessitant une validation</h3>
+<p>Une confirmation humaine peut être prévue avant de :</p>
+<ul><li>joindre un document confidentiel ;</li><li>envoyer un message à l’extérieur ;</li><li>modifier une donnée importante ;</li><li>changer le statut d’une demande ;</li><li>prendre un engagement au nom de l’entreprise.</li></ul>
+<p>Cette validation doit apporter un véritable contrôle. Elle ne doit pas se transformer en une fenêtre systématiquement acceptée sans vérification.</p>
+<h3>Actions qui doivent rester interdites</h3>
+<p>Certaines opérations peuvent être exclues du périmètre initial :</p>
+<ul><li>modifier des permissions ;</li><li>supprimer définitivement des données ;</li><li>utiliser un connecteur non approuvé ;</li><li>contacter un destinataire non vérifié ;</li><li>exécuter une transaction ;</li><li>consulter une source non validée.</li></ul>
+<p>Le but n’est pas de supprimer toute autonomie. Il est d’adapter le niveau d’autonomie aux conséquences possibles de l’action.</p>
+<h2>Protéger l’agent contre les contenus qu’il traite</h2>
+<p>Un agent ne reçoit pas seulement les instructions saisies par son utilisateur. Il peut aussi lire des e-mails, des documents, des pages web ou des données provenant d’applications externes.</p>
+<p>Un contenu peut renfermer une instruction destinée à influencer le comportement de l’IA. Ce risque est appelé <strong>injection indirecte d’instructions</strong>.</p>
+<p>Dans notre scénario, un message adressé au service client pourrait tenter d’inciter l’agent à ignorer son objectif initial, à rechercher une information sans rapport avec la demande ou à utiliser un outil inutile.</p>
+<p>Aucune protection isolée ne suffit. L’entreprise doit combiner :</p>
+<ul><li>l’analyse des contenus entrants ;</li><li>des permissions limitées ;</li><li>des sources de connaissances approuvées ;</li><li>des connecteurs contrôlés ;</li><li>une validation humaine pour les actions sensibles ;</li><li>une journalisation exploitable ;</li><li>la capacité de suspendre rapidement l’agent.</li></ul>
+<p>Le principe reste celui du Zero Trust : un contenu doit être considéré comme potentiellement non fiable, même lorsqu’il entre dans un processus apparemment ordinaire.</p>
+<h2>Choisir un niveau de protection adapté</h2>
+<p>La solution la plus avancée n’est pas automatiquement la plus pertinente. L’organisation doit partir de ses risques, de ses obligations et de sa capacité à exploiter les outils.</p>
+<h3>Microsoft 365 Business Premium pour les fondations</h3>
+<p>Pour une PME allant jusqu’à 300 utilisateurs, Microsoft 365 Business Premium fournit notamment :</p>
+<ul><li>Microsoft Entra ID Plan 1 pour les identités et l’accès conditionnel ;</li><li>Microsoft Intune Plan 1 pour la gestion et la conformité des appareils ;</li><li>Microsoft Defender for Business pour protéger les terminaux ;</li><li>Microsoft Defender for Office 365 Plan 1 pour les e-mails et les fichiers ;</li><li>des capacités Microsoft Purview de protection de l’information et de DLP.</li></ul>
+<p>La <a href="https://learn.microsoft.com/fr-fr/microsoft-365/admin/security-and-compliance/add-defender-suite-business-premium?view=o365-worldwide" target="_blank" rel="noopener noreferrer">documentation Microsoft sur les capacités de Business Premium<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a> présente ce socle et les extensions disponibles.</p>
+<p>Ces fonctions permettent de renforcer l’authentification, conditionner les accès, gérer les appareils, protéger les postes et commencer à classifier les informations.</p>
+<p>Une licence ne configure cependant rien automatiquement. Les politiques d’accès conditionnel, la conformité des appareils, les protections Defender et les stratégies DLP doivent être définies, testées et maintenues.</p>
+<h3>Microsoft Defender Suite pour mieux détecter et enquêter</h3>
+<p>Microsoft Defender Suite for Business Premium étend le socle avec :</p>
+<ul><li>Microsoft Entra ID Plan 2 ;</li><li>Microsoft Defender for Endpoint Plan 2 ;</li><li>Microsoft Defender for Identity ;</li><li>Microsoft Defender for Office 365 Plan 2 ;</li><li>Microsoft Defender for Cloud Apps ;</li><li>Microsoft Defender XDR.</li></ul>
+<p>Cette évolution devient pertinente lorsque l’entreprise souhaite détecter des usages d’IA non approuvés, corréler des signaux venant des identités, des postes et des e-mails, puis approfondir ses investigations.</p>
+<p>Microsoft Defender for Cloud Apps peut notamment contribuer à identifier des applications cloud non autorisées. Microsoft Defender XDR permet de regrouper plusieurs signaux dans un incident cohérent.</p>
+<p>L’entreprise doit toutefois définir qui examinera les alertes et comment les réponses seront engagées. Accumuler des alertes sans processus de traitement ne renforce pas réellement la sécurité.</p>
+<h3>Microsoft Purview Suite pour les données et la conformité</h3>
+<p>Microsoft Purview Suite devient pertinente lorsque les besoins dépassent la classification et la DLP de base.</p>
+<p>Elle peut renforcer :</p>
+<ul><li>la classification des données ;</li><li>la prévention des pertes sur plusieurs canaux ;</li><li>la gestion des risques internes ;</li><li>l’audit ;</li><li>l’eDiscovery ;</li><li>la conformité des communications ;</li><li>la conservation des interactions avec l’IA ;</li><li>la visibilité sur les risques liés aux données et aux agents.</li></ul>
+<p>Ce niveau est particulièrement utile lorsque Copilot ou les agents utilisent de nombreuses sources internes, lorsque des obligations réglementaires s’appliquent ou lorsque l’organisation traite régulièrement des informations personnelles, financières ou contractuelles.</p>
+<p>La progression n’est pas nécessairement Business Premium, puis Defender, puis Purview. Une entreprise peut avoir un besoin avancé en matière de données sans disposer d’un centre opérationnel de sécurité étendu.</p>
+<p>Le choix doit suivre le risque réel.</p>
+<h2>Gouverner les agents à l’échelle avec Microsoft Agent 365</h2>
+<p>Lorsque plusieurs équipes créent des agents sur différentes plateformes, un inventaire central devient nécessaire.</p>
+<p>Microsoft Agent 365 fournit un plan de contrôle centralisé pour découvrir, gérer, gouverner et sécuriser les agents Microsoft et tiers.</p>
+<p>La <a href="https://learn.microsoft.com/fr-fr/office365/servicedescriptions/microsoft-agent-365/microsoft-agent-365" target="_blank" rel="noopener noreferrer">description officielle de Microsoft Agent 365<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a> distingue deux niveaux.</p>
+<p>Certaines fonctions de base sont disponibles avec plusieurs plans Microsoft 365 :</p>
+<ul><li>inventaire des agents ;</li><li>publication et approbation ;</li><li>blocage ou suppression ;</li><li>affectation aux utilisateurs et groupes ;</li><li>réattribution du propriétaire ;</li><li>automatisation de certaines actions de cycle de vie.</li></ul>
+<p>Les fonctions avancées nécessitent Microsoft Agent 365 ou Microsoft 365 E7. Elles comprennent notamment :</p>
+<ul><li>l’observabilité et le suivi détaillé des activités ;</li><li>les modèles de politiques centralisées ;</li><li>le contrôle des outils accessibles ;</li><li>les packages d’accès pour limiter les permissions ;</li><li>les politiques de cycle de vie pilotées par les sponsors ;</li><li>l’extension de l’accès conditionnel aux agents ;</li><li>l’audit et l’eDiscovery des interactions ;</li><li>la DLP appliquée aux contenus consultés ou partagés ;</li><li>la détection des activités suspectes ;</li><li>l’intégration avec Microsoft Defender, Purview, Entra et Intune.</li></ul>
+<p>Microsoft 365 E7 regroupe Microsoft 365 E5, Microsoft 365 Copilot, Microsoft Entra Suite et Microsoft Agent 365. Ce positionnement peut correspondre aux organisations qui souhaitent déployer Copilot et de nombreux agents à l’échelle.</p>
+<p>Ce n’est pas une destination obligatoire. Pour de nombreuses PME, Business Premium complété par des capacités ciblées reste plus proportionné.</p>
+<h2>Préparer la fin de vie de l’agent</h2>
+<p>Un agent correctement sécurisé lors de son lancement peut devenir risqué avec le temps.</p>
+<p>Son propriétaire peut changer. Une nouvelle source peut être ajoutée. Ses permissions peuvent s’élargir. Son cas d’usage peut disparaître sans que l’agent soit désactivé.</p>
+<p>La gouvernance doit couvrir tout son cycle de vie :</p>
+<ol><li>définir le besoin et les responsabilités ;</li><li>créer une identité distincte ;</li><li>limiter les permissions ;</li><li>valider les données et les outils ;</li><li>tester le comportement ;</li><li>surveiller les activités ;</li><li>réviser régulièrement les accès ;</li><li>désactiver l’agent et retirer ses permissions lorsque le besoin disparaît.</li></ol>
+<p>Un agent sans sponsor, sans propriétaire ou sans utilisation vérifiée doit être traité comme tout autre accès devenu injustifié.</p>
+<h2>Quatorze questions avant de déployer un agent</h2>
+<ol><li>Quel problème métier l’agent doit-il résoudre ?</li><li>Qui est son sponsor métier ?</li><li>Qui en assure l’administration technique ?</li><li>Possède-t-il sa propre identité ?</li><li>Quelles données peut-il consulter ?</li><li>Les informations sensibles sont-elles identifiées ?</li><li>Quels connecteurs et outils peut-il utiliser ?</li><li>Quelles actions peut-il exécuter seul ?</li><li>Quelles actions nécessitent une validation humaine ?</li><li>Comment ses activités seront-elles journalisées ?</li><li>Qui examinera les alertes ?</li><li>Comment suspendre rapidement l’agent ?</li><li>À quelle fréquence ses permissions seront-elles révisées ?</li><li>Comment ses accès seront-ils retirés à la fin du projet ?</li></ol>
+<p>Si plusieurs réponses restent imprécises, le projet ne doit pas nécessairement être abandonné. Son périmètre peut être réduit : moins de données, moins de connecteurs, moins d’actions ou davantage de validation humaine.</p>
+<p>Une service:microsoft-365-security-assessment menée par MC3 Cloud peut aider à examiner les identités, les permissions, les appareils, les partages et les protections déjà en place avant d’étendre l’usage de Copilot ou des agents.</p>
+<h2>Approfondir le sujet lors des événements de décembre</h2>
+<p>MC3 Cloud organise les <strong>ZeroTrust Days Copilot 2026</strong> dans deux territoires :</p>
+<ul><li>le <strong>9 décembre 2026 à La Réunion</strong>, à l’Amphithéâtre SFR au Port ;</li><li>le <strong>10 décembre 2026 à Maurice</strong>, au Hennessy Park Hotel à Cybercity Trianon.</li></ul>
+<p>Seyfallah Tagrerout, Microsoft MVP Security et Microsoft Regional Director, interviendra sur les risques liés à l’IA générative, la protection des données sensibles, les identités des agents, leurs permissions et le rôle de Microsoft Entra ID. Des démonstrations permettront de relier ces principes à des situations concrètes.</p>
+<ul><li><a href="https://www.eventbrite.fr/e/ztdays-2026-tickets-2004211310983?aff=oddtdtcreator" target="_blank" rel="noopener noreferrer">S’inscrire à l’édition de La Réunion<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a></li><li><a href="https://forms.cloud.microsoft/r/BTzhFL1JiR" target="_blank" rel="noopener noreferrer">S’inscrire à l’édition de Maurice<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a></li></ul>
+<p>Le <strong>22 décembre 2026</strong>, MC3 Cloud organisera également une table ronde stratégique au <strong>Labourdonnais Waterfront Hotel à Maurice</strong>, avec une participation à distance via Microsoft Teams.</p>
+<p>Patrick Beeharry, Vice President of Strategy &amp; Operations for the Microsoft Security Division, partagera la vision de Microsoft sur la sécurité, l’IA, la gouvernance des données et les priorités à anticiper.</p>
+<p>Cette session non technique s’adresse aux dirigeants, CIO, CISO et décideurs IT. Elle permettra de prolonger la réflexion au-delà des contrôles techniques : gouvernance, responsabilités, investissements et préparation de l’entreprise à une adoption plus large de l’IA.</p>
+<p>Les places seront limitées afin de privilégier les échanges. Pour participer, contactez votre interlocuteur commercial MC3 Cloud.</p>
+<h2>Dans le prochain article : transformer les contrôles en décisions d’entreprise</h2>
+<p>Donner une identité aux agents, limiter leurs permissions et protéger les données fournit une base technique.</p>
+<p>Ces contrôles ne répondent cependant pas seuls aux questions stratégiques :</p>
+<ul><li>Quels usages l’entreprise souhaite-t-elle autoriser ?</li><li>Quel niveau de risque accepte-t-elle ?</li><li>Quelles décisions doivent rester humaines ?</li><li>Qui assume la responsabilité d’un agent ?</li><li>Quels investissements sont réellement nécessaires ?</li><li>À quelles conditions un pilote peut-il être généralisé ?</li></ul>
+<p>Le troisième article de cette série examinera comment transformer le Zero Trust en une stratégie d’entreprise permettant d’adopter l’IA sans opposer innovation et sécurité.</p>
+      </article>
+      <div class="post__tags"><h2 class="sr-only">Mots-clés</h2><ul class="chip-row"><li class="chip">Zero Trust</li><li class="chip">Agents IA</li><li class="chip">Microsoft Copilot</li><li class="chip">Microsoft Entra</li><li class="chip">Cybersécurité</li></ul></div>
+    </div>
+  </section>
+  <section class="section section--tint" aria-labelledby="related-title">
+    <div class="container">
+      <h2 id="related-title" class="section-header__title" style="margin-bottom:2rem">À lire aussi</h2>
+      <ul class="grid-cards"><li><article class="card blog-card" data-reveal>
+  <div class="blog-card__media"><img src="../../assets/images/blog/zero-trust-ai-foundations.webp" alt="Professionnels observant un parcours de contrôle reliant identité, appareil, cloud, données et intelligence artificielle" width="1600" height="900" loading="lazy" decoding="async"></div>
+  <div class="blog-card__body">
+    <p class="blog-card__meta"><span class="chip chip--accent">Cybersécurité</span><time datetime="2026-11-06">6 novembre 2026</time></p>
+    <h3 class="blog-card__title"><a class="stretched-link" href="zero-trust-ai-foundations.html">Qu’est-ce que le Zero Trust, et pourquoi devient-il indispensable avec l’IA ?</a></h3>
+    <p class="blog-card__text">Comprendre le Zero Trust, ses trois principes et les premières vérifications à mener avant de développer les usages de Copilot et des agents IA.</p>
+  </div>
+</article></li>
+<li><article class="card blog-card" data-reveal>
+  <div class="blog-card__media"><img src="../../assets/images/blog/microsoftbi.webp" alt="Un espace de travail illustrant le passage du reporting Excel à Power BI et Microsoft Fabric" width="1600" height="900" loading="lazy" decoding="async"></div>
+  <div class="blog-card__body">
+    <p class="blog-card__meta"><span class="chip chip--accent">Microsoft Azure</span><span class="chip chip--solid">À la une</span><time datetime="2026-11-02">2 novembre 2026</time></p>
+    <h3 class="blog-card__title"><a class="stretched-link" href="power-bi-excel-fabric-journey.html">Power BI : quel parcours choisir, d’Excel à Microsoft Fabric ?</a></h3>
+    <p class="blog-card__text">Comprendre comment passer d’Excel à Power BI, choisir la bonne licence et utiliser Microsoft Fabric et l’IA pour mieux exploiter ses données.</p>
+  </div>
+</article></li>
+<li><article class="card blog-card" data-reveal>
+  <div class="blog-card__media"><img src="../../assets/images/blog/backup-m365.webp" alt="Données Microsoft 365 transférées vers un coffre de sauvegarde sécurisé" width="1600" height="900" loading="lazy" decoding="async"></div>
+  <div class="blog-card__body">
+    <p class="blog-card__meta"><span class="chip chip--accent">Sauvegarde</span><span class="chip chip--solid">À la une</span><time datetime="2026-10-29">29 octobre 2026</time></p>
+    <h3 class="blog-card__title"><a class="stretched-link" href="backup-microsoft-365.html">Microsoft 365 : qui sauvegarde réellement vos données ?</a></h3>
+    <p class="blog-card__text">Microsoft assure la disponibilité de Microsoft 365. Découvrez comment choisir entre Keepit, Acronis et Dropsuite pour protéger vos données.</p>
+  </div>
+</article></li></ul>
+    </div>
+  </section>
+  <section class="cta-band" aria-labelledby="cta-title">
+  <div class="container cta-band__inner">
+    <div class="cta-band__copy" data-reveal>
+      <h2 id="cta-title" class="cta-band__title">Rejoignez le réseau de partenaires MC3 Cloud</h2>
+      <p class="cta-band__text">Revendeur, MSP, intégrateur ou société IT ? Déposez votre candidature en ligne. Notre équipe revient vers vous après examen de votre dossier.</p>
+      <div class="cta-band__actions">
+        <a href="https://forms.office.com/r/JT7vhNrgDb" class="btn btn--primary btn--lg" target="_blank" rel="noopener noreferrer"><span>Devenir partenaire</span><svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17L17 7M8 7h9v9"></path></svg><span class="sr-only">(s’ouvre dans un nouvel onglet)</span></a>
+        <a class="btn btn--ghost-light btn--lg" href="../devenir-partenaire/">Comment ça marche</a>
+      </div>
+    </div>
+    
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container site-footer__grid">
+    <div class="site-footer__brand">
+      <a href="../" class="site-footer__logo" aria-label="MC3 Cloud — retour à l’accueil"><span class="logo-slot logo-slot--brand" data-name="MC3 Cloud"><img src="../../assets/logos/mc3-cloud.webp" alt="Logo MC3 Cloud" height="40" decoding="async"></span></a>
+      <p>Distributeur cloud à valeur ajoutée pour les revendeurs et MSP d’Afrique, de l’océan Indien et du Pacifique.</p>
+      <a href="https://forms.office.com/r/JT7vhNrgDb" class="btn btn--primary btn--md" target="_blank" rel="noopener noreferrer"><span>Devenir partenaire</span><svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17L17 7M8 7h9v9"></path></svg><span class="sr-only">(s’ouvre dans un nouvel onglet)</span></a>
+    </div>
+    <nav aria-label="Navigation du pied de page" class="site-footer__col">
+      <h2 class="site-footer__title">Explorer</h2>
+      <ul><li><a href="../">Accueil</a></li><li><a href="../produits/">Produits</a></li><li><a href="../services/">Services</a></li><li><a href="./">Blog</a></li><li><a href="../support-contact/">Support &amp; contact</a></li><li><a href="../devenir-partenaire/">Devenir partenaire</a></li><li><a href="rss.xml"><svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 5a14 14 0 0 1 14 14M5 11a8 8 0 0 1 8 8M6 19h.01"></path></svg> Flux RSS</a></li></ul>
+    </nav>
+    <div class="site-footer__col">
+      <h2 class="site-footer__title">Contact</h2>
+      <ul>
+        <li><a href="mailto:support_csp@mc3.cloud">support_csp@mc3.cloud</a></li>
+        <li><a href="mailto:sales@mc3.cloud">sales@mc3.cloud</a></li>
+        <li><a href="https://wecacsp.mc3.cloud/" target="_blank" rel="noopener noreferrer">Ouvrir la marketplace<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a></li>
+      </ul>
+      <address class="site-footer__address">MC3 Cloud<br>Office Lot 01, Level 2, Centre Commercial Emerald Park<br>Trianon, Mauritius</address>
+    </div>
+    <div class="site-footer__col">
+      <h2 class="site-footer__title">Langue</h2>
+      <nav class="lang-switch lang-switch--on-dark" aria-label="Langue du site"><ul><li><a href="zero-trust-ai-agents.html" hreflang="fr" lang="fr" aria-current="true" aria-label="Français" class="lang-switch__link is-active">FR</a></li><li><a href="../../en/blog/zero-trust-ai-agents.html" hreflang="en" lang="en" aria-label="English" class="lang-switch__link">EN</a></li></ul></nav>
+      <h2 class="site-footer__title site-footer__title--spaced">Suivez-nous</h2><ul><li><a href="https://www.linkedin.com/showcase/mc3cloud/" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a></li><li><a href="https://www.facebook.com/OfficialMC3Cloud" target="_blank" rel="noopener noreferrer">Facebook<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a></li></ul>
+    </div>
+  </div>
+  <div class="container site-footer__legal">
+    <p>© 2026 MC3 Cloud Ltd. Tous droits réservés.</p>
+    <ul><li><a href="https://aka.mc3.fr/termsmc3cloud/" target="_blank" rel="noopener noreferrer">Conditions de vente<span class="sr-only"> (s’ouvre dans un nouvel onglet)</span></a></li><li><a href="../mentions-legales/confidentialite.html">Politique de confidentialité</a></li><li><a href="../mentions-legales/cookies.html">Cookies et mesure d’audience</a></li><li><a href="../mentions-legales/conditions-utilisation.html">Conditions d’utilisation du site</a></li></ul>
+  </div>
+</footer>
+<script type='module' src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;:&quot;913776222aa74f6187ac09f2d2cb0639&quot;}"></script>
+</body>
+</html>

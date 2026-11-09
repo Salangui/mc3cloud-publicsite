@@ -7,6 +7,13 @@
     <language>fr-FR</language>
     <atom:link href="https://www.mc3.cloud/fr/blog/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Copilot et agents IA : appliquer le Zero Trust quand l’IA agit</title>
+      <link>https://www.mc3.cloud/fr/blog/zero-trust-ai-agents.html</link>
+      <guid>https://www.mc3.cloud/fr/blog/zero-trust-ai-agents.html</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Découvrez comment encadrer l’identité, les données, les connecteurs et les actions des agents IA avec les solutions de sécurité Microsoft.</description>
+    </item>
+    <item>
       <title>Qu’est-ce que le Zero Trust, et pourquoi devient-il indispensable avec l’IA ?</title>
       <link>https://www.mc3.cloud/fr/blog/zero-trust-ai-foundations.html</link>
       <guid>https://www.mc3.cloud/fr/blog/zero-trust-ai-foundations.html</guid>

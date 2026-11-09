@@ -196,6 +196,11 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/welcome-new-site.html"/>
   </url>
   <url>
+    <loc>https://www.mc3.cloud/fr/blog/zero-trust-ai-agents.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/zero-trust-ai-agents.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/zero-trust-ai-agents.html"/>
+  </url>
+  <url>
     <loc>https://www.mc3.cloud/fr/blog/zero-trust-ai-foundations.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/zero-trust-ai-foundations.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/zero-trust-ai-foundations.html"/>
@@ -409,6 +414,11 @@
     <loc>https://www.mc3.cloud/en/blog/welcome-new-site.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/welcome-new-site.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/welcome-new-site.html"/>
+  </url>
+  <url>
+    <loc>https://www.mc3.cloud/en/blog/zero-trust-ai-agents.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/zero-trust-ai-agents.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/zero-trust-ai-agents.html"/>
   </url>
   <url>
     <loc>https://www.mc3.cloud/en/blog/zero-trust-ai-foundations.html</loc>

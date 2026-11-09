@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Securing Copilot and AI agents | MC3 Cloud</title>
+<meta name="description" content="Apply Zero Trust to AI agents with Microsoft Entra, Purview, Defender, Copilot Studio and Agent 365.">
+<meta name="google-site-verification" content="ONvLJxoN8wDKcY-Kx3-ZeAl-Ab2Uuoh2uIHQGgIDhPI">
+<meta name="msvalidate.01" content="3F755853144D5C676190AF0E8E7B19F2">
+<link rel="canonical" href="https://www.mc3.cloud/en/blog/zero-trust-ai-agents.html">
+<link rel="alternate" hreflang="fr" href="https://www.mc3.cloud/fr/blog/zero-trust-ai-agents.html">
+<link rel="alternate" hreflang="en" href="https://www.mc3.cloud/en/blog/zero-trust-ai-agents.html">
+<link rel="alternate" hreflang="x-default" href="https://www.mc3.cloud/en/blog/zero-trust-ai-agents.html">
+<link rel="alternate" type="application/rss+xml" title="RSS feed — MC3 Cloud" href="https://www.mc3.cloud/en/blog/rss.xml">
+<meta property="og:site_name" content="MC3 Cloud">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Securing Copilot and AI agents | MC3 Cloud">
+<meta property="og:description" content="Apply Zero Trust to AI agents with Microsoft Entra, Purview, Defender, Copilot Studio and Agent 365.">
+<meta property="og:url" content="https://www.mc3.cloud/en/blog/zero-trust-ai-agents.html">
+<meta property="og:image" content="https://www.mc3.cloud/assets/images/blog/zero-trust-ai-agents.webp">
+<meta property="og:image:alt" content="Team reviewing the data access and actions of an AI agent">
+<meta property="og:locale" content="en_GB">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="article:published_time" content="2026-11-09T00:00:00.000Z">
+<meta property="article:modified_time" content="2026-11-09T00:00:00.000Z">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Securing Copilot and AI agents | MC3 Cloud">
+<meta name="twitter:description" content="Apply Zero Trust to AI agents with Microsoft Entra, Purview, Defender, Copilot Studio and Agent 365.">
+<meta name="twitter:image" content="https://www.mc3.cloud/assets/images/blog/zero-trust-ai-agents.webp">
+<link rel="icon" href="../../assets/icons/favicon.png" type="image/png">
+<meta name="theme-color" content="#071630">
+<link rel="stylesheet" href="../../assets/css/styles.css">
+<script>document.documentElement.classList.add('js');</script>
+<script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","zab9i3ui60");</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Copilot and AI agents: applying Zero Trust when AI can act","description":"Learn how to control the identities, data, connectors and actions used by AI agents with Microsoft security solutions.","image":"https://www.mc3.cloud/assets/images/blog/zero-trust-ai-agents.webp","datePublished":"2026-11-09T00:00:00.000Z","dateModified":"2026-11-09T00:00:00.000Z","inLanguage":"en","mainEntityOfPage":"https://www.mc3.cloud/en/blog/zero-trust-ai-agents.html","author":{"@type":"Person","name":"Aslam Gangat"},"publisher":{"@type":"Organization","name":"MC3 Cloud"}}</script>
+<script src="../../assets/js/main.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header" data-header>
+  <div class="container site-header__bar">
+    <a class="site-header__logo" href="../" aria-label="MC3 Cloud — back to home"><span class="logo-slot logo-slot--brand" data-name="MC3 Cloud"><img src="../../assets/logos/mc3-cloud.webp" alt="Logo MC3 Cloud" height="40" decoding="async"></span></a>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <ul class="site-nav__list"><li><a class="site-nav__link" href="../">Home</a></li><li><a class="site-nav__link" href="../products/">Products</a></li><li><a class="site-nav__link" href="../services/">Services</a></li><li><a class="site-nav__link is-active" href="./" aria-current="page">Blog</a></li><li><a class="site-nav__link" href="../support-contact/">Support &amp; contact</a></li></ul>
+      <nav class="lang-switch lang-switch--panel" aria-label="Site language"><ul><li><a href="../../fr/blog/zero-trust-ai-agents.html" hreflang="fr" lang="fr" aria-label="Français" class="lang-switch__link">FR</a></li><li><a href="zero-trust-ai-agents.html" hreflang="en" lang="en" aria-current="true" aria-label="English" class="lang-switch__link is-active">EN</a></li></ul></nav>
+    </nav>
+    <div class="site-header__actions">
+      <nav class="lang-switch lang-switch--bar" aria-label="Site language"><ul><li><a href="../../fr/blog/zero-trust-ai-agents.html" hreflang="fr" lang="fr" aria-label="Français" class="lang-switch__link">FR</a></li><li><a href="zero-trust-ai-agents.html" hreflang="en" lang="en" aria-current="true" aria-label="English" class="lang-switch__link is-active">EN</a></li></ul></nav>
+      <a href="https://forms.office.com/r/5kyv4tEap2" class="btn btn--primary btn--sm site-header__cta" target="_blank" rel="noopener noreferrer"><span class="label-long">Become a partner</span><span class="label-short">Partner</span><svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17L17 7M8 7h9v9"></path></svg><span class="sr-only">(opens in a new tab)</span></a>
+      <button type="button" class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Menu</span><svg class="icon menu-toggle__open" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"></path></svg><svg class="icon menu-toggle__close" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+    </div>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+
+  <section class="page-hero">
+  <div class="container page-hero__inner">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="../">Home</a></li><li><a href="./">Blog</a></li><li><span aria-current="page">Copilot and AI agents: applying Zero Trust when AI can act</span></li></ol><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.mc3.cloud/en/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.mc3.cloud/en/blog/"},{"@type":"ListItem","position":3,"name":"Copilot and AI agents: applying Zero Trust when AI can act"}]}</script></nav>
+    <div class="page-hero__body">
+      <h1 class="page-hero__title">Copilot and AI agents: applying Zero Trust when AI can act</h1>
+      <p class="page-hero__intro">Learn how to control the identities, data, connectors and actions used by AI agents with Microsoft security solutions.</p>
+      <p class="post-meta"><span class="chip chip--on-dark">Cybersecurity</span><span>By Aslam Gangat</span><time datetime="2026-11-09">9 November 2026</time></p>
+    </div>
+  </div>
+</section>
+  <section class="section">
+    <div class="container post">
+      <figure class="post__cover"><img src="../../assets/images/blog/zero-trust-ai-agents.webp" alt="Team reviewing the data access and actions of an AI agent" width="1600" height="900"></figure>
+      <article class="prose prose--post">
+<p>In our previous article on post:zero-trust-ai-foundations, we introduced three core Zero Trust principles: verify explicitly, use least-privilege access and limit the potential impact of an incident.</p>
+<p>These principles take on a new dimension when artificial intelligence moves beyond searching for or summarising information. An agent can access business resources, use connectors and perform actions within the organisation’s environment.</p>
+<p>The question is therefore no longer limited to what the AI can read.</p>
+<blockquote><p><strong>Which identity is the agent using, which data can it access, and how far can it go without human intervention?</strong></p></blockquote>
+<h2>From an assistant that responds to an agent that acts</h2>
+<p>Microsoft 365 Copilot primarily works alongside the user. It can retrieve information, summarise a meeting, analyse a document or prepare a message.</p>
+<p>The user usually remains in control of the next step. Copilot proposes an output, but the user decides whether to change it, send it or reject it.</p>
+<p>An agent can go further. Depending on its design and permissions, it can:</p>
+<ul><li>receive an objective;</li><li>search across several information sources;</li><li>use a connector or API;</li><li>create or update information;</li><li>trigger a process;</li><li>send a response;</li><li>update a business application.</li></ul>
+<p>Microsoft describes an agent as an application that can understand its environment, make decisions and act through the tools available to it. Some agents are directly invoked by a user. Others can perform part of their work autonomously.</p>
+<p><a href="https://learn.microsoft.com/en-us/entra/agent-id/what-are-agent-identities" target="_blank" rel="noopener noreferrer">Microsoft’s documentation on agent identities<span class="sr-only"> (opens in a new tab)</span></a> explains this shift and the resulting requirements for identity, authorisation and governance.</p>
+<p>The more an agent is allowed to do, the greater the potential impact of excessive permissions, an error or malicious content.</p>
+<h2>A practical example: automating customer requests</h2>
+<p>Consider a company that wants to create an agent to support its customer service team.</p>
+<p>The agent needs to:</p>
+<ol><li>read messages from a shared mailbox;</li><li>understand the incoming request;</li><li>find an answer in SharePoint;</li><li>prepare a reply;</li><li>suggest the appropriate document;</li><li>send the response;</li><li>update the customer record in a business application.</li></ol>
+<p>The process appears straightforward, but every step raises a security question.</p>
+<p>The shared mailbox may contain confidential information. The document found in SharePoint may not be suitable for the customer. An incoming message may include an instruction designed to influence the agent. Updating the business application may also change important data.</p>
+<p>Applying Zero Trust means controlling four elements:</p>
+<ul><li>the agent’s <strong>identity</strong>;</li><li>the <strong>data</strong> it can access;</li><li>the <strong>tools and connectors</strong> it can call;</li><li>the <strong>actions</strong> it can perform.</li></ul>
+<h2>Give every agent its own identity</h2>
+<p>An agent should not remain an anonymous technical component. It should not share an account with an employee, administrator or several other automated processes.</p>
+<p>Microsoft Entra Agent ID represents agents in Microsoft Entra ID through specialised identities. Each agent can therefore be distinguished from human users and traditional applications.</p>
+<p>An agent identity has a unique identifier. It can be linked to a reusable model called an <em>agent identity blueprint</em>, which defines a type of agent and helps apply consistent policies across several agent instances.</p>
+<p>It can also be associated with a human sponsor who is accountable for the agent’s purpose.</p>
+<p>The <a href="https://learn.microsoft.com/en-us/entra/agent-id/agent-identities" target="_blank" rel="noopener noreferrer">Microsoft Entra Agent ID documentation<span class="sr-only"> (opens in a new tab)</span></a> describes these identity components and how they work.</p>
+<p>This makes it possible to answer essential questions:</p>
+<ul><li>Which agent accessed the resource?</li><li>Which permissions were granted to it?</li><li>Who is accountable for its use?</li><li>Which user or process triggered the action?</li><li>How can the agent be suspended without affecting other agents?</li><li>Does the agent still need its current access?</li></ul>
+<p>In our example, the customer service agent should have its own identity. It should not reuse an employee’s account.</p>
+<p>Two responsibilities should also be distinguished:</p>
+<ul><li>the <strong>business sponsor</strong>, accountable for the business need served by the agent;</li><li>the <strong>technical owner</strong>, responsible for its configuration, security and operation.</li></ul>
+<p>If the sponsor leaves the company or the business process is discontinued, the organisation should be able to reassign responsibility or deactivate the agent.</p>
+<p>A separate identity does not eliminate every risk. It does, however, provide the foundation for least privilege, traceability and proper removal of access.</p>
+<h2>Limit the data the agent can access</h2>
+<p>An agent should not be given access to all available information simply because broad permissions make development easier.</p>
+<p>The agent in our example needs:</p>
+<ul><li>access to the customer service mailbox;</li><li>a defined collection of approved documents;</li><li>selected fields in the business application.</li></ul>
+<p>It probably does not need access to human resources records, supplier contracts or every SharePoint site in the organisation.</p>
+<p>This requires the organisation to understand where sensitive information is stored, how it is classified and who can currently access it.</p>
+<h3>Classify information with Microsoft Purview</h3>
+<p>Microsoft Purview Information Protection uses sensitivity labels to distinguish between information levels such as:</p>
+<ul><li>public;</li><li>internal;</li><li>confidential;</li><li>highly confidential.</li></ul>
+<p>A sensitivity label can also apply protection measures such as encryption or usage restrictions.</p>
+<p>The organisation could therefore decide that a document labelled “highly confidential” must never be attached automatically to an external response.</p>
+<p>Microsoft 365 Copilot respects existing permissions. When information is protected through sensitivity labels and encryption, additional usage rights may be required before that content can be used in a response.</p>
+<p><a href="https://learn.microsoft.com/en-us/purview/ai-microsoft-purview" target="_blank" rel="noopener noreferrer">Microsoft’s documentation on protecting generative AI applications with Purview<span class="sr-only"> (opens in a new tab)</span></a> describes these mechanisms and the prerequisites that organisations should review.</p>
+<h3>Prevent data loss</h3>
+<p>Microsoft Purview Data Loss Prevention policies, usually referred to as DLP policies, can identify sensitive information and control the related actions.</p>
+<p>Depending on the licences and locations covered, a DLP policy may:</p>
+<ul><li>detect sensitive information;</li><li>warn the user;</li><li>request a justification;</li><li>block an operation;</li><li>record the event for investigation.</li></ul>
+<p>In our scenario, the control should not only examine the document found in SharePoint. It should also consider the drafted message, attachment, recipient and communication channel.</p>
+<h3>Identify oversharing and risky AI use</h3>
+<p>Microsoft Purview Data Security Posture Management provides visibility into risks associated with organisational data and AI use.</p>
+<p>It can help identify:</p>
+<ul><li>sensitive data that is accessible too broadly;</li><li>interactions with AI applications;</li><li>sensitive content used in prompts or responses;</li><li>recommendations for reducing exposure.</li></ul>
+<p>Microsoft Purview can also provide audit events for supported interactions with Copilot and AI applications. Prompts, responses and references to accessed files can contribute to audit activities and, depending on the available licences, investigation and compliance processes.</p>
+<p>No tool can replace missing governance. If permissions are excessive and nobody understands the sensitivity of the documents, the organisation must first regain control of its data.</p>
+<h2>Control connectors and actions</h2>
+<p>Agents built in Microsoft Copilot Studio can use knowledge sources, connectors, HTTP requests, triggers and other tools.</p>
+<p>These capabilities should not all be available under the same conditions.</p>
+<p>Data policies in the Power Platform admin centre can control areas including:</p>
+<ul><li>maker and user authentication;</li><li>knowledge sources;</li><li>actions and connectors;</li><li>HTTP requests;</li><li>publication channels;</li><li>triggers;</li><li>selected autonomous capabilities.</li></ul>
+<p><a href="https://learn.microsoft.com/en-us/microsoft-copilot-studio/security-and-governance" target="_blank" rel="noopener noreferrer">Microsoft’s documentation on security and governance in Copilot Studio<span class="sr-only"> (opens in a new tab)</span></a> also covers capabilities such as pre-publication security analysis, visibility into connector dependencies, audit logging and the routing of makers into controlled environments.</p>
+<p>A practical approach is to separate three environments:</p>
+<ol><li>an experimentation environment using non-sensitive data;</li><li>a validation environment with stronger controls;</li><li>a production environment limited to approved sources and connectors.</li></ol>
+<p>This reduces the risk of a quickly built prototype becoming a production process without a proper security review.</p>
+<h2>Decide what the agent may do by itself</h2>
+<p>Not all actions carry the same level of risk.</p>
+<h3>Actions that may be automated</h3>
+<p>The agent could, for example:</p>
+<ul><li>classify a request;</li><li>identify its subject;</li><li>search approved documentation;</li><li>prepare a draft;</li><li>suggest an appropriate attachment.</li></ul>
+<p>These actions generate an intermediate result without immediately producing an external effect.</p>
+<h3>Actions that require approval</h3>
+<p>Human confirmation may be required before the agent:</p>
+<ul><li>attaches a confidential document;</li><li>sends an external message;</li><li>changes an important record;</li><li>updates the status of a request;</li><li>makes a commitment on behalf of the organisation.</li></ul>
+<p>Approval should provide meaningful control. It should not become another prompt that users accept automatically without checking.</p>
+<h3>Actions that should remain prohibited</h3>
+<p>Some operations may be excluded from the initial scope:</p>
+<ul><li>changing permissions;</li><li>permanently deleting data;</li><li>using an unapproved connector;</li><li>contacting an unverified recipient;</li><li>executing a transaction;</li><li>accessing an unapproved source.</li></ul>
+<p>The objective is not to remove all autonomy. It is to align the level of autonomy with the potential impact of the action.</p>
+<h2>Protect the agent from the content it processes</h2>
+<p>An agent does not only receive instructions entered by its user. It may also read emails, documents, web pages or data from external applications.</p>
+<p>This content can include an instruction designed to influence the AI’s behaviour. This risk is known as <strong>indirect prompt injection</strong>.</p>
+<p>In our scenario, a message sent to customer service could attempt to persuade the agent to ignore its original objective, search for unrelated information or use an unnecessary tool.</p>
+<p>No single protection is sufficient. The organisation should combine:</p>
+<ul><li>analysis of incoming content;</li><li>limited permissions;</li><li>approved knowledge sources;</li><li>controlled connectors;</li><li>human approval for sensitive actions;</li><li>usable audit logs;</li><li>the ability to suspend the agent quickly.</li></ul>
+<p>The underlying Zero Trust principle remains unchanged: content should be treated as potentially untrusted, even when it enters an apparently routine process.</p>
+<h2>Choose a level of protection that fits the organisation</h2>
+<p>The most advanced solution is not automatically the most appropriate. The organisation should start with its risks, regulatory obligations and ability to operate the available security tools.</p>
+<h3>Microsoft 365 Business Premium for the foundations</h3>
+<p>For a small or medium-sized business with up to 300 users, Microsoft 365 Business Premium includes:</p>
+<ul><li>Microsoft Entra ID Plan 1 for identity and Conditional Access;</li><li>Microsoft Intune Plan 1 for device management and compliance;</li><li>Microsoft Defender for Business for endpoint protection;</li><li>Microsoft Defender for Office 365 Plan 1 for email and file protection;</li><li>Microsoft Purview information protection and DLP capabilities.</li></ul>
+<p><a href="https://learn.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/add-defender-suite-business-premium?view=o365-worldwide" target="_blank" rel="noopener noreferrer">Microsoft’s documentation on the security capabilities available with Business Premium<span class="sr-only"> (opens in a new tab)</span></a> describes this foundation and the available extensions.</p>
+<p>These capabilities can strengthen authentication, apply access conditions, manage devices, protect endpoints and establish an initial information classification approach.</p>
+<p>A licence does not configure itself. Conditional Access policies, device compliance, Defender protections and DLP policies still need to be designed, tested and maintained.</p>
+<h3>Microsoft Defender Suite for stronger detection and investigation</h3>
+<p>Microsoft Defender Suite for Business Premium extends that foundation with:</p>
+<ul><li>Microsoft Entra ID Plan 2;</li><li>Microsoft Defender for Endpoint Plan 2;</li><li>Microsoft Defender for Identity;</li><li>Microsoft Defender for Office 365 Plan 2;</li><li>Microsoft Defender for Cloud Apps;</li><li>Microsoft Defender XDR.</li></ul>
+<p>This becomes relevant when an organisation needs to identify unapproved AI services, correlate signals across identities, endpoints and email, and conduct more detailed investigations.</p>
+<p>Microsoft Defender for Cloud Apps can help discover unauthorised cloud applications. Microsoft Defender XDR can bring several related signals together as a single incident.</p>
+<p>The organisation must still decide who will review alerts and how response actions will be handled. Accumulating alerts without a response process does not provide effective security.</p>
+<h3>Microsoft Purview Suite for data security and compliance</h3>
+<p>Microsoft Purview Suite becomes relevant when requirements extend beyond basic classification and DLP.</p>
+<p>It can strengthen:</p>
+<ul><li>data classification;</li><li>data loss prevention across several channels;</li><li>insider risk management;</li><li>auditing;</li><li>eDiscovery;</li><li>communication compliance;</li><li>retention of AI interactions;</li><li>visibility into data and agent-related risks.</li></ul>
+<p>This level is particularly useful when Copilot or agents use many internal sources, when regulatory obligations apply or when the organisation regularly handles personal, financial or contractual information.</p>
+<p>The progression is not necessarily Business Premium, followed by Defender, followed by Purview. A company may have advanced data security requirements without operating a large security operations centre.</p>
+<p>The choice should follow the organisation’s actual risks.</p>
+<h2>Govern agents at scale with Microsoft Agent 365</h2>
+<p>When several teams create agents across different platforms, a central inventory becomes necessary.</p>
+<p>Microsoft Agent 365 provides a central control plane for discovering, managing, governing and securing Microsoft and third-party agents.</p>
+<p>The <a href="https://learn.microsoft.com/en-us/office365/servicedescriptions/microsoft-agent-365/microsoft-agent-365" target="_blank" rel="noopener noreferrer">official Microsoft Agent 365 service description<span class="sr-only"> (opens in a new tab)</span></a> distinguishes between two levels of capabilities.</p>
+<p>Several Microsoft 365 plans provide foundational capabilities such as:</p>
+<ul><li>agent inventory;</li><li>publication and approval;</li><li>blocking or deleting agents;</li><li>assigning agents to users and groups;</li><li>reassigning agent ownership;</li><li>automating selected lifecycle actions.</li></ul>
+<p>Advanced capabilities require Microsoft Agent 365 or Microsoft 365 E7. They include:</p>
+<ul><li>enhanced observability and detailed activity tracking;</li><li>centralised policy templates;</li><li>control over the tools available to agents;</li><li>access packages that restrict permissions;</li><li>sponsor-led lifecycle policies;</li><li>Conditional Access for agent identities;</li><li>audit and eDiscovery for agent interactions;</li><li>DLP applied to content accessed or shared by agents;</li><li>detection of suspicious activity;</li><li>integration with Microsoft Defender, Purview, Entra and Intune.</li></ul>
+<p>Microsoft 365 E7 combines Microsoft 365 E5, Microsoft 365 Copilot, Microsoft Entra Suite and Microsoft Agent 365. This may suit organisations that intend to deploy Copilot and a significant number of agents at scale.</p>
+<p>It is not a required destination. For many small and medium-sized businesses, Business Premium with carefully selected additions remains more proportionate.</p>
+<h2>Plan for the end of the agent’s lifecycle</h2>
+<p>An agent that is secure when launched can become a risk over time.</p>
+<p>Its owner may change. A new data source may be added. Its permissions may expand. The business need may disappear without the agent being deactivated.</p>
+<p>Governance should therefore cover the entire lifecycle:</p>
+<ol><li>define the need and responsibilities;</li><li>create a separate identity;</li><li>restrict permissions;</li><li>approve the data and tools;</li><li>test the agent’s behaviour;</li><li>monitor its activities;</li><li>review access regularly;</li><li>deactivate the agent and remove its permissions when the need ends.</li></ol>
+<p>An agent without a sponsor, owner or verified use should be treated like any other access that is no longer justified.</p>
+<h2>Fourteen questions to answer before deploying an agent</h2>
+<ol><li>Which business problem will the agent solve?</li><li>Who is its business sponsor?</li><li>Who is responsible for its technical administration?</li><li>Does it have a separate identity?</li><li>Which data can it access?</li><li>Has sensitive information been identified?</li><li>Which connectors and tools can it use?</li><li>Which actions can it perform independently?</li><li>Which actions require human approval?</li><li>How will its activities be logged?</li><li>Who will review the alerts?</li><li>How can the agent be suspended quickly?</li><li>How frequently will its permissions be reviewed?</li><li>How will access be removed when the project ends?</li></ol>
+<p>If several answers remain unclear, the project does not necessarily need to be abandoned. Its scope can be reduced by using fewer data sources, fewer connectors, fewer actions or additional human approval.</p>
+<p>A service:microsoft-365-security-assessment delivered by MC3 Cloud can help review the identities, permissions, devices, sharing settings and protections already in place before the organisation expands its use of Copilot or AI agents.</p>
+<h2>Explore these topics at our December events</h2>
+<p>MC3 Cloud is organising <strong>ZeroTrust Days Copilot 2026</strong> in two locations:</p>
+<ul><li><strong>9 December 2026 in Réunion</strong>, at the SFR Amphitheatre in Le Port;</li><li><strong>10 December 2026 in Mauritius</strong>, at Hennessy Park Hotel in Cybercity Trianon.</li></ul>
+<p>Seyfallah Tagrerout, Microsoft MVP Security and Microsoft Regional Director, will cover the risks associated with generative AI, sensitive data protection, agent identities, permissions and the role of Microsoft Entra ID. Demonstrations will connect these principles with practical situations.</p>
+<ul><li><a href="https://www.eventbrite.fr/e/ztdays-2026-tickets-2004211310983?aff=oddtdtcreator" target="_blank" rel="noopener noreferrer">Register for the Réunion event<span class="sr-only"> (opens in a new tab)</span></a></li><li><a href="https://forms.cloud.microsoft/r/BTzhFL1JiR" target="_blank" rel="noopener noreferrer">Register for the Mauritius event<span class="sr-only"> (opens in a new tab)</span></a></li></ul>
+<p>On <strong>22 December 2026</strong>, MC3 Cloud will also host an executive security roundtable at the <strong>Labourdonnais Waterfront Hotel in Mauritius</strong>, with remote participation available through Microsoft Teams.</p>
+<p>Patrick Beeharry, Vice President of Strategy &amp; Operations for the Microsoft Security Division, will share Microsoft’s perspective on security, artificial intelligence, data governance and the priorities organisations should anticipate.</p>
+<p>This non-technical session is designed for business leaders, CIOs, CISOs and senior IT decision-makers. It will extend the discussion beyond technical controls to include governance, accountability, investment priorities and organisational readiness for wider AI adoption.</p>
+<p>Places will be limited to preserve the quality of the discussion. To request a place, contact your MC3 Cloud account manager.</p>
+<h2>Next article: turning technical controls into business decisions</h2>
+<p>Giving agents their own identities, restricting their permissions and protecting organisational data provides a technical foundation.</p>
+<p>These controls do not, however, answer every strategic question:</p>
+<ul><li>Which uses should the organisation authorise?</li><li>What level of risk is acceptable?</li><li>Which decisions must remain human?</li><li>Who is ultimately accountable for an agent?</li><li>Which investments are genuinely necessary?</li><li>Under which conditions can a pilot be expanded?</li></ul>
+<p>The third article in this series will explore how Zero Trust can become a business strategy that enables AI adoption without treating innovation and security as opposing objectives.</p>
+      </article>
+      <div class="post__tags"><h2 class="sr-only">Tags</h2><ul class="chip-row"><li class="chip">Zero Trust</li><li class="chip">AI agents</li><li class="chip">Microsoft Copilot</li><li class="chip">Microsoft Entra</li><li class="chip">Cybersecurity</li></ul></div>
+    </div>
+  </section>
+  <section class="section section--tint" aria-labelledby="related-title">
+    <div class="container">
+      <h2 id="related-title" class="section-header__title" style="margin-bottom:2rem">Keep reading</h2>
+      <ul class="grid-cards"><li><article class="card blog-card" data-reveal>
+  <div class="blog-card__media"><img src="../../assets/images/blog/zero-trust-ai-foundations.webp" alt="Professionals reviewing a security control journey connecting identity, devices, cloud, data and artificial intelligence" width="1600" height="900" loading="lazy" decoding="async"></div>
+  <div class="blog-card__body">
+    <p class="blog-card__meta"><span class="chip chip--accent">Cybersecurity</span><time datetime="2026-11-06">6 November 2026</time></p>
+    <h3 class="blog-card__title"><a class="stretched-link" href="zero-trust-ai-foundations.html">What is Zero Trust, and why is it becoming essential in the age of AI?</a></h3>
+    <p class="blog-card__text">Understand the three principles of Zero Trust and the first checks to carry out before expanding the use of Copilot and AI agents.</p>
+  </div>
+</article></li>
+<li><article class="card blog-card" data-reveal>
+  <div class="blog-card__media"><img src="../../assets/images/blog/microsoftbi.webp" alt="A workspace illustrating the journey from Excel reporting to Power BI and Microsoft Fabric" width="1600" height="900" loading="lazy" decoding="async"></div>
+  <div class="blog-card__body">
+    <p class="blog-card__meta"><span class="chip chip--accent">Microsoft Azure</span><span class="chip chip--solid">Featured</span><time datetime="2026-11-02">2 November 2026</time></p>
+    <h3 class="blog-card__title"><a class="stretched-link" href="power-bi-excel-fabric-journey.html">Power BI: choosing a path from Excel to Microsoft Fabric</a></h3>
+    <p class="blog-card__text">Understand how to move from Excel to Power BI, choose the right licence, and use Microsoft Fabric and AI to make better use of data.</p>
+  </div>
+</article></li>
+<li><article class="card blog-card" data-reveal>
+  <div class="blog-card__media"><img src="../../assets/images/blog/backup-m365.webp" alt="Microsoft 365 data moving into a secure backup vault" width="1600" height="900" loading="lazy" decoding="async"></div>
+  <div class="blog-card__body">
+    <p class="blog-card__meta"><span class="chip chip--accent">Backup</span><span class="chip chip--solid">Featured</span><time datetime="2026-10-29">29 October 2026</time></p>
+    <h3 class="blog-card__title"><a class="stretched-link" href="backup-microsoft-365.html">Microsoft 365: Who Really Backs Up Your Data?</a></h3>
+    <p class="blog-card__text">Microsoft keeps Microsoft 365 available. Learn how to choose between Keepit, Acronis and Dropsuite to protect your customers’ data.</p>
+  </div>
+</article></li></ul>
+    </div>
+  </section>
+  <section class="cta-band" aria-labelledby="cta-title">
+  <div class="container cta-band__inner">
+    <div class="cta-band__copy" data-reveal>
+      <h2 id="cta-title" class="cta-band__title">Join the MC3 Cloud partner network</h2>
+      <p class="cta-band__text">Reseller, MSP, integrator or IT company? Apply online. Our team gets back to you once your file has been reviewed.</p>
+      <div class="cta-band__actions">
+        <a href="https://forms.office.com/r/5kyv4tEap2" class="btn btn--primary btn--lg" target="_blank" rel="noopener noreferrer"><span>Become a partner</span><svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17L17 7M8 7h9v9"></path></svg><span class="sr-only">(opens in a new tab)</span></a>
+        <a class="btn btn--ghost-light btn--lg" href="../become-a-partner/">How it works</a>
+      </div>
+    </div>
+    
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container site-footer__grid">
+    <div class="site-footer__brand">
+      <a href="../" class="site-footer__logo" aria-label="MC3 Cloud — back to home"><span class="logo-slot logo-slot--brand" data-name="MC3 Cloud"><img src="../../assets/logos/mc3-cloud.webp" alt="Logo MC3 Cloud" height="40" decoding="async"></span></a>
+      <p>Value-added cloud distributor for resellers and MSPs across Africa, the Indian Ocean and the Pacific.</p>
+      <a href="https://forms.office.com/r/5kyv4tEap2" class="btn btn--primary btn--md" target="_blank" rel="noopener noreferrer"><span>Become a partner</span><svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17L17 7M8 7h9v9"></path></svg><span class="sr-only">(opens in a new tab)</span></a>
+    </div>
+    <nav aria-label="Footer navigation" class="site-footer__col">
+      <h2 class="site-footer__title">Explore</h2>
+      <ul><li><a href="../">Home</a></li><li><a href="../products/">Products</a></li><li><a href="../services/">Services</a></li><li><a href="./">Blog</a></li><li><a href="../support-contact/">Support &amp; contact</a></li><li><a href="../become-a-partner/">Become a partner</a></li><li><a href="rss.xml"><svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 5a14 14 0 0 1 14 14M5 11a8 8 0 0 1 8 8M6 19h.01"></path></svg> RSS feed</a></li></ul>
+    </nav>
+    <div class="site-footer__col">
+      <h2 class="site-footer__title">Contact</h2>
+      <ul>
+        <li><a href="mailto:support_csp@mc3.cloud">support_csp@mc3.cloud</a></li>
+        <li><a href="mailto:sales@mc3.cloud">sales@mc3.cloud</a></li>
+        <li><a href="https://wecacsp.mc3.cloud/" target="_blank" rel="noopener noreferrer">Open the marketplace<span class="sr-only"> (opens in a new tab)</span></a></li>
+      </ul>
+      <address class="site-footer__address">MC3 Cloud<br>Office Lot 01, Level 2, Centre Commercial Emerald Park<br>Trianon, Mauritius</address>
+    </div>
+    <div class="site-footer__col">
+      <h2 class="site-footer__title">Language</h2>
+      <nav class="lang-switch lang-switch--on-dark" aria-label="Site language"><ul><li><a href="../../fr/blog/zero-trust-ai-agents.html" hreflang="fr" lang="fr" aria-label="Français" class="lang-switch__link">FR</a></li><li><a href="zero-trust-ai-agents.html" hreflang="en" lang="en" aria-current="true" aria-label="English" class="lang-switch__link is-active">EN</a></li></ul></nav>
+      <h2 class="site-footer__title site-footer__title--spaced">Follow us</h2><ul><li><a href="https://www.linkedin.com/showcase/mc3cloud/" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a></li><li><a href="https://www.facebook.com/OfficialMC3Cloud" target="_blank" rel="noopener noreferrer">Facebook<span class="sr-only"> (opens in a new tab)</span></a></li></ul>
+    </div>
+  </div>
+  <div class="container site-footer__legal">
+    <p>© 2026 MC3 Cloud Ltd. All rights reserved.</p>
+    <ul><li><a href="https://aka.mc3.fr/termsmc3cloud/" target="_blank" rel="noopener noreferrer">Terms of sale<span class="sr-only"> (opens in a new tab)</span></a></li><li><a href="../legal/privacy-policy.html">Privacy policy</a></li><li><a href="../legal/cookies.html">Cookies and audience measurement</a></li><li><a href="../legal/terms-of-use.html">Website terms of use</a></li></ul>
+  </div>
+</footer>
+<script type='module' src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;:&quot;913776222aa74f6187ac09f2d2cb0639&quot;}"></script>
+</body>
+</html>

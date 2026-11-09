@@ -35,6 +35,7 @@
 - https://www.mc3.cloud/fr/services/copilot-ai-readiness-adoption.html: Préparez l’environnement Microsoft 365 de vos clients et accompagnez leurs équipes dans l’usage de Copilot : audit, sécurisation et suivi de l’adoption pendant 30 jours ou plus.
 
 ## Blog (FR)
+- https://www.mc3.cloud/fr/blog/zero-trust-ai-agents.html: Découvrez comment encadrer l’identité, les données, les connecteurs et les actions des agents IA avec les solutions de sécurité Microsoft.
 - https://www.mc3.cloud/fr/blog/zero-trust-ai-foundations.html: Comprendre le Zero Trust, ses trois principes et les premières vérifications à mener avant de développer les usages de Copilot et des agents IA.
 - https://www.mc3.cloud/fr/blog/power-bi-excel-fabric-journey.html: Comprendre comment passer d’Excel à Power BI, choisir la bonne licence et utiliser Microsoft Fabric et l’IA pour mieux exploiter ses données.
 - https://www.mc3.cloud/fr/blog/backup-microsoft-365.html: Microsoft assure la disponibilité de Microsoft 365. Découvrez comment choisir entre Keepit, Acronis et Dropsuite pour protéger vos données.
@@ -75,6 +76,7 @@
 - https://www.mc3.cloud/en/services/copilot-ai-readiness-adoption.html: Prepare your customers’ Microsoft 365 environments and help their teams adopt Copilot, with a tenant assessment, security improvements and adoption support for 30 days or more.
 
 ## Blog (EN)
+- https://www.mc3.cloud/en/blog/zero-trust-ai-agents.html: Learn how to control the identities, data, connectors and actions used by AI agents with Microsoft security solutions.
 - https://www.mc3.cloud/en/blog/zero-trust-ai-foundations.html: Understand the three principles of Zero Trust and the first checks to carry out before expanding the use of Copilot and AI agents.
 - https://www.mc3.cloud/en/blog/power-bi-excel-fabric-journey.html: Understand how to move from Excel to Power BI, choose the right licence, and use Microsoft Fabric and AI to make better use of data.
 - https://www.mc3.cloud/en/blog/backup-microsoft-365.html: Microsoft keeps Microsoft 365 available. Learn how to choose between Keepit, Acronis and Dropsuite to protect your customers’ data.
